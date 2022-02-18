@@ -1,0 +1,76 @@
+/* Geral */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fundo: black;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid red;
+  height: 120px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+/* index.html */
+main.container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+}
+
+/* modulo1.html */
+main.indice-modulo {
+  border: 1px solid orange;
+  flex-direction: column;
+}
+
+.link-curso {
+  border: 1px solid black;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.link-curso p {
+  display: inline-block;
+}
+
+.link-atividades {
+  border: 1px solid yellow;
+  display: flex;
+  margin: 10px 0;
+  padding: 40px 0;
+}
+
+.link-atividades > a {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.botao {
+  border: 1px solid blue;
+  margin: 10px auto;
+}
+
+/* módulo 1 - exercícios*/
+.lista-exercicios {
+  flex-wrap: wrap;
+}
+
+.exercicios {
+  border: 1px solid red;
+}
+
+
