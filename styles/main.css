@@ -11,16 +11,22 @@
 
 /* Header */
 header {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid black;
   height: 120px;
+  line-height: 120px;
   margin: auto;
   text-align: center;
   width: 90%;
 }
 
 /* index.html */
+h2 {
+  margin: 20px auto;
+  text-align: center;
+  width: 90%;
+}
+
 main.container {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-around;
   margin: 20px auto;
@@ -28,16 +34,46 @@ main.container {
   width: 90%;
 }
 
-/* modulo1.html */
-main.indice-modulo {
-  border: 1px solid orange;
+.modulos-capa {
+  display: flex;
   flex-direction: column;
+  padding: 5px;
 }
+
+.modulos-capa h3 {
+  text-align: center;
+}
+
+/* modulo1.html */
+.modulo {
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+}
+
+section {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.container-link-curso {
+  background-color: yellow;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .link-curso {
   border: 1px solid black;
+  flex: 50%;
   padding: 40px 0;
   text-align: center;
+  width: 20%;
 }
 
 .link-curso p {
