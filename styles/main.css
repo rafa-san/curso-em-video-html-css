@@ -13,7 +13,6 @@
 header {
   border-bottom: 1px solid black;
   height: 120px;
-  line-height: 120px;
   margin: auto;
   text-align: center;
   width: 90%;
@@ -52,7 +51,6 @@ main.container {
 }
 
 section {
-  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -61,15 +59,11 @@ section {
 }
 
 .container-link-curso {
-  background-color: yellow;
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
 }
 
-
 .link-curso {
-  border: 1px solid black;
   flex: 50%;
   padding: 40px 0;
   text-align: center;
@@ -81,32 +75,58 @@ section {
 }
 
 .link-atividades {
-  border: 1px solid yellow;
   display: flex;
+  flex-direction: column;
   margin: 10px 0;
   padding: 40px 0;
 }
 
 .link-atividades > a {
-  border: 1px solid black;
   margin: 10px;
   padding: 20px;
   text-align: center;
   width: 100%;
 }
 
+.texto {
+  text-align: center;
+}
+
+.links-exercicios-atividades {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-link {
+  padding: 30px;
+}
+
+i {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
 .botao {
-  border: 1px solid blue;
-  margin: 10px auto;
+  text-align: center;
 }
 
 /* módulo 1 - exercícios*/
-.lista-exercicios {
-  flex-wrap: wrap;
-}
-
 .exercicios {
   border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+
+.exercicios a {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 20px 8px;
+  width: 20%;
 }
 
 
