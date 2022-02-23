@@ -4,90 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listas</title>
+  <title>Trabalhando com links</title>
 </head>
 
 <body>
-  <h1>Trabalhando com Listas</h1>
+  <h1>Usando links externos</h1>
+  <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" hreflang="pt-br" target="_blank" rel="external">repositório público no GitHub.</a></p>
+  <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube.</a></p>
 
-  <h2>Listas Ordenadas</h2>
-  <ol type="i">
-    <li>Acordar</li>
-    <li>Ligar para o João</li>
-    <li>Tomar café</li>
-    <li>Escovar os dentes</li>
-    <li>Ir para a faculdade</li>
-    <li>Almoçar</li>
-    <li>Ir para o trabalho</li>
-    <li>Voltar para casa</li>
-    <li>Jantar</li>
-    <li>Dormir</li>
-  </ol>
+  <h1>Usando links internos</h1>
+  <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página.</a></p>
+  <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias</a>.</p>
 
-  <h2>Listas não Ordenadas</h2>
-  <ul style="list-style-type:square;">
-    <li>Pão</li>
-    <li>Leite</li>
-    <li>Tomate</li>
-    <li>Alface</li>
-    <li>Manteiga</li>
-    <li>Arroz</li>
-    <li>Feijão</li>
+  <h1>Links para download</h1>
+  <ul>
+    <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+    <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
   </ul>
-
-  <h2>Minhas linguagens favoritas</h2>
-  <ol>
-    <li>Antigas</li>
-      <ol type="a">
-        <li>Clipper</li>
-        <li>Visual Basic</li>
-        <li>Fortran</li>
-        <li>Delphi</li>
-      </ol>
-    <li>Novas</li>
-      <ol type="a" start="5">
-        <li>PHP</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Kotlin</li>
-      </ol>
-  </ol>
-
-  <h2>Meus jogos favoritos</h2>
-  <ol>
-    <li>NES</li>
-    <ul type="square">
-      <li>Mario Bros</li>
-        <ul type="circle">
-          <li>Mario Bros 3</li>
-          <li>Mario: Lost Levels</li>
-        </ul>
-      <li>Ninja Gaiden</li>
-    </ul>
-  </ol>
-  <ol start="2">
-    <li>SNES</li>
-      <ul type="square">
-        <li>Mario</li>
-        <li>Donkey Kong</li>
-      </ul>
-  </ol>
-  <ol start="3">
-    <li>Playstation</li>
-      <ul type="square">
-        <li>Final Fantasy</li>
-        <li>Castlevania</li>
-      </ul>
-  </ol>
-
-  <h2>Lista de Definições</h2>
-  <dl>
-    <dt>HTML</dt>
-    <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
-    <dt>CSS</dt>
-    <dd>Linguagem de marcação para a criação do design de um site.</dd>
-    <dt>JavaScript</dt>
-    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
-  </dl>
+  
 </body>
 </html>

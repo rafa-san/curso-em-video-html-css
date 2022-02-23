@@ -4,23 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trabalhando com links</title>
+  <title>Mídias em HTML5</title>
 </head>
 
 <body>
-  <h1>Usando links externos</h1>
-  <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" hreflang="pt-br" target="_blank" rel="external">repositório público no GitHub.</a></p>
-  <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube.</a></p>
+  <h1>Imagem Dinâmica</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
 
-  <h1>Usando links internos</h1>
-  <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página.</a></p>
-  <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias</a>.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+    <img src="imagens/meu-foto-g.png" alt="Imagem flexível">
+  </picture>
 
-  <h1>Links para download</h1>
-  <ul>
-    <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
-    <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
-  </ul>
+  <h1>Reproduzindo Áudio</h1>
+  <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+  <audio preload="metadata" controls autoplay loop> <!-- Preload: 3 opções, não escolher auto -->
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav"><!-- Arquivo wav é muito grande -->
+    <p>Seu navegador não suporta áudio. <a href="midia/guanacast-33.mp3"></a>Clique aqui para baixar o arquivo MP3</a></p>
+  </audio>
   
 </body>
 </html>

@@ -5,9 +5,11 @@
   padding: 0;
 }
 
+/*
 :root {
   --fundo: black;
 }
+*/
 
 /* Header */
 header {
@@ -19,62 +21,60 @@ header {
 }
 
 /* index.html */
-h2 {
+.container-index {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+.heading-2 {
   margin: 20px auto;
   text-align: center;
-  width: 90%;
+  width: 60%;
 }
 
-main.container {
+.capas-modulos {
   display: flex;
   justify-content: space-around;
-  margin: 20px auto;
-  padding: 20px;
-  width: 90%;
 }
 
-.modulos-capa {
+.capa {
   display: flex;
   flex-direction: column;
   padding: 5px;
 }
 
-.modulos-capa h3 {
+.capa h3 {
   text-align: center;
 }
 
 /* modulo1.html */
-.modulo {
+.container-modulo {
+  display: flex;
   flex-direction: column;
   margin: auto;
-  width: 90%;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 20px auto;
   text-align: center;
+  width: 60%;
 }
 
-.container-link-curso {
+.container-modulo > p {
+  margin-top: 30px;
+}
+
+.links-curso {
   display: flex;
   justify-content: space-around;
 }
 
-.link-curso {
+.curso-em-video, .youtube {
   flex: 50%;
   padding: 40px 0;
   text-align: center;
   width: 20%;
 }
 
-.link-curso p {
-  display: inline-block;
-}
-
-.link-atividades {
+.links-atividades {
   display: flex;
   flex-direction: column;
   margin: 10px 0;
@@ -88,16 +88,16 @@ section {
   width: 100%;
 }
 
-.texto {
+.informacao {
   text-align: center;
 }
 
-.links-exercicios-atividades {
+.exercicios-e-desafios {
   display: flex;
   justify-content: space-around;
 }
 
-.box-link {
+.card {
   padding: 30px;
 }
 
@@ -108,25 +108,40 @@ i {
   width: 100%;
 }
 
-.botao {
+.botao-voltar {
   text-align: center;
 }
 
-/* módulo 1 - exercícios*/
-.exercicios {
-  border: 1px solid red;
+/* módulo 1 - exercícios e desafios */
+.exercicios, .desafios {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  width: 60%;
 }
 
 .exercicios a {
   border: 1px solid black;
   margin: 5px;
   padding: 20px 8px;
-  width: 20%;
+  text-align: center;
+  width: 48%;
 }
 
+.desafios a {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 20px 8px;
+  text-align: center;
+  width: 31%;
+}
 
+/* footer */
+footer {
+  background-color: aquamarine;
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
