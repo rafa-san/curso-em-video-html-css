@@ -13,11 +13,13 @@
 
 /* Header */
 header {
+  align-items: center;
   border-bottom: 1px solid black;
+  display: flex;
   height: 120px;
-  margin: auto;
-  text-align: center;
-  width: 90%;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 /* index.html */
@@ -58,7 +60,7 @@ header {
   width: 60%;
 }
 
-.container-modulo > p {
+.container-modulo > h2 {
   margin-top: 30px;
 }
 
@@ -139,9 +141,9 @@ i {
 
 /* footer */
 footer {
-  background-color: aquamarine;
-  bottom: 0;
+  background-color: #0000FE;
+  color: white;
+  margin-top: 160px;
   padding: 10px;
-  position: absolute;
   width: 100%;
 }
