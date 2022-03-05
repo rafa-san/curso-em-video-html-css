@@ -1,5 +1,5 @@
 /* Geral */
-* {
+* {  
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -42,13 +42,19 @@ header {
 }
 
 .capa {
+  background-color: white;
   display: flex;
   flex-direction: column;
   padding: 5px;
 }
 
 .capa h3 {
+  color: #B05412;
   text-align: center;
+}
+
+.capa img {
+  box-shadow: 0 4px 8px rgb(253, 106, 2, 0.2), 0 6px 20px rgb(253, 106, 2, 0.19) ;
 }
 
 /* modulo1.html */
@@ -141,7 +147,7 @@ i {
 
 /* footer */
 footer {
-  background-color: #0000FE;
+  background-color: #3A19FC;
   color: white;
   margin-top: 160px;
   padding: 10px;
