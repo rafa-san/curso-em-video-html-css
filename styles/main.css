@@ -5,95 +5,89 @@
   padding: 0;
 }
 
-/*
-:root {
-  --fundo: black;
-}
-*/
 
 /* Header */
 header {
   align-items: center;
-  border-bottom: 1px solid black;
+  background-color: #3A19FC;
+  color: white;
   display: flex;
   height: 120px;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   width: 100%;
 }
+
 
 /* index.html */
 .container-index {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  width: 60%;
+  height: 100%;
+  margin: 16px auto;
+  padding: 32px 0;
+  width: 90%;
 }
 
-.heading-2 {
-  margin: 20px auto;
+.subtitulo {
+  margin: 16px auto;
   text-align: center;
-  width: 60%;
+  width: 90%;
 }
 
 .capas-modulos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .capa {
-  background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 8px;
 }
 
 .capa h3 {
-  color: #B05412;
+  color: #FC8732;
   text-align: center;
 }
 
 .capa img {
-  box-shadow: 0 4px 8px rgb(253, 106, 2, 0.2), 0 6px 20px rgb(253, 106, 2, 0.19) ;
+  border: 1px transparent black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
 }
+
 
 /* modulo1.html */
 .container-modulo {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 16px auto;
   text-align: center;
-  width: 60%;
-}
-
-.container-modulo > h2 {
-  margin-top: 30px;
+  width: 90%;
 }
 
 .links-curso {
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  width: 60%;
 }
 
 .curso-em-video, .youtube {
-  flex: 50%;
+  border: 1px transparent black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
+  flex: 48%;
+  margin: 8px;
   padding: 40px 0;
-  text-align: center;
-  width: 20%;
 }
 
 .links-atividades {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
-  padding: 40px 0;
-}
-
-.link-atividades > a {
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
+  margin: 8px auto;
+  padding: 32px 0;
+  width: 60%;
 }
 
 .informacao {
@@ -102,16 +96,23 @@ header {
 
 .exercicios-e-desafios {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin: 16px auto;
+  width: 50%;
 }
 
 .card {
-  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  margin: 8px;
+  padding: 8px;
+  width: 100px;
+ 
 }
 
 i {
-  font-size: 30px;
-  margin: 10px 0;
+  font-size: 32px;
+  margin: 8px 0;
   text-align: center;
   width: 100%;
 }
@@ -125,22 +126,22 @@ i {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 20px auto;
+  margin: 24px auto;
   width: 60%;
 }
 
 .exercicios a {
   border: 1px solid black;
-  margin: 5px;
-  padding: 20px 8px;
+  margin: 8px;
+  padding: 16px 8px;
   text-align: center;
   width: 48%;
 }
 
 .desafios a {
   border: 1px solid black;
-  margin: 5px;
-  padding: 20px 8px;
+  margin: 8px;
+  padding: 16px 8px;
   text-align: center;
   width: 31%;
 }
@@ -149,7 +150,16 @@ i {
 footer {
   background-color: #3A19FC;
   color: white;
-  margin-top: 160px;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
   width: 100%;
+}
+
+.contato {
+  margin-left: 16px;
+}
+
+.contato a {
+  margin-right: 8px;
 }
