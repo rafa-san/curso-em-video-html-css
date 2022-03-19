@@ -8,14 +8,27 @@
 
 /* Header */
 header {
-  align-items: center;
-  background-color: #3A19FC;
-  color: white;
-  display: flex;
-  height: 120px;
-  justify-content: center;
   margin-bottom: 16px;
+  padding: 24px;
+  text-align: center;
   width: 100%;
+}
+
+nav {
+  background-color: #78A8BF;
+  display: flex;
+}
+
+nav a {
+  color: white;
+  flex: 20%;
+  padding: 8px;;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #4E6773;
+  color: white;
 }
 
 
@@ -38,17 +51,17 @@ header {
 .capas-modulos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .capa {
   display: flex;
   flex-direction: column;
-  padding: 8px;
+  margin: 8px;
+  padding: 16px;
 }
 
 .capa h3 {
-  color: #FC8732;
   text-align: center;
 }
 
@@ -135,7 +148,7 @@ i {
   margin: 8px;
   padding: 16px 8px;
   text-align: center;
-  width: 48%;
+  width: 31%;
 }
 
 .desafios a {
@@ -148,16 +161,13 @@ i {
 
 /* footer */
 footer {
-  background-color: #3A19FC;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 32px;
+  padding: 16px;
+  text-align: center;
   width: 100%;
 }
 
-.contato {
-  margin-left: 16px;
+footer p {
+  padding-bottom: 8px;
 }
 
 .contato a {
