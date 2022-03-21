@@ -16,7 +16,7 @@
   --cor2: #3ddc84;
   --cor3: #2fa866;
   --cor4: #1a5c37;
-  --cor5: #0b311d;
+  --cor5: #063d1e;
 
   --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
   --fonte-destaque: 'Bebas Neue', cursive;
@@ -29,7 +29,6 @@
   padding: 0;
 }
 
-
 /*Específicas*/
 body {
   background-color: var(--cor0);
@@ -38,30 +37,58 @@ body {
 
 header {
   background-color: var(--cor4);
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  min-height: 150px;
+  padding-top: 40px;
+  text-align: center;
 }
 
 header h1 {
   color: white;
   font-family: var(--fonte-destaque);
+  font-size: 3em;
+  margin-bottom: 24px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
 header p {
   color: white;
+  font-family: var(--fonte-padrao);
+  font-size: 1.2em;
+  margin: auto;
+  max-width: 600px;
+  padding: 0 8px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 
 nav {
   background-color: var(--cor5);
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.199);
+  padding: 8px;
+}
+
+nav a {
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+nav a:hover {
+  background-color: var(--cor3);
+  color: var(--cor5);
 }
 
 main {
   background-color: white;
   border-radius: 0 0 8px 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
-  margin: 24px auto 24px;
-  /*max-width: 1000px;*/
-  /*min-width: 300px;*/
+  margin: 0 auto 24px;
+  max-width: 1000px;
+  min-width: 300px;
   padding: 8px;
-  width: 90%;
 }
 
 main h1 {
@@ -70,22 +97,46 @@ main h1 {
 }
 
 main h2 {
+  background-image: linear-gradient(to right, var(--cor1), transparent);
+  color: var(--cor4);
   font-family: var(--fonte-android);
+  font-size: 1.3em;
+  text-indent: 8px;
+}
+
+main p {
+  line-height: 2em;
+  margin: 16px 0;
+  text-align: justify;
+  text-indent: 32px;
+}
+
+main strong {
+  color: var(--cor4);
+  font-weight: bold;
+}
+
+main a {
+  background-color: var(--cor1);
+  color: var(--cor5);
+  font-weight: bold;
+  padding: 2px;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: var(--cor4);
+  text-decoration: underline;
 }
 
 main img {
   width: 100%;
 }
 
-.img-bugdroid {
-  border: 1px solid black;
+.img-pequena {
+  display: block;
   margin: auto;
-  width: 50%;
-}
-
-.img-bugdroid img {
-  height: auto;
-  width: 100%;
+  max-width: 350px;
 }
 
 footer {

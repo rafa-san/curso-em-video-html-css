@@ -103,6 +103,7 @@ nav a:hover {
 
 /* modulo1.html */
 .container-modulo {
+  border: 1px solid orange;
   display: flex;
   flex-direction: column;
   margin: 16px auto;
@@ -201,17 +202,14 @@ i {
   width: 100%;
 }
 
-.botao-voltar {
-  text-align: center;
-}
 
-
-/* módulo 1 - exercícios e desafios */
+/* módulos - exercícios e desafios */
 .exercicios, .desafios {
+  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 24px auto;
+  margin: 16px auto;
   width: 60%;
 }
 
@@ -232,22 +230,61 @@ i {
 }
 
 
+/* Estilo do botão voltar */
+.botao-voltar {
+  margin: 24px 0 0;
+  text-align: center;
+}
+
+.botao-voltar img {
+  width: 40px;
+}
+
+
 /* Estilo das páginas de exercícios */
 .pagina-de-exercicio {
   border: 1px solid red;
+  line-height: 2.0em;
   margin: 8px auto;
-  padding: 80px 0 240px;
+  padding: 32px 0 192px;
   text-align: center;
   width: 80%;
 }
 
-.muito-conteudo {
-  padding: 80px 0;
+.pagina-de-exercicio h1 {
+  border: 1px solid black;
+  margin-bottom: 16px;
+  padding: 8px 0;
 }
 
-.font-awesome {
-  background-color: red;
-  width: 200px;
+.barra-de-rolagem {
+  padding: 32px 0 64px;
+}
+
+.exe003 {
+  border: 1px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exe003 div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px;
+  padding: 16px;
+  width: 240px;
+}
+
+.exe003 div p {
+  margin-bottom: 24px;
+}
+
+.img-exe003 {
+  height: 253px;
+  max-width: 180px;
 }
 
 
@@ -255,6 +292,7 @@ i {
 footer {
   background-color: #78A8BF;
   color: white;
+  margin-top: 16px;
   padding: 16px;
   text-align: center;
   width: 100%;
