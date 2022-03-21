@@ -1,4 +1,15 @@
+@charset 'UTF-8';
+
+
 /* Geral */
+:root {
+  --cor1: #73484D;
+  --cor2: #BFBE9F;
+  --cor3: #BF8C91;
+  --cor4: #78A8BF;
+  --cor5: #4E6773;
+}
+
 * {  
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +19,7 @@
 
 /* Header */
 header {
-  margin-bottom: 16px;
+  color: #4E6773;
   padding: 24px;
   text-align: center;
   width: 100%;
@@ -36,7 +47,6 @@ nav a:hover {
 .container-index {
   display: flex;
   flex-direction: column;
-  height: 100%;
   margin: 16px auto;
   padding: 32px 0;
   width: 90%;
@@ -70,57 +80,118 @@ nav a:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
 }
 
+#em-breve {
+  position: relative;
+  text-align: center;
+}
+
+.centralizado {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 2em;;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.img-em-breve {
+  opacity: 0.4;
+}
+
 
 /* modulo1.html */
 .container-modulo {
   display: flex;
   flex-direction: column;
   margin: 16px auto;
-  text-align: center;
   width: 90%;
 }
 
 .links-curso {
+  border-bottom: 2px solid var(--cor2);
+  border-top: 2px solid var(--cor2);
   display: flex;
-  justify-content: space-around;
-  margin: auto;
-  width: 60%;
-}
-
-.curso-em-video, .youtube {
-  border: 1px transparent black;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
-  flex: 48%;
-  margin: 8px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 32px;
   padding: 40px 0;
 }
 
-.links-atividades {
-  display: flex;
-  flex-direction: column;
+.links-curso h3 {
   margin: 8px auto;
-  padding: 32px 0;
-  width: 60%;
+  text-align: center;
 }
 
-.informacao {
+.links-curso-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+}
+
+.curso-em-video img {
+  border: 1px transparent black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
+  margin: 16px;
+  padding: 24px 0;
+}
+
+.youtube img {
+  border: 1px transparent black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
+  margin: 16px;
+  padding: 24px 0;
+}
+
+.o-que-voce-vai-aprender {
+  border-bottom: 2px solid var(--cor2);
+  margin-bottom: 32px;
+  padding: 0 0 48px 0;
+  text-align: center;
+}
+
+.o-que-voce-vai-aprender h3 {
+  margin: 8px auto;
+  text-align: center;
+}
+
+.o-que-voce-vai-aprender ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+.links-atividades {
+  border-bottom: 2px solid var(--cor2);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 56px 0;
+}
+
+.informacao h3 {
+  margin: 8px auto;
   text-align: center;
 }
 
 .exercicios-e-desafios {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 16px auto;
-  width: 50%;
+  justify-content: center;
 }
 
-.card {
+.exercicios-e-desafios a {
+  color: var(--cor3);
+  text-decoration: none;
+}
+
+.div-exercicios, .div-desafios {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 8px;
   padding: 8px;
+  text-align: center;
   width: 100px;
- 
 }
 
 i {
@@ -133,6 +204,7 @@ i {
 .botao-voltar {
   text-align: center;
 }
+
 
 /* módulo 1 - exercícios e desafios */
 .exercicios, .desafios {
@@ -148,7 +220,7 @@ i {
   margin: 8px;
   padding: 16px 8px;
   text-align: center;
-  width: 31%;
+  flex: 31%;
 }
 
 .desafios a {
@@ -159,8 +231,30 @@ i {
   width: 31%;
 }
 
+
+/* Estilo das páginas de exercícios */
+.pagina-de-exercicio {
+  border: 1px solid red;
+  margin: 8px auto;
+  padding: 80px 0 240px;
+  text-align: center;
+  width: 80%;
+}
+
+.muito-conteudo {
+  padding: 80px 0;
+}
+
+.font-awesome {
+  background-color: red;
+  width: 200px;
+}
+
+
 /* footer */
 footer {
+  background-color: #78A8BF;
+  color: white;
   padding: 16px;
   text-align: center;
   width: 100%;
