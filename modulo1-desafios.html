@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo 1 - Desafios</title>
   <link rel="stylesheet" href="styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,7 +14,10 @@
     <h1>Curso de HTML5 + CSS3</h1>
   </header>
 
-  <nav>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
     <a href="modulo1.html">Módulo 1</a>
     <a href="modulo2.html">Módulo 2</a>
     <a href="modulo3.html">Módulo 3</a>
@@ -47,6 +51,8 @@
     <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
   </section>
   </footer>
+
+  <script src="scripts/menu-responsivo.js"></script>
 </body>
 
 </html>

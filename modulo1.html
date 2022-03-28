@@ -14,7 +14,10 @@
     <h1>Curso de HTML5 + CSS3</h1>
   </header>
 
-  <nav>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
     <a href="modulo1.html">Módulo 1</a>
     <a href="modulo2.html">Módulo 2</a>
     <a href="modulo3.html">Módulo 3</a>
@@ -75,11 +78,11 @@
         </a>
       </div>
     </section>
+  </main>
 
-    <section class="botao-voltar">
-      <a href="index.html"><img src="imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
-    </section>
-  </main> 
+  <section class="botao-voltar">
+    <a href="index.html"><img src="imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
   
   <footer>
     <p>Desenvolvido por: Rafa Santana</p>
@@ -89,6 +92,8 @@
       <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
     </section>
   </footer>
+
+  <script src="scripts/menu-responsivo.js"></script>
 </body>
 
 </html>

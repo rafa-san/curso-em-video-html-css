@@ -25,21 +25,25 @@ header {
   width: 100%;
 }
 
-nav {
+.topnav {
   background-color: #78A8BF;
   display: flex;
 }
 
-nav a {
+.topnav a {
   color: white;
   flex: 20%;
   padding: 8px;;
   text-align: center;
 }
 
-nav a:hover {
+.topnav a:hover {
   background-color: #4E6773;
   color: white;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 
@@ -47,7 +51,7 @@ nav a:hover {
 .container-index {
   display: flex;
   flex-direction: column;
-  margin: 16px auto;
+  margin: 2em auto;
   padding: 32px 0;
   width: 90%;
 }
@@ -78,6 +82,8 @@ nav a:hover {
 .capa img {
   border: 1px transparent black;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  height: auto;
+  width: 100%;
 }
 
 #em-breve {
@@ -101,12 +107,11 @@ nav a:hover {
 }
 
 
-/* modulo1.html */
+/* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html*/
 .container-modulo {
-  border: 1px solid orange;
   display: flex;
   flex-direction: column;
-  margin: 16px auto;
+  margin: 2em auto;
   width: 90%;
 }
 
@@ -121,7 +126,7 @@ nav a:hover {
 }
 
 .links-curso h3 {
-  margin: 8px auto;
+  margin: 16px auto;
   text-align: center;
 }
 
@@ -155,13 +160,20 @@ nav a:hover {
 }
 
 .o-que-voce-vai-aprender h3 {
-  margin: 8px auto;
+  margin: 16px auto;
   text-align: center;
 }
 
 .o-que-voce-vai-aprender ul {
+  columns: 2;
   list-style-position: inside;
+  margin: auto;
   text-align: center;
+  width: 90%;
+}
+
+.o-que-voce-vai-aprender ul li {
+  padding: 8px 0;
 }
 
 .links-atividades {
@@ -172,7 +184,7 @@ nav a:hover {
 }
 
 .informacao h3 {
-  margin: 8px auto;
+  margin: 16px auto;
   text-align: center;
 }
 
@@ -195,7 +207,14 @@ nav a:hover {
   width: 100px;
 }
 
-i {
+.div-desafios i {
+  font-size: 32px;
+  margin: 8px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.div-exercicios i {
   font-size: 32px;
   margin: 8px 0;
   text-align: center;
@@ -210,11 +229,11 @@ i {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 16px auto;
-  width: 60%;
+  width: 85%;
 }
 
 .exercicios a {
-  border: 1px solid black;
+  border: 1px solid red;
   margin: 8px;
   padding: 16px 8px;
   text-align: center;
@@ -222,9 +241,9 @@ i {
 }
 
 .desafios a {
-  border: 1px solid black;
+  border: 1px solid red;
   margin: 8px;
-  padding: 16px 8px;
+  padding: 16px 0;
   text-align: center;
   width: 31%;
 }
@@ -232,7 +251,7 @@ i {
 
 /* Estilo do botão voltar */
 .botao-voltar {
-  margin: 24px 0 0;
+  margin: 2em auto;
   text-align: center;
 }
 
@@ -292,7 +311,6 @@ i {
 footer {
   background-color: #78A8BF;
   color: white;
-  margin-top: 16px;
   padding: 16px;
   text-align: center;
   width: 100%;
@@ -304,4 +322,34 @@ footer p {
 
 .contato a {
   margin-right: 8px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    flex-direction: column;
+  }
+  
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block;
+    width: 100%;
+  }
+
+  .o-que-voce-vai-aprender ul {
+    columns: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsivo a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
