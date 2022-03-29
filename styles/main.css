@@ -19,26 +19,28 @@
 
 /* Header */
 header {
-  color: #4E6773;
+  background-color: var(--cor5);
+  color: white;
   padding: 24px;
   text-align: center;
   width: 100%;
 }
 
 .topnav {
-  background-color: #78A8BF;
+  background-color: var(--cor4);
   display: flex;
 }
 
 .topnav a {
   color: white;
   flex: 20%;
-  padding: 8px;;
+  padding: 8px;
   text-align: center;
+  text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #4E6773;
+  background-color: var(--cor2);
   color: white;
 }
 
@@ -223,27 +225,34 @@ header {
 
 
 /* módulos - exercícios e desafios */
+.lista-desafios, .lista-exercicios {
+  margin: 2em auto;
+  padding: 16px 0;
+}
+
 .exercicios, .desafios {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 16px auto;
-  width: 85%;
+  margin: 8px auto;
+  padding: 24px 0;
+  width: 90%;
 }
 
 .exercicios a {
-  border: 1px solid red;
+  border: 1px solid gray;
+  border-radius: 8px;
   margin: 8px;
   padding: 16px 8px;
   text-align: center;
-  flex: 31%;
+  width: 31%;
 }
 
 .desafios a {
-  border: 1px solid red;
+  border: 1px solid gray;
+  border-radius: 8px;
   margin: 8px;
-  padding: 16px 0;
+  padding: 16px 8px;
   text-align: center;
   width: 31%;
 }

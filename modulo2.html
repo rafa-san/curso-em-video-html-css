@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo 2</title>
   <link rel="stylesheet" href="styles/main.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,7 +14,10 @@
     <h1>Curso de HTML5 + CSS3</h1>
   </header>
 
-  <nav>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
     <a href="modulo1.html">Módulo 1</a>
     <a href="modulo2.html">Módulo 2</a>
     <a href="modulo3.html">Módulo 3</a>
@@ -24,46 +26,63 @@
   </nav>
 
   <main class="container-modulo">
-    <p>Acesse o módulo 2 no site do Curso em Vídeo ou no YouTube.</p>
+    <h2 class="subtitulo">Módulo 2</h2>
 
     <section class="links-curso">
-      <div class="curso-em-video">
-        <a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external">
-          <img src="imagens/logo-cursoemvideo-edit.png" alt="Logo do Curso em Vídeo">
-        </a>
-      </div>
-      <div class="youtube">
-        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external">
-          <img src="imagens/logo-youtube-edit.png" alt="Logo do YouTube">
-        </a>
-      </div>
+      <h3>Acesse o módulo 2 no site do Curso em Vídeo ou no YouTube.</h3>
+      <article class="links-curso-imagens">
+        <div class="curso-em-video">
+          <a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external">
+            <img src="imagens/logo-cursoemvideo-edit.png" alt="Logo do Curso em Vídeo">
+          </a>
+        </div>
+        <div class="youtube">
+          <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external">
+            <img src="imagens/logo-youtube-edit.png" alt="Logo do YouTube">
+          </a>
+        </div>
+      </article>
     </section>
-    
+
+    <section class="o-que-voce-vai-aprender">
+      <h3>O que você vai aprender nesse módulo</h3>
+      <ul>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+      </ul>
+    </section>
+
     <section class="links-atividades">
       <div class="informacao">
-        <p>Abaixo estão os links dos exercícios e desafios que fiz ao longo do curso.</p>
+        <h3>Exercícios e Desafios</h3>
       </div>
 
       <div class="exercicios-e-desafios">
         <a href="modulo2-exercicios.html">
-          <div class="card">
+          <div class="div-exercicios">
             <i class="fa fa-solid fa-pencil"></i>
             <p>Exercícios</p>
           </div>
         </a>
         <a href="modulo2-desafios.html">
-          <div class="card">
+          <div class="div-desafios">
             <i class="fa solid fa-code"></i>
             <p>Desafios</p>
           </div>
         </a>
       </div>
     </section>
+  </main>
 
-    <section class="botao-voltar">
-      <a href="index.html"><span class="material-icons md-48" title="Voltar">arrow_circle_left</span></a>
-    </section>
-  </main> 
+  <section class="botao-voltar">
+    <a href="index.html"><img src="imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
   
   <footer>
     <p>Desenvolvido por: Rafa Santana</p>

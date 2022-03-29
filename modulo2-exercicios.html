@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo 2 - Exercícios</title>
   <link rel="stylesheet" href="styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,7 +14,10 @@
     <h1>Curso de HTML5 + CSS3</h1>
   </header>
 
-  <nav>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
     <a href="modulo1.html">Módulo 1</a>
     <a href="modulo2.html">Módulo 2</a>
     <a href="modulo3.html">Módulo 3</a>
@@ -22,14 +26,15 @@
   </nav>
 
   <main class="lista-exercicios">
+    <h2 class="subtitulo">Módulo 2: Exercícios</h2>
     <section class="exercicios">
       <a href="exercicios/modulo-2/exe016/cor01.html">Exercício 001</a>
     </section>
-    
-    <section class="botao-voltar">
-      <a href="modulo1.html"><img src="imagens/baseline_arrow_circle_left_black_24dp.png" alt="Seta voltada para a esquerda" title="Voltar"></a>
-    </section>
   </main>
+
+  <section class="botao-voltar">
+    <a href="modulo2.html"><img src="imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
 
   <footer>
     <p>Desenvolvido por: Rafa Santana</p>
