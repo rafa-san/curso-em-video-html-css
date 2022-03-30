@@ -5,13 +5,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página 002</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h1>Esta é a segunda página do meu site</h1>
-  <p>A segunda página está aqui.</p>
-  <p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p>
-  <p><a href="pag1.html" rel="prev">Voltar para a primeira página</a></p>
+  <header>
+    <h1>Curso de HTML5 + CSS3</h1>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="modulo1.html">Módulo 1</a>
+    <a href="modulo2.html">Módulo 2</a>
+    <a href="modulo3.html">Módulo 3</a>
+    <a href="modulo4.html">Módulo 4</a>
+    <a href="modulo5.html">Módulo 5</a>
+  </nav>
+
+  <main class="pagina-de-exercicio">
+    <h1>Esta é a segunda página do meu site</h1>
+    <p>A segunda página está aqui.</p>
+    <p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p>
+    <p><a href="pag1.html" rel="prev">Voltar para a primeira página</a></p>
+  </main>
   
+  <section class="botao-voltar">
+    <a href="/modulo1-exercicios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><img src="/imagens/icone-github.png" alt="Logo do GitHub"></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="/imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+    </section>
+  </footer>
+
+  <script src="scripts/menu-responsivo.js"></script>
 </body>
+
 </html>

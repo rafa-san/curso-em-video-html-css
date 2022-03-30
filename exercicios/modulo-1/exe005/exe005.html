@@ -5,39 +5,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hierarquia de títulos</title>
+  <link rel="stylesheet" href="/styles/main.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h1>Entendendo Portugal</h1>
+  <header>
+    <h1>Curso de HTML5 + CSS3</h1>
+  </header>
 
-  <h2>Introdução</h2>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="modulo1.html">Módulo 1</a>
+    <a href="modulo2.html">Módulo 2</a>
+    <a href="modulo3.html">Módulo 3</a>
+    <a href="modulo4.html">Módulo 4</a>
+    <a href="modulo5.html">Módulo 5</a>
+  </nav>
 
-  <h3>Justificação da Temática</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit corporis tempore et architecto id rerum dolor quibusdam nam, nihil alias sint ea odit accusamus, nisi repudiandae officiis atque ab autem.</p>
+  <main class="pagina-de-exercicio">
+    <h1>Entendendo Portugal</h1>
 
-  <h3>Caráter excecional</h3>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maiores ea odio excepturi quisquam porro saepe consequuntur eos consequatur. Nostrum alias ea officia at magnam ex reprehenderit accusamus magni numquam?</p>
+    <h2>Introdução</h2>
 
-  <h3>Perguntas de partida</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias hic voluptate asperiores eveniet atque laboriosam eum, cupiditate facilis laudantium voluptas vel voluptatem, dolores ullam dignissimos? A praesentium voluptatibus dicta.</p>
+    <h3>Justificação da Temática</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit corporis tempore et architecto id rerum dolor quibusdam nam, nihil alias sint ea odit accusamus, nisi repudiandae officiis atque ab autem.</p>
 
-  <h3>Metodologia de Investigação</h3>
+    <h3>Caráter excecional</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maiores ea odio excepturi quisquam porro saepe consequuntur eos consequatur. Nostrum alias ea officia at magnam ex reprehenderit accusamus magni numquam?</p>
 
-  <h4>Etapas de Investigação</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea quam porro doloribus excepturi, adipisci ut quis natus possimus sed. Dolor illo quos libero provident natus quo! Veniam, sapiente hic.</p>
+    <h3>Perguntas de partida</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias hic voluptate asperiores eveniet atque laboriosam eum, cupiditate facilis laudantium voluptas vel voluptatem, dolores ullam dignissimos? A praesentium voluptatibus dicta.</p>
 
-  <h4>Instrumentos de análise</h4>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam officiis voluptates recusandae. Necessitatibus amet voluptatum qui libero provident doloribus autem alias corporis accusamus? Ex distinctio dolore similique, id nobis deserunt?</p>
+    <h3>Metodologia de Investigação</h3>
 
-  <h2>Ordenamento do Território em Portugal</h2>
+    <h4>Etapas de Investigação</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea quam porro doloribus excepturi, adipisci ut quis natus possimus sed. Dolor illo quos libero provident natus quo! Veniam, sapiente hic.</p>
 
-  <h3>Os instrumentos de gestão</h3>
+    <h4>Instrumentos de análise</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam officiis voluptates recusandae. Necessitatibus amet voluptatum qui libero provident doloribus autem alias corporis accusamus? Ex distinctio dolore similique, id nobis deserunt?</p>
 
-  <h4>Os instrumentos de planeamento</h4>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis corrupti ab officiis eos facilis exercitationem similique a perspiciatis itaque expedita numquam ipsum nemo obcaecati impedit dicta blanditiis, rerum qui ad.</p>
+    <h2>Ordenamento do Território em Portugal</h2>
 
-  <h4>Os regimes territoriais</h4>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem facere repellendus vel inventore, molestias fugiat et qui laboriosam. Eligendi corrupti soluta iste veniam, quos alias commodi ipsum aliquam neque necessitatibus.</p>
+    <h3>Os instrumentos de gestão</h3>
+
+    <h4>Os instrumentos de planeamento</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis corrupti ab officiis eos facilis exercitationem similique a perspiciatis itaque expedita numquam ipsum nemo obcaecati impedit dicta blanditiis, rerum qui ad.</p>
+
+    <h4>Os regimes territoriais</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem facere repellendus vel inventore, molestias fugiat et qui laboriosam. Eligendi corrupti soluta iste veniam, quos alias commodi ipsum aliquam neque necessitatibus.</p>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="/modulo1-exercicios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><img src="/imagens/icone-github.png" alt="Logo do GitHub"></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="/imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+    </section>
+  </footer>
+
+  <script src="scripts/menu-responsivo.js"></script> 
 </body>
+
 </html>

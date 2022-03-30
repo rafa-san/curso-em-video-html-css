@@ -5,37 +5,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Outras formatações</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <h1>Outras formatações</h1>
-  
-  <h2>Código-fonte / Pré-formatação</h2>
-  <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+  <header>
+    <h1>Curso de HTML5 + CSS3</h1>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="modulo1.html">Módulo 1</a>
+    <a href="modulo2.html">Módulo 2</a>
+    <a href="modulo3.html">Módulo 3</a>
+    <a href="modulo4.html">Módulo 4</a>
+    <a href="modulo5.html">Módulo 5</a>
+  </nav>
+
+  <main class="pagina-de-exercicio">
+    <h1>Outras formatações</h1>
     
-  <pre>
-  <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('Fim do programa')
-  </code>
-  </pre>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    
+    <pre>
+    <code>
+      num = int(input('Digite um número'))
+      if num % 2 == 0:
+          print(f'O número {num} é PAR')
+      else:
+          print(f'O número {num} é ÍMPAR')
+      print('Fim do programa')
+    </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+    A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+  </main>
 
-  <h2>Citações simples</h2>
-  <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-  
-  <h2>Citações completas</h2>
-  <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-  <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
-  A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-  </blockquote>
+  <section class="botao-voltar">
+    <a href="/modulo1-exercicios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+  </section>
 
-  <h2>Abreviações</h2>
-  <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-  
-  <h2>Texto invertido</h2>
-  <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><img src="/imagens/icone-github.png" alt="Logo do GitHub"></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="/imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+    </section>
+  </footer>
+
+  <script src="scripts/menu-responsivo.js"></script> 
 </body>
+
 </html>
