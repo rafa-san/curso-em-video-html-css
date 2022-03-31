@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estilos Inline</title>
+  <title>Exercício 12</title>
   <link rel="stylesheet" href="/styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: lightskyblue; font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+<body>
   <header>
     <h1>Curso de HTML5 + CSS3</h1>
   </header>
@@ -18,26 +18,34 @@
     <a href="#" class="icon" onclick="menu()">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="modulo1.html">Módulo 1</a>
-    <a href="modulo2.html">Módulo 2</a>
-    <a href="modulo3.html">Módulo 3</a>
-    <a href="modulo4.html">Módulo 4</a>
-    <a href="modulo5.html">Módulo 5</a>
+    <a href="/../modulo1.html">Módulo 1</a>
+    <a href="/../modulo2.html">Módulo 2</a>
+    <a href="/../modulo3.html">Módulo 3</a>
+    <a href="/../modulo4.html">Módulo 4</a>
+    <a href="/../modulo5.html">Módulo 5</a>
   </nav>
 
   <main class="pagina-de-exercicio">
-    <h1 style="color: mediumblue; background-color: dodgerblue; font-size: 1.5em;">Capítulo 1</h1>
-    <h2 style="color: darkred; font-size: 1.2em;">Capítulo 1.1</h2>
-    <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magni ipsa eum nulla. Fugiat odio, dolor accusantium molestiae blanditiis quidem delectus vel expedita excepturi quam? Cupiditate soluta magni tempora quibusdam!</p>
-    <h2 style="color: darkred; font-size: 1.2em;">Capítulo 1.2</h2>
-    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo repudiandae totam eum voluptatum harum perferendis quis reprehenderit distinctio. Repudiandae aperiam corporis natus temporibus nam cumque maiores nisi blanditiis odit.</p>
-    <h1 style="color: mediumblue; background-color: dodgerblue; font-size: 1.5em;">Capítulo 2</h1>
-    <h2 style="color: darkred; font-size: 1.2em;">Capítulo 2.1</h2>
-    <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit doloribus unde, quas vitae id distinctio explicabo maxime corrupti aut eveniet similique sit mollitia tempore ipsum, aperiam eum animi, iusto suscipit?</p>
+    <h1>Exercício 12: Vídeos</h1>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video controls width="500" poster="imagens/zelda.bmp">
+      <source src="midia/video-2.m4v">
+      <source src="midia/video-2.mp4">
+      <source src="midia/video-2.webm">
+      <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/377580853?h=0cfaa9548b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/377580853">Animation Reel 2019</a> from <a href="https://vimeo.com/235productions">235 Productions&trade;</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   </main>
 
   <section class="botao-voltar">
-    <a href="/modulo1-exercicios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+    <a href="/modulo1-exercicios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
   </section>
 
   <footer>
@@ -49,6 +57,7 @@
     </section>
   </footer>
 
-  <script src="scripts/menu-responsivo.js"></script>
+  <script src="/scripts/menu-responsivo.js"></script>
 </body>
+
 </html>
