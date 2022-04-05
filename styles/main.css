@@ -20,10 +20,14 @@
 /* Header */
 header {
   background-color: var(--cor5);
-  color: white;
   padding: 24px;
   text-align: center;
   width: 100%;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
 }
 
 .topnav {
@@ -75,6 +79,10 @@ header {
   flex-direction: column;
   margin: 8px;
   padding: 16px;
+}
+
+.capa:hover {
+  opacity: 0.7;
 }
 
 .capa h3 {
@@ -142,41 +150,67 @@ header {
 
 .curso-em-video img {
   border: 1px transparent black;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  height: auto; 
   margin: 16px;
+  max-width: 299px;
   padding: 24px 0;
+  width: 100%;
 }
 
 .youtube img {
   border: 1px transparent black;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377); 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  height: auto;
   margin: 16px;
+  max-width: 299px;
   padding: 24px 0;
+  width: 100%;
 }
 
-.o-que-voce-vai-aprender {
+.conteudo-do-modulo {
   border-bottom: 2px solid var(--cor2);
-  margin-bottom: 32px;
-  padding: 0 0 48px 0;
-  text-align: center;
+  margin: 0 auto 32px;
+  padding: 0 0 56px 0;
+  width: 100%;
 }
 
-.o-que-voce-vai-aprender h3 {
+.conteudo-do-modulo h3 {
   margin: 16px auto;
   text-align: center;
 }
 
-.o-que-voce-vai-aprender ul {
-  columns: 2;
-  list-style-position: inside;
-  margin: auto;
-  text-align: center;
-  width: 90%;
+.linha1, .linha2, .linha3 {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  margin: 8px;
 }
 
-.o-que-voce-vai-aprender ul li {
-  padding: 8px 0;
+.conteudo-detalhes {
+  border: 1px solid red;
+  flex: 50%;
+  margin: 8px;
+  padding: 16px 0;
 }
+
+.conteudo-detalhes h4 {
+  margin: 8px auto;
+  text-align: center;
+}
+
+.conteudo-detalhes ul {
+  list-style-position: inside;
+  list-style-type: none;
+  margin-left: 8px;
+}
+
+
+
+
+
+
+
 
 .links-atividades {
   border-bottom: 2px solid var(--cor2);
@@ -328,7 +362,7 @@ footer p {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav {
     flex-direction: column;
   }
@@ -342,12 +376,12 @@ footer p {
     width: 100%;
   }
 
-  .o-que-voce-vai-aprender ul {
-    columns: 1;
+  .linha1, .linha2, .linha3 {
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav.responsivo a {
     float: none;
     display: block;
