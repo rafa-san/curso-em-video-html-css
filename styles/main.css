@@ -19,14 +19,12 @@
 
 /* Header */
 header {
-  background-color: var(--cor5);
   padding: 24px;
   text-align: center;
   width: 100%;
 }
 
 header a {
-  color: white;
   text-decoration: none;
 }
 
@@ -181,17 +179,27 @@ header a {
 }
 
 .linha1, .linha2, .linha3 {
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   margin: 8px;
 }
 
+.linha3 {
+  margin: auto;
+  width: 55%;
+}
+
 .conteudo-detalhes {
-  border: 1px solid red;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   flex: 50%;
   margin: 8px;
   padding: 16px 0;
+}
+
+.conteudo-detalhes:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.377);
 }
 
 .conteudo-detalhes h4 {
@@ -202,7 +210,7 @@ header a {
 .conteudo-detalhes ul {
   list-style-position: inside;
   list-style-type: none;
-  margin-left: 8px;
+  margin-left: 16px;
 }
 
 
@@ -298,12 +306,25 @@ header a {
 .pagina-de-exercicio {
   border: 1px solid red;
   margin: 3em auto;
-  padding: 32px 0 88px;
+  padding: 32px 0;
+  text-align: center;
   width: 90%;
 }
 
 .pagina-de-exercicio h1 {
   padding: 16px 0;
+}
+
+.material-extra {
+  border: 1px solid blue;
+  margin: 16px auto;
+  padding: 8px;
+  width: 250px;
+}
+
+.material-extra img {
+  height: auto;
+  width: 100%;
 }
 
 .exe003 {
@@ -362,6 +383,20 @@ footer p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 700px) {
   .topnav {
     flex-direction: column;
@@ -378,6 +413,10 @@ footer p {
 
   .linha1, .linha2, .linha3 {
     flex-direction: column;
+  }
+
+  .linha3 {
+    width: 97%;
   }
 }
 
