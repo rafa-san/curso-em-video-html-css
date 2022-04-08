@@ -42,7 +42,7 @@ header a {
 }
 
 .topnav a:hover {
-  background-color: var(--cor2);
+  background-color: var(--cor5);
   color: white;
 }
 
@@ -156,6 +156,10 @@ header a {
   width: 100%;
 }
 
+.curso-em-video img:hover {
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
+}
+
 .youtube img {
   border: 1px transparent black;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
@@ -164,6 +168,10 @@ header a {
   max-width: 299px;
   padding: 24px 0;
   width: 100%;
+}
+
+.youtube img:hover {
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
 }
 
 .conteudo-do-modulo {
@@ -198,10 +206,6 @@ header a {
   padding: 16px 0;
 }
 
-.conteudo-detalhes:hover {
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.377);
-}
-
 .conteudo-detalhes h4 {
   margin: 8px auto;
   text-align: center;
@@ -212,13 +216,6 @@ header a {
   list-style-type: none;
   margin-left: 16px;
 }
-
-
-
-
-
-
-
 
 .links-atividades {
   border-bottom: 2px solid var(--cor2);
@@ -266,6 +263,18 @@ header a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* módulos - exercícios e desafios */
 .lista-desafios, .lista-exercicios {
   margin: 2em auto;
@@ -302,6 +311,25 @@ header a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Estilo das páginas de exercícios */
 .pagina-de-exercicio {
   border: 1px solid red;
@@ -311,21 +339,36 @@ header a {
   width: 90%;
 }
 
-.pagina-de-exercicio h1 {
+.exe {
+  border: 1px solid orange;
+  padding: 24px 0;
+}
+
+.exe h1 {
   padding: 16px 0;
 }
 
+
+
 .material-extra {
   border: 1px solid blue;
+  display: flex;
   margin: 16px auto;
   padding: 8px;
-  width: 250px;
 }
 
-.material-extra img {
-  height: auto;
-  width: 100%;
+.material-extra article {
+  border: 1px solid green;
+  margin: auto;
+  padding: 80px 16px;
+  width: 50%;
 }
+
+.material-extra article i {
+  color: var(--cor3);
+  font-size: 120px;
+}
+
 
 .exe003 {
   display: flex;
@@ -367,7 +410,12 @@ footer p {
 }
 
 .contato a {
-  margin-right: 8px;
+  margin-right: 16px;
+}
+
+.contato i {
+  color: white;
+  font-size: 24px;
 }
 
 
