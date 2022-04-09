@@ -1,6 +1,3 @@
-@charset 'UTF-8';
-
-
 /* Geral */
 :root {
   --cor1: #73484D;
@@ -224,7 +221,7 @@ header a {
   padding: 0 0 56px 0;
 }
 
-.informacao h3 {
+.links-atividades-titulo h3 {
   margin: 16px auto;
   text-align: center;
 }
@@ -263,25 +260,13 @@ header a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* módulos - exercícios e desafios */
-.lista-desafios, .lista-exercicios {
+.container-desafios, .container-exercicios {
   margin: 2em auto;
   padding: 16px 0;
 }
 
-.exercicios, .desafios {
+.lista {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -290,7 +275,7 @@ header a {
   width: 90%;
 }
 
-.exercicios a {
+.lista a {
   border: 1px solid gray;
   border-radius: 8px;
   margin: 8px;
@@ -300,83 +285,50 @@ header a {
   width: 31%;
 }
 
-.desafios a {
-  border: 1px solid gray;
-  border-radius: 8px;
-  margin: 8px;
-  padding: 16px 16px;
+
+/* Páginas de exercícios */
+.container-exercicio {
+  margin: 2em auto;
+  padding: 16px 0;
   text-align: center;
-  text-decoration: none;
-  width: 31%;
+  width: 80%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilo das páginas de exercícios */
-.pagina-de-exercicio {
-  border: 1px solid red;
-  margin: 3em auto;
-  padding: 32px 0;
-  text-align: center;
-  width: 90%;
+.exercicio {
+  margin-bottom: 32px;
+  padding: 16px 0 40px;
 }
 
-.exe {
-  border: 1px solid orange;
-  padding: 24px 0;
-}
-
-.exe h1 {
+.exercicio h1 {
   padding: 16px 0;
 }
 
-
-
 .material-extra {
-  border: 1px solid blue;
   display: flex;
   margin: 16px auto;
   padding: 8px;
 }
 
 .material-extra article {
-  border: 1px solid green;
-  margin: auto;
-  padding: 80px 16px;
-  width: 50%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  margin: 16px auto;
+  padding: 56px 8px;
+  width: 40%;
 }
 
 .material-extra article i {
   color: var(--cor3);
-  font-size: 120px;
+  font-size: 7em;
 }
 
-
-.exe003 {
+.exercicio-03 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.exe003 div {
+.exercicio-03 div {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -386,11 +338,11 @@ header a {
   width: 240px;
 }
 
-.exe003 div p {
+.exercicio-03 div p {
   margin-bottom: 24px;
 }
 
-.img-exe003 {
+.img-exercicio-03 {
   height: 253px;
   max-width: 180px;
 }
@@ -430,21 +382,7 @@ footer p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Design Responsivo */
 @media screen and (max-width: 700px) {
   .topnav {
     flex-direction: column;
@@ -459,6 +397,12 @@ footer p {
     width: 100%;
   }
 
+  .topnav.responsivo a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
   .linha1, .linha2, .linha3 {
     flex-direction: column;
   }
@@ -466,12 +410,8 @@ footer p {
   .linha3 {
     width: 97%;
   }
-}
 
-@media screen and (max-width: 700px) {
-  .topnav.responsivo a {
-    float: none;
-    display: block;
-    text-align: center;
+  .material-extra {
+    flex-direction: column;
   }
 }
