@@ -261,7 +261,7 @@ header a {
 
 
 /* módulos - exercícios e desafios */
-.container-desafios, .container-exercicios {
+.container-lista-desafios, .container-lista-exercicios {
   margin: 2em auto;
   padding: 16px 0;
 }
@@ -287,14 +287,14 @@ header a {
 
 
 /* Páginas de exercícios */
-.container-exercicio {
+.container-exercicio, .container-desafio {
   margin: 2em auto;
   padding: 16px 0;
   text-align: center;
   width: 80%;
 }
 
-.exercicio {
+.exercicio, .desafio {
   margin-bottom: 32px;
   padding: 16px 0 40px;
 }

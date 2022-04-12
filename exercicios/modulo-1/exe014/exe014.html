@@ -8,22 +8,24 @@
   <link rel="stylesheet" href="/styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    body {
+    .container-exercicio {
       background-color: lightsteelblue;
+      border-radius: 8px;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 20px;
+      padding: 8px;
     }
 
-    h1 {
+    .container-exercicio h1 {
       background-color: lightblue;
       color:darkblue;
     }
 
-    h2 {
+    .container-exercicio h2 {
       color: darkred;
     }
 
-    p {
+    .container-exercicio p {
       text-align: justify;
     }
   </style>
@@ -47,16 +49,33 @@
     <a href="/../modulo5.html">Módulo 5</a>
   </nav>
 
-  <main class="pagina-de-exercicio">
-    <h1>Exercício 14: Trabalhando com CSS Interno</h1>
-    <h1>Capítulo 1</h1>
-    <h2>Capítulo 1.1</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magni ipsa eum nulla. Fugiat odio, dolor accusantium molestiae blanditiis quidem delectus vel expedita excepturi quam? Cupiditate soluta magni tempora quibusdam!</p>
-    <h2>Capítulo 1.2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo repudiandae totam eum voluptatum harum perferendis quis reprehenderit distinctio. Repudiandae aperiam corporis natus temporibus nam cumque maiores nisi blanditiis odit.</p>
-    <h1>Capítulo 2</h1>
-    <h2>Capítulo 2.1</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit doloribus unde, quas vitae id distinctio explicabo maxime corrupti aut eveniet similique sit mollitia tempore ipsum, aperiam eum animi, iusto suscipit?</p>
+  <main class="container-exercicio">
+    <section class="exercicio">
+      <h1>Exercício 14: Trabalhando com CSS Interno</h1>
+      <h1>Capítulo 1</h1>
+      <h2>Capítulo 1.1</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magni ipsa eum nulla. Fugiat odio, dolor accusantium molestiae blanditiis quidem delectus vel expedita excepturi quam? Cupiditate soluta magni tempora quibusdam!</p>
+      <h2>Capítulo 1.2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo repudiandae totam eum voluptatum harum perferendis quis reprehenderit distinctio. Repudiandae aperiam corporis natus temporibus nam cumque maiores nisi blanditiis odit.</p>
+      <h1>Capítulo 2</h1>
+      <h2>Capítulo 2.1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit doloribus unde, quas vitae id distinctio explicabo maxime corrupti aut eveniet similique sit mollitia tempore ipsum, aperiam eum animi, iusto suscipit?</p>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
   </main>
 
   <section class="botao-voltar">
@@ -67,8 +86,10 @@
     <p>Desenvolvido por: Rafa Santana</p>
 
     <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><img src="/imagens/icone-github.png" alt="Logo do GitHub"></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="/imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
     </section>
   </footer>
 

@@ -5,51 +5,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desafio 004</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h1>Meus emojis favoritos</h1>
+  <header>
+    <a href="/index.html">
+      <h1>Curso de HTML5 + CSS3</h1>
+    </a>
+  </header>
 
-  <h2>Carinhas</h2>
-  <ul>
-    <li>&#x1F644 Código U+1F644</li> 
-    <li>&#x1F642 Código U+1F642</li>
-    <li>&#x1F61D Código U+1F61D</li>
-  </ul>
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/../modulo1.html">Módulo 1</a>
+    <a href="/../modulo2.html">Módulo 2</a>
+    <a href="/../modulo3.html">Módulo 3</a>
+    <a href="/../modulo4.html">Módulo 4</a>
+    <a href="/../modulo5.html">Módulo 5</a>
+  </nav>
 
-  <h2>Mãos</h2>
-  <ul>
-    <li>&#x1F44A Código U+1F44A</li>
-    <li>&#x1F918 Código U+1F918</li>
-    <li>&#x1F91F Código U+1F91F</li>
-  </ul>
+  <main class="container-desafio">
+    <section class="desafio">
+      <h1>Meus emojis favoritos</h1>
+      <h2>Carinhas</h2>
+      <ul>
+        <li>&#x1F644 Código U+1F644</li>
+        <li>&#x1F642 Código U+1F642</li>
+        <li>&#x1F61D Código U+1F61D</li>
+      </ul>
+      <h2>Mãos</h2>
+      <ul>
+        <li>&#x1F44A Código U+1F44A</li>
+        <li>&#x1F918 Código U+1F918</li>
+        <li>&#x1F91F Código U+1F91F</li>
+      </ul>
+      <h2>Animais</h2>
+      <ul>
+        <li>&#x1F99D Código U+1F99D</li>
+        <li>&#x1F985 Código U+1F985</li>
+        <li>&#x1F989 Código U+1F989</li>
+      </ul>
+      <h2>Esportes</h2>
+      <ul>
+        <li>&#x1F6B4 Código U+1F6B4</li>
+        <li>&#x26BD Código U+26BD</li>
+        <li>&#x1F3CA Código U+1F3CA</li>
+      </ul>
+      <h2>Comidas</h2>
+      <ul>
+        <li>&#x1F36B Código U+1F36B</li>
+        <li>&#x1F355 Código U+1F355</li>
+        <li>&#x1F950 Código U+1F950</li>
+      </ul>
+      <h2>Objetos</h2>
+      <ul>
+        <li>&#x1F4DA Código U+1F4DA</li>
+        <li>&#x1F4FD Código U+1F4FD</li>
+        <li>&#x1F579 Código U+1F579</li>
+      </ul>
+    </section>
 
-  <h2>Animais</h2>
-  <ul>
-    <li>&#x1F99D Código U+1F99D</li>
-    <li>&#x1F985 Código U+1F985</li>
-    <li>&#x1F989 Código U+1F989</li>
-  </ul>
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
 
-  <h2>Esportes</h2>
-  <ul>
-    <li>&#x1F6B4 Código U+1F6B4</li>
-    <li>&#x26BD Código U+26BD</li>
-    <li>&#x1F3CA Código U+1F3CA</li>
-  </ul>
+  <section class="botao-voltar">
+    <a href="/modulo1-desafios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
+  </section>
 
-  <h2>Comidas</h2>
-  <ul>
-    <li>&#x1F36B Código U+1F36B</li>
-    <li>&#x1F355 Código U+1F355</li>
-    <li>&#x1F950 Código U+1F950</li>
-  </ul>
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
 
-  <h2>Objetos</h2>
-  <ul>
-    <li>&#x1F4DA Código U+1F4DA</li>
-    <li>&#x1F4FD Código U+1F4FD</li>
-    <li>&#x1F579 Código U+1F579</li>
-  </ul>
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="/scripts/menu-responsivo.js"></script>
 </body>
 </html>

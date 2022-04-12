@@ -27,16 +27,32 @@
     <a href="/../modulo5.html">Módulo 5</a>
   </nav>
 
-  <main class="pagina-de-exercicio">
-    <h1>Exercício 11: Áudio</h1>
+  <main class="container-exercicio">
+    <section class="exercicio">
+      <h1>Exercício 11: Áudio</h1>
+      <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+      <audio preload="metadata" controls loop> <!-- Preload: 3 opções, não escolher auto -->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"><!-- Arquivo wav é muito grande -->
+        <p>Seu navegador não suporta áudio. <a href="midia/guanacast-33.mp3"></a>Clique aqui para baixar o arquivo MP3</a></p>
+      </audio>
+    </section>
 
-    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
-    <audio preload="metadata" controls autoplay loop> <!-- Preload: 3 opções, não escolher auto -->
-      <source src="midia/guanacast-33.mp3" type="audio/mpeg">
-      <source src="midia/guanacast-33.ogg" type="audio/ogg">
-      <source src="midia/guanacast-33.wav" type="audio/wav"><!-- Arquivo wav é muito grande -->
-      <p>Seu navegador não suporta áudio. <a href="midia/guanacast-33.mp3"></a>Clique aqui para baixar o arquivo MP3</a></p>
-    </audio>
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
   </main>
 
   <section class="botao-voltar">
@@ -47,8 +63,10 @@
     <p>Desenvolvido por: Rafa Santana</p>
 
     <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><img src="/imagens/icone-github.png" alt="Logo do GitHub"></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="/imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
     </section>
   </footer>
 

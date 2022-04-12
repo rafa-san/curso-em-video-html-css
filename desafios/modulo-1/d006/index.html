@@ -5,20 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tags HTML</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <h1>Tags em HTML</h1>
-  <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobir qual tag deverá utilizar em cada caso</p>
-  <ul type="square">
-    <li title="Use a tag &lt;p&gt;">Parágrafos</li>
-    <li title="Use as tags que vão do &lt;h6&gt; até o &lt;h1&gt;">Títulos</li>
-    <li title="Use a tag &lt;img&gt;">Imagens</li>
-    <li title="Use a tag &lt;abbr&gt;">Abreviações</li>
-    <li title="Use a tag &lt;code&gt;">Códigos-fonte</li>
-    <li title="Use a tag &lt;ol&gt;">Listas numeradas</li>
-    <li title="Use a tag &lt;ul&gt;">Listas com demarcadores</li>
-  </ul>
+  <header>
+    <a href="/index.html">
+      <h1>Curso de HTML5 + CSS3</h1>
+    </a>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/../modulo1.html">Módulo 1</a>
+    <a href="/../modulo2.html">Módulo 2</a>
+    <a href="/../modulo3.html">Módulo 3</a>
+    <a href="/../modulo4.html">Módulo 4</a>
+    <a href="/../modulo5.html">Módulo 5</a>
+  </nav>
+
+  <main class="container-desafio">
+    <section class="desafio">
+      <h1>Tags em HTML</h1>
+      <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobir qual tag deverá utilizar em cada caso</p>
+      <ul type="square">
+        <li title="Use a tag &lt;p&gt;">Parágrafos</li>
+        <li title="Use as tags que vão do &lt;h6&gt; até o &lt;h1&gt;">Títulos</li>
+        <li title="Use a tag &lt;img&gt;">Imagens</li>
+        <li title="Use a tag &lt;abbr&gt;">Abreviações</li>
+        <li title="Use a tag &lt;code&gt;">Códigos-fonte</li>
+        <li title="Use a tag &lt;ol&gt;">Listas numeradas</li>
+        <li title="Use a tag &lt;ul&gt;">Listas com demarcadores</li>
+      </ul>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="/modulo1-desafios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="/scripts/menu-responsivo.js"></script>
   
 </body>
 </html>
