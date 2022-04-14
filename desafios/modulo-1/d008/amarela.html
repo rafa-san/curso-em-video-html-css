@@ -5,14 +5,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/styles/main.css">
   <link rel="stylesheet" href="estilo.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="pagina-amarela">
-  <h1>Página Amarela</h1>
-  <p>Você agora está na área amarela. Você acessou clicando no segundo link da página principal.</p>
-  <ul>
-    <li><a href="index.html">Voltar para a página cinza</a></li>
-  </ul>
+  <header>
+    <a href="/index.html">
+      <h1>Curso de HTML5 + CSS3</h1>
+    </a>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/../modulo1.html">Módulo 1</a>
+    <a href="/../modulo2.html">Módulo 2</a>
+    <a href="/../modulo3.html">Módulo 3</a>
+    <a href="/../modulo4.html">Módulo 4</a>
+    <a href="/../modulo5.html">Módulo 5</a>
+  </nav>
+
+  <main class="container-desafio">
+    <section class="desafio">
+      <h1>Página Amarela</h1>
+      <p>Você agora está na área amarela. Você acessou clicando no segundo link da página principal.</p>
+      <ul>
+        <li><a href="index.html">Voltar para a página cinza</a></li>
+      </ul>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="/modulo1-desafios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="/scripts/menu-responsivo.js"></script>
 </body>
+
 </html>
