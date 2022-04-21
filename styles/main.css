@@ -104,7 +104,8 @@ header a {
 }
 
 .capa h3 {
-  color: var(--cor1);
+  color: var(--cor5);
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -222,10 +223,14 @@ header a {
 }
 
 .conteudo-detalhes {
-  background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));
+  /*background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));*/
   /*background-image: linear-gradient(to bottom, rgba(115, 72, 77, 0.300), rgba(115, 72, 77, 0.100));*/
+  /*background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.600), rgba(191, 190, 159, 0.200));*/
+  background-color: rgba(191, 190, 159, 0.200);
   border: 2px solid transparent;
   border-radius: 8px;
+  color: var(--cor5);
+  font-weight: 500;
   margin: 8px;
   padding: 16px 0;
   width: 40%;
@@ -264,7 +269,7 @@ header a {
 }
 
 .exercicios-e-desafios a {
-  color: var(--cor4);
+  color: var(--cor5);
   margin: auto;
   text-decoration: none;
   width: 35%;
@@ -325,7 +330,7 @@ header a {
 
 .lista a {
   background-color: white;
-  border: 1px solid var(--cor4);
+  border: 1px solid var(--cor5);
   border-radius: 8px;
   color: #15141A;
   margin: 8px;
@@ -336,8 +341,11 @@ header a {
 }
 
 .lista a:hover {
-  background-color: rgba(120, 168, 191, 0.200);
+  /*background-color: rgba(120, 168, 191, 0.200);*/
+  background-color: rgba(191, 190, 159, 0.300);
   border: 1px solid transparent;
+  color: var(--cor5);
+  font-weight: 500;
 }
 
 
@@ -350,10 +358,15 @@ header a {
 }
 
 .exercicio, .desafio {
-  background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));
+  /*background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));*/
+  background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.500), rgba(191, 190, 159, 0.200));
   border-radius: 8px;
   margin-bottom: 32px;
   padding: 48px 0;
+}
+
+.exercicio {
+  color: var(--cor5);
 }
 
 .exercicio h1 {
@@ -370,22 +383,28 @@ header a {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
-  padding: 56px 8px;
-  width: 40%;
+  padding: 40px 8px;
+  width: 38%;
 }
 
 .material-extra article a {
   text-decoration: none;
 }
 
+.material-extra article:hover {
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
+  transition: all 0.3s ease;
+}
+
 .material-extra article i {
-  color: var(--cor4);
-  font-size: 7em;
+  color: var(--cor5);
+  font-size: 5.5em;
 }
 
 .material-extra article p {
-  color: var(--cor4);
-  font-size: 1.4em;
+  color: var(--cor5);
+  font-size: 1.3em;
+  padding: 24px 0;
 }
 
 .exercicio-03 {
@@ -416,7 +435,7 @@ header a {
 
 /* footer */
 footer {
-  background-color: var(--cor5);
+  background-color: var(--cor4);
   color: white;
   padding: 16px;
   text-align: center;
@@ -444,7 +463,7 @@ footer p {
 }
 
 .botao-voltar img {
-  width: 40px;
+  width: 32px;
 }
 
 
