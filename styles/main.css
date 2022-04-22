@@ -1,7 +1,6 @@
 /* Geral */
-@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
@@ -12,10 +11,7 @@
   --cor4: #78A8BF;
   --cor5: #4E6773;
 
-  --teste1: 'Slackey', cursive;
-  --teste2: 'Bungee', cursive;
-  --teste4: 'Bungee Shade', cursive;
-
+  --fonte-titulo: 'Bungee', cursive;
   --fonte-padrao: 'Inter', sans-serif;
 }
 
@@ -34,14 +30,13 @@ body {
 /* Header */
 header {
   background-color: var(--cor4);
-  padding: 8px;
   text-align: center;
   width: 100%;
 }
 
 header a {
   color: white;
-  font-family: var(--teste2);
+  font-family: var(--fonte-titulo);
   font-size: 1.1em;
   text-decoration: none;
 }
@@ -79,6 +74,7 @@ header a {
 }
 
 .subtitulo {
+  color: var(--cor5);
   font-size: 1.9em;
   margin: 16px auto;
   text-align: center;
@@ -149,12 +145,14 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
   padding: 40px 0;
+  width: 100%;
 }
 
 .links-curso p {
-  font-size: 1.3em;
+  color: var(--cor5);
+  font-size: 1.2em;
   margin: 16px auto;
   text-align: center;
 }
@@ -200,12 +198,15 @@ header a {
 }
 
 .conteudo-do-modulo {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto 40px;
   padding: 0 0 56px 0;
   width: 100%;
 }
 
 .conteudo-do-modulo h3 {
+  color: var(--cor5);
   font-size: 1.5em;
   margin: 16px auto;
   text-align: center;
@@ -214,12 +215,13 @@ header a {
 .linha1, .linha2, .linha3 {
   display: flex;
   justify-content: center;
-  margin: 8px;
+  margin: 8px auto;
+  width: 100%;
 }
 
 .linha3 {
-  margin: auto;
-  width: 85%;
+  margin: 8px auto;
+  width: 90%;
 }
 
 .conteudo-detalhes {
@@ -231,9 +233,9 @@ header a {
   border-radius: 8px;
   color: var(--cor5);
   font-weight: 500;
-  margin: 8px;
-  padding: 16px 0;
-  width: 40%;
+  margin: 8px auto;
+  padding: 16px 8px;
+  width: 48%;
 }
 
 .conteudo-detalhes h4 {
@@ -254,6 +256,7 @@ header a {
 }
 
 .links-atividades-titulo h3 {
+  color: var(--cor5);
   font-size: 1.5em;
   margin: 16px auto;
   text-align: center;
@@ -261,9 +264,8 @@ header a {
 
 .exercicios-e-desafios {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
+  margin: 16px auto;
   padding: 24px 0;
   width: 70%;
 }
@@ -272,7 +274,7 @@ header a {
   color: var(--cor5);
   margin: auto;
   text-decoration: none;
-  width: 35%;
+  width: 46%;
 }
 
 .div-exercicios, .div-desafios {
@@ -437,13 +439,21 @@ header a {
 footer {
   background-color: var(--cor4);
   color: white;
-  padding: 16px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
 footer p {
-  padding-bottom: 8px;
+  padding: 4px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.contato {
+  padding: 4px 0;
+  text-align: center;
+  width: 100%;
 }
 
 .contato a {
@@ -468,7 +478,7 @@ footer p {
 
 
 /* Design Responsivo */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .topnav {
     flex-direction: column;
   }
@@ -488,12 +498,36 @@ footer p {
     text-align: center;
   }
 
+  .curso-em-video img {
+    margin: 16px auto;
+  }
+
+  .youtube img {
+    margin: 16px auto;
+  }
+
+
+
   .linha1, .linha2, .linha3 {
     flex-direction: column;
+    width: 100%;
   }
 
   .linha3 {
-    width: 97%;
+    width: 100%;
+  }
+
+  .conteudo-detalhes {
+    width: 100%;
+  }
+
+  .exercicios-e-desafios {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .exercicios-e-desafios a {
+    width: 70%;
   }
 
   .material-extra {
