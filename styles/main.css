@@ -74,6 +74,7 @@ header a {
 }
 
 .subtitulo {
+  border: 1px solid black;
   color: var(--cor5);
   font-size: 1.9em;
   margin: 16px auto;
@@ -137,7 +138,7 @@ header a {
 .container-modulo {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 2.1em auto;
   width: 90%;
 }
 
@@ -224,6 +225,10 @@ header a {
   width: 90%;
 }
 
+.linha3 .conteudo-detalhes {
+  padding: 40px 0;
+}
+
 .conteudo-detalhes {
   /*background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));*/
   /*background-image: linear-gradient(to bottom, rgba(115, 72, 77, 0.300), rgba(115, 72, 77, 0.100));*/
@@ -233,6 +238,7 @@ header a {
   border-radius: 8px;
   color: var(--cor5);
   font-weight: 500;
+  line-height: 1.5em;
   margin: 8px auto;
   padding: 16px 8px;
   width: 48%;
@@ -245,7 +251,6 @@ header a {
 
 .conteudo-detalhes ul {
   list-style-position: inside;
-  list-style-type: none;
   margin-left: 16px;
 }
 
@@ -331,10 +336,9 @@ header a {
 }
 
 .lista a {
-  background-color: white;
+  color: var(--cor5);
   border: 1px solid var(--cor5);
   border-radius: 8px;
-  color: #15141A;
   margin: 8px;
   padding: 32px 16px;
   text-align: center;
@@ -343,10 +347,8 @@ header a {
 }
 
 .lista a:hover {
-  /*background-color: rgba(120, 168, 191, 0.200);*/
-  background-color: rgba(191, 190, 159, 0.300);
+  background-color: rgb(78, 103, 115, 0.100);;
   border: 1px solid transparent;
-  color: var(--cor5);
   font-weight: 500;
 }
 
@@ -369,10 +371,19 @@ header a {
 
 .exercicio {
   color: var(--cor5);
+  padding: 16px;
 }
 
-.exercicio h1 {
+.exercicio h2{
   padding: 16px 0;
+  text-align: center;
+}
+
+.exercicio h3, .exercicio p {
+  line-height: 1.7em;
+  margin: auto;
+  text-align: left;
+  width: 89%;
 }
 
 .material-extra {
@@ -426,7 +437,9 @@ header a {
 }
 
 .exercicio-03 div p {
-  margin-bottom: 24px;
+  margin: 8px 0 24px 0;
+  text-align: center;
+  width: 100%;
 }
 
 .img-exercicio-03 {
@@ -472,13 +485,19 @@ footer p {
   text-align: center;
 }
 
-.botao-voltar img {
-  width: 32px;
+.botao-voltar i {
+  background-color: rgba(191, 190, 159, 0.500);
+  border: 1px solid var(--cor2);
+  border-radius: 50%;
+  color: var(--cor5);
+  font-size: 1.4em;
+  padding: 8px;
 }
 
 
 /* Design Responsivo */
 @media screen and (max-width: 750px) {
+  /* Header */
   .topnav {
     flex-direction: column;
   }
@@ -498,6 +517,8 @@ footer p {
     text-align: center;
   }
 
+
+  /* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html*/
   .curso-em-video img {
     margin: 16px auto;
   }
@@ -505,8 +526,6 @@ footer p {
   .youtube img {
     margin: 16px auto;
   }
-
-
 
   .linha1, .linha2, .linha3 {
     flex-direction: column;
@@ -530,6 +549,8 @@ footer p {
     width: 70%;
   }
 
+
+  /* Páginas de exercícios */
   .material-extra {
     flex-direction: column;
   }
