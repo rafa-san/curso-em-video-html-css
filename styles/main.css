@@ -36,12 +36,13 @@ header {
 header a {
   color: white;
   font-family: var(--fonte-titulo);
-  font-size: 1.1em;
+  font-size: 1.0em;
   text-decoration: none;
 }
 
 .topnav {
   background-color: var(--cor5);
+  font-weight: 600;
   display: flex;
   font-size: 1.1em;
 }
@@ -67,15 +68,15 @@ header a {
 .container-index {
   display: flex;
   flex-direction: column;
-  margin: 2em auto;
+  margin: 1.5em auto;
   padding: 32px 0;
   width: 90%;
 }
 
 .subtitulo {
   color: var(--cor5);
-  font-size: 1.9em;
-  margin: 16px auto;
+  font-size: 1.8em;
+  margin: 16px auto 24px;
   text-align: center;
   width: 90%;
 }
@@ -89,7 +90,7 @@ header a {
 .capa {
   display: flex;
   flex-direction: column;
-  margin: 8px;
+  margin: 16px 8px;
   padding: 16px;
 }
 
@@ -140,7 +141,7 @@ a.link-ativo {
 .container-modulo {
   display: flex;
   flex-direction: column;
-  margin: 2em auto;
+  margin: 1.5em auto;
   padding: 32px 0;
   width: 90%;
 }
@@ -150,7 +151,7 @@ a.link-ativo {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto 40px;
-  padding: 40px 0;
+  padding: 0 0 48px;
   width: 100%;
 }
 
@@ -209,13 +210,6 @@ a.link-ativo {
   width: 100%;
 }
 
-.conteudo-do-modulo h3 {
-  color: var(--cor5);
-  font-size: 1.5em;
-  margin: 16px auto;
-  text-align: center;
-}
-
 .linha1, .linha2, .linha3 {
   display: flex;
   justify-content: center;
@@ -224,12 +218,11 @@ a.link-ativo {
 }
 
 .linha3 {
-  margin: 8px auto;
   width: 90%;
 }
 
 .linha3 .conteudo-detalhes {
-  padding: 40px 0;
+  padding: 24px 0 40px;
 }
 
 .conteudo-detalhes {
@@ -244,7 +237,7 @@ a.link-ativo {
   width: 48%;
 }
 
-.conteudo-detalhes h4 {
+.conteudo-detalhes h3 {
   margin: 8px auto;
   text-align: center;
 }
@@ -257,21 +250,14 @@ a.link-ativo {
 .links-atividades {
   display: flex;
   flex-direction: column;
-  padding: 0 0 40px 0;
-}
-
-.links-atividades-titulo h3 {
-  color: var(--cor5);
-  font-size: 1.5em;
-  margin: 16px auto;
-  text-align: center;
+  padding: 0 0 16px 0;
 }
 
 .exercicios-e-desafios {
   display: flex;
   justify-content: center;
-  margin: 16px auto;
-  padding: 24px 0;
+  margin: 8px auto;
+  padding: 8px 0 16px;
   width: 70%;
 }
 
@@ -285,7 +271,7 @@ a.link-ativo {
 .div-exercicios, .div-desafios {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   border-radius: 8px;
-  margin: 8px auto;
+  margin: 16px auto;
   padding: 24px;
   text-align: center;
   width: 100%;
@@ -322,7 +308,7 @@ a.link-ativo {
 
 /* módulos - exercícios e desafios */
 .container-lista-desafios, .container-lista-exercicios {
-  margin: 2em auto;
+  margin: 1.5em auto;
   padding: 32px 0;
   width: 90%;
 }
@@ -332,7 +318,7 @@ a.link-ativo {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 8px auto;
-  padding: 0 0 40px 0;
+  padding: 0 0 32px 0;
 }
 
 .lista a {
@@ -347,22 +333,21 @@ a.link-ativo {
 }
 
 .lista a:hover {
-  background-color: rgb(78, 103, 115, 0.100);;
-  border: 1px solid transparent;
+  background-color: rgba(191, 190, 159, 0.500);
+  border: 1px solid var(--cor2);
   font-weight: 500;
 }
 
 
 /* Páginas de exercícios */
 .container-exercicio, .container-desafio {
-  margin: 2em auto;
+  margin: 1.5em auto;
   padding: 32px 0;
   text-align: center;
   width: 80%;
 }
 
 .exercicio, .desafio {
-  /*background-image: linear-gradient(to bottom, rgba(120, 168, 191, 0.600), rgba(120, 168, 191, 0.200));*/
   background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.500), rgba(191, 190, 159, 0.200));
   border-radius: 8px;
   margin-bottom: 32px;
@@ -374,7 +359,7 @@ a.link-ativo {
   padding: 16px;
 }
 
-.exercicio h2{
+.exercicio h2 {
   padding: 16px 0;
   text-align: center;
 }
