@@ -295,7 +295,8 @@ a.link-ativo {
 }
 
 .div-desafios p, .div-exercicios p {
-  font-size: 1.6em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .div-exercicios i {
@@ -364,12 +365,85 @@ a.link-ativo {
   text-align: center;
 }
 
-.exercicio h3, .exercicio p {
-  line-height: 1.7em;
+.exercicio h3, h4, p {
+  line-height: 1.9em;
   margin: auto;
   text-align: left;
   width: 90%;
 }
+
+.exercicio h3, h4 {
+  margin: 8px auto;
+}
+
+mark {
+  background-color: var(--cor2);
+  border-radius: 8px;
+}
+
+pre {
+  margin: auto;
+  text-align: left;
+  width: 90%;
+}
+
+blockquote {
+  line-height: 1.9em;
+  margin: auto;
+  text-align: left;
+  width: 90%;
+}
+
+.exercicio ol, ul, dl {
+  list-style-position: inside;
+  margin-left: 56px;
+  text-align: left;
+}
+
+.exercicio a {
+  color: var(--cor3);
+  text-decoration: none;
+}
+
+.exercicio a:hover {
+  text-decoration: underline;
+}
+
+.exercicio picture img {
+  margin-top: 16px;
+  width: 90%;
+}
+
+.exercicio audio {
+  margin-top: 16px;
+  width: 90%;
+}
+
+
+
+.video-responsivo-1 {
+  margin: 0 16px 16px 16px;
+  padding: 24px;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.video-responsivo-1 video {
+  height: 90%;
+  left: 5%;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+}
+
+.video-responsivo-1 iframe {
+  height: 90%;
+  left: 5%;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+}
+
 
 .material-extra {
   display: flex;
@@ -403,6 +477,7 @@ a.link-ativo {
   color: var(--cor5);
   font-size: 1.2em;
   padding: 24px 0;
+  text-align: center;
 }
 
 .exercicio-03 {
@@ -483,6 +558,10 @@ footer p {
 /* Design Responsivo */
 @media screen and (max-width: 750px) {
   /* Header */
+  header {
+    padding: 16px 0;
+  }
+
   .topnav {
     flex-direction: column;
   }
