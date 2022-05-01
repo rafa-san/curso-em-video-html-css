@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício 07</title>
+  <title>Tags HTML</title>
   <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
@@ -27,38 +27,19 @@
     <a href="../../../modulo5.html">Módulo 5</a>
   </nav>
 
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <h2>Exercício 07: Outras Formatações</h2>
-      
-      <h3>Código-fonte / Pré-formatação</h3>
-      <p>O comando <code>document.getElementById('teste')</code> está inserido dentro da tag code.</p>
-
-      <p>Já o próximo comando, está inserido dentro da tag <mark>code</mark> e da tag <mark>pre</mark>.</p>
-      <pre>
-      <code>
-num = int(input('Digite um número'))
-if num % 2 == 0:
-  print(f'O número {num} é PAR')
-else:
-  print(f'O número {num} é ÍMPAR')
-  print('Fim do programa')
-      </code></pre>
-
-      <h3>Citações Simples</h3>
-      <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido</q>.</p>
-      
-      <h3>Citações Completas</h3>
-      <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-      <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
-      A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-      </blockquote>
-
-      <h3>Abreviações</h3>
-      <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-      
-      <h3>Texto Invertido</h3>
-      <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+  <main class="container-desafio">
+    <section class="desafio">
+      <h1>Tags em HTML</h1>
+      <p>Em HTML5, podemos inserir os elementos da lista a seguir. Passe o mouse sobre os termos para descobir qual tag deverá utilizar em cada caso</p>
+      <ul type="square">
+        <li title="Use a tag &lt;p&gt;">Parágrafos</li>
+        <li title="Use as tags que vão do &lt;h6&gt; até o &lt;h1&gt;">Títulos</li>
+        <li title="Use a tag &lt;img&gt;">Imagens</li>
+        <li title="Use a tag &lt;abbr&gt;">Abreviações</li>
+        <li title="Use a tag &lt;code&gt;">Códigos-fonte</li>
+        <li title="Use a tag &lt;ol&gt;">Listas numeradas</li>
+        <li title="Use a tag &lt;ul&gt;">Listas com demarcadores</li>
+      </ul>
     </section>
 
     <section class="material-extra">
@@ -69,16 +50,16 @@ else:
         </a>
       </article>
       <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01" target="_blank">
           <i class="fa solid fa-file-code"></i>
-          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+          <p>Tenha acesso à descrição de cada desafio aqui.</p>
         </a>
       </article>
     </section>
   </main>
 
   <section class="botao-voltar">
-    <a href="../../../modulo1-exercicios.html">
+    <a href="../../../modulo1-desafios.html">
       <i class="fas fa-arrow-left" title="Voltar"></i>
     </a>
   </section>
@@ -95,6 +76,6 @@ else:
   </footer>
 
   <script src="../../../scripts/menu-responsivo.js"></script>
+  
 </body>
-
 </html>

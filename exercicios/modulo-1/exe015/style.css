@@ -1,23 +1,25 @@
-.container-exercicio {
-  background-color: lightgoldenrodyellow;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+.exercicio {
+  background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.500), rgba(191, 190, 159, 0.200));
+  border-radius: 8px;
 }
 
-.container-exercicio h1 {
-  background-color: goldenrod;
-  color:maroon;
-  text-decoration: underline;
+#h3 {
+  background-color: #BFBE9F;
+  color: #73484D;
+  border-radius: 8px;
+  font-size: 1.5em;
+  text-align: center;
 }
 
-.container-exercicio h2 {
-  color: darkred;
+.exercicio h4 {
+  color: #73484D;
+  font-size: 1.2em;
 }
 
-.container-exercicio p {
+.exercicio p {
   text-align: justify;
 }
 
-.container-exercicio .link {
+.exercicio .link {
   text-align: right;
 }

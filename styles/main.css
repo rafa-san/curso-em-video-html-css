@@ -355,12 +355,12 @@ a.link-ativo {
   padding: 48px 0;
 }
 
-.exercicio {
+.exercicio, .desafio {
   color: var(--cor5);
   padding: 16px;
 }
 
-.exercicio h2 {
+.exercicio h2, .desafio h2 {
   padding: 16px 0;
   text-align: center;
 }
@@ -505,6 +505,23 @@ blockquote {
 .img-exercicio-03 {
   height: 253px;
   max-width: 180px;
+}
+
+
+/* Páginas dos Desafios */
+.desafio h3, h4, p {
+  line-height: 1.9em;
+  margin: auto;
+  text-align: left;
+  width: 90%;
+}
+
+.desafio h3, h4 {
+  margin: 8px auto;
+}
+
+.desafio img {
+  border: 1px solid black;
 }
 
 
