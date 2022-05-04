@@ -5,14 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vídeo 2</title>
-  <link rel="stylesheet" href="/styles/main.css">
-  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+
+  <style>
+    iframe {
+      display: block;
+      margin: auto;
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <a href="/index.html">
+    <a href="../../../index.html">
       <h1>Curso de HTML5 + CSS3</h1>
     </a>
   </header>
@@ -21,21 +27,28 @@
     <a href="#" class="icon" onclick="menu()">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="/../modulo1.html">Módulo 1</a>
-    <a href="/../modulo2.html">Módulo 2</a>
-    <a href="/../modulo3.html">Módulo 3</a>
-    <a href="/../modulo4.html">Módulo 4</a>
-    <a href="/../modulo5.html">Módulo 5</a>
+    <a href="../../../modulo1.html">Módulo 1</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
+    <a href="../../../modulo3.html">Módulo 3</a>
+    <a href="../../../modulo4.html">Módulo 4</a>
+    <a href="../../../modulo5.html">Módulo 5</a>
   </nav>
 
   <main class="container-desafio">
     <section class="desafio">
-      <h1>Curso Grátis de JavaScript e ECMAScript para Iniciantes</h1>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_blank" rel="external">
-        <p>Veja o curso completo</p>
-      </a>
-      <a href="index.html" rel="prev"><img src="imagens/voltar.png" alt="Seta direcionada para a esquerda"></a>
+      <h2>Curso de JavaScript</h2>
+
+      <div class="video-responsivo-1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <p>
+        <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1" target="_blank" rel="external">Conheça o curso completo clicando aqui!</a>
+      </p>
+
+      <p>
+        <a href="desafio09.html" rel="prev">Voltar</a>
+      </p>
     </section>
 
     <section class="material-extra">
@@ -46,16 +59,18 @@
         </a>
       </article>
       <article>
-        <a href="">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01" target="_blank">
           <i class="fa solid fa-file-code"></i>
-          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+          <p>Tenha acesso à descrição de cada desafio aqui.</p>
         </a>
       </article>
     </section>
   </main>
 
   <section class="botao-voltar">
-    <a href="/modulo1-desafios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
+    <a href="../../../modulo1-desafios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
   </section>
 
   <footer>
@@ -69,7 +84,7 @@
     </section>
   </footer>
 
-  <script src="/scripts/menu-responsivo.js"></script>
+  <script src="../../../scripts/menu-responsivo.js"></script>
 </body>
 
 </html>

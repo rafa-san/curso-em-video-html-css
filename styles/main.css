@@ -368,7 +368,7 @@ a.link-ativo {
 .exercicio h3, h4, p {
   line-height: 1.9em;
   margin: auto;
-  text-align: left;
+  text-align: justify;
   width: 90%;
 }
 
@@ -379,6 +379,7 @@ a.link-ativo {
 mark {
   background-color: var(--cor2);
   border-radius: 8px;
+  padding: 2px;
 }
 
 pre {
@@ -395,6 +396,7 @@ blockquote {
 }
 
 .exercicio ol, ul, dl {
+  line-height: 1.5em;
   list-style-position: inside;
   margin-left: 56px;
   text-align: left;
@@ -509,10 +511,10 @@ blockquote {
 
 
 /* Páginas dos Desafios */
-.desafio h3, h4, p {
+.desafio h3, h4 {
   line-height: 1.9em;
   margin: auto;
-  text-align: left;
+  text-align: justify;
   width: 90%;
 }
 
@@ -520,9 +522,73 @@ blockquote {
   margin: 8px auto;
 }
 
-.desafio img {
-  border: 1px solid black;
+.desafio p {
+  line-height: 1.9em;
+  margin: auto;
+  text-align: center;
+  width: 90%;
 }
+
+.desafio img {
+  margin-top: 8px;
+}
+
+/*
+.desafio ol, ul {
+  line-height: 1.5em;
+  list-style-position: outside;
+  margin-left: 56px;
+  text-align: center;
+}
+*/
+
+.colunas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.coluna-1, .coluna-2, .coluna-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+  padding: 0 8px;
+  width: 30%;
+}
+
+.colunas h3 {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.desafio-05-lista {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.desafio-06-lista {
+  list-style-position: inside;
+  text-align: left;
+  width: 30%;
+}
+
+.desafio picture img {
+  margin-top: 16px;
+  width: 90%;
+}
+
+.desafio a {
+  color: var(--cor3);
+  text-decoration: none;
+}
+
+.desafio a:hover {
+  text-decoration: underline;
+}
+
+
 
 
 /* footer */
@@ -644,5 +710,29 @@ footer p {
 
   .material-extra article {
     width: 100%;
+  }
+
+  .exercicio ol, ul, dl {
+    margin-left: 24px;
+  }
+
+  /* Páginas de desafios */
+  .colunas {
+    flex-direction: column;
+  }
+
+  .coluna-1, .coluna-2, .coluna-3 {
+    width: 100%;
+  }
+
+  .desafio ol, ul {
+    margin-left: 24px;
+  }
+
+  .desafio-06-lista {
+    list-style-position: inside;
+    margin: auto;
+    text-align: left;
+    width: 90%;
   }
 }

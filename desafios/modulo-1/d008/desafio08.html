@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Navegação</title>
-  <link rel="stylesheet" href="/styles/main.css">
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+
+  <style>
+    .desafio p {
+      text-align: justify;
+    }
+  </style>
 </head>
 
-<body class="pagina-azul">
+<body>
   <header>
-    <a href="/index.html">
+    <a href="../../../index.html">
       <h1>Curso de HTML5 + CSS3</h1>
     </a>
   </header>
@@ -21,19 +26,20 @@
     <a href="#" class="icon" onclick="menu()">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="/../modulo1.html">Módulo 1</a>
-    <a href="/../modulo2.html">Módulo 2</a>
-    <a href="/../modulo3.html">Módulo 3</a>
-    <a href="/../modulo4.html">Módulo 4</a>
-    <a href="/../modulo5.html">Módulo 5</a>
+    <a href="../../../modulo1.html">Módulo 1</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
+    <a href="../../../modulo3.html">Módulo 3</a>
+    <a href="../../../modulo4.html">Módulo 4</a>
+    <a href="../../../modulo5.html">Módulo 5</a>
   </nav>
 
   <main class="container-desafio">
     <section class="desafio">
-      <h1>Página Azul</h1>
-      <p>Você agora está na área azul. Você acessou clicando no primeiro link da página principal.</p>
+      <h2>8. Desafio da Navegação</h2>
+      <p>Esta é a página principal. A partir dela você pode acessar as outras páginas através dos links a seguir:</p>
       <ul>
-        <li><a href="index.html">Voltar para a página cinza</a></li>
+        <li><a href="desafio08-a.html">Acessar a página 2</a></li>
+        <li><a href="desafio08-b.html">Acessar a página 3</a></li>
       </ul>
     </section>
 
@@ -45,16 +51,18 @@
         </a>
       </article>
       <article>
-        <a href="">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01" target="_blank">
           <i class="fa solid fa-file-code"></i>
-          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+          <p>Tenha acesso à descrição de cada desafio aqui.</p>
         </a>
       </article>
     </section>
   </main>
 
   <section class="botao-voltar">
-    <a href="/modulo1-desafios.html"><img src="/imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar para Exercícios"></a>
+    <a href="../../../modulo1-desafios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
   </section>
 
   <footer>
@@ -68,7 +76,7 @@
     </section>
   </footer>
 
-  <script src="/scripts/menu-responsivo.js"></script>
+  <script src="../../../scripts/menu-responsivo.js"></script>
 </body>
 
 </html>
