@@ -221,10 +221,6 @@ a.link-ativo {
   width: 90%;
 }
 
-.linha3 .conteudo-detalhes {
-  padding: 24px 0 40px;
-}
-
 .conteudo-detalhes {
   background-color: rgba(191, 190, 159, 0.200);
   border: 2px solid transparent;
@@ -245,6 +241,10 @@ a.link-ativo {
 .conteudo-detalhes ul {
   list-style-position: inside;
   margin-left: 16px;
+}
+
+.linha3 .conteudo-detalhes {
+  padding: 24px 0 40px;
 }
 
 .links-atividades {
@@ -287,7 +287,7 @@ a.link-ativo {
   transition: all 0.3s ease;
 }
 
-.div-desafios i {
+.div-desafios i, .div-exercicios i {
   font-size: 4em;
   margin: 8px 0;
   text-align: center;
@@ -297,13 +297,6 @@ a.link-ativo {
 .div-desafios p, .div-exercicios p {
   font-size: 1.5em;
   text-align: center;
-}
-
-.div-exercicios i {
-  font-size: 4em;
-  margin: 8px 0;
-  text-align: center;
-  width: 100%;
 }
 
 
@@ -340,7 +333,9 @@ a.link-ativo {
 }
 
 
-/* Páginas de exercícios */
+/* Páginas de exercícios e desafios*/
+
+/* Geral */
 .container-exercicio, .container-desafio {
   margin: 1.5em auto;
   padding: 32px 0;
@@ -351,13 +346,9 @@ a.link-ativo {
 .exercicio, .desafio {
   background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.500), rgba(191, 190, 159, 0.200));
   border-radius: 8px;
-  margin-bottom: 32px;
-  padding: 48px 0;
-}
-
-.exercicio, .desafio {
   color: var(--cor5);
-  padding: 16px;
+  margin-bottom: 32px;
+  padding: 16px 0;
 }
 
 .exercicio h2, .desafio h2 {
@@ -365,15 +356,42 @@ a.link-ativo {
   text-align: center;
 }
 
-.exercicio h3, h4, p {
-  line-height: 1.9em;
-  margin: auto;
-  text-align: justify;
+.exercicio a, .desafio a {
+  color: var(--cor3);
+  text-align: left;
+  text-decoration: none;
+}
+
+.exercicio a:hover, .desafio a:hover {
+  text-decoration: underline;
+}
+
+.exercicio picture img, .desafio picture img {
+  margin-top: 16px;
   width: 90%;
 }
 
-.exercicio h3, h4 {
-  margin: 8px auto;
+.video-responsivo {
+  margin: 0 16px 16px 16px;
+  padding: 24px;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.video-responsivo video {
+  height: 90%;
+  left: 5%;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+}
+
+.video-responsivo iframe {
+  height: 90%;
+  left: 5%;
+  position: absolute;
+  top: 5%;
+  width: 90%;
 }
 
 mark {
@@ -395,6 +413,14 @@ blockquote {
   width: 90%;
 }
 
+/* Só exercícios */
+.exercicio h3, .exercicio h4, .exercicio p {
+  line-height: 1.9em;
+  margin: 8px auto;
+  text-align: left;
+  width: 90%;
+}
+
 .exercicio ol, ul, dl {
   line-height: 1.5em;
   list-style-position: inside;
@@ -402,51 +428,87 @@ blockquote {
   text-align: left;
 }
 
-.exercicio a {
-  color: var(--cor3);
-  text-decoration: none;
-}
-
-.exercicio a:hover {
-  text-decoration: underline;
-}
-
-.exercicio picture img {
-  margin-top: 16px;
-  width: 90%;
-}
-
 .exercicio audio {
   margin-top: 16px;
   width: 90%;
 }
 
-
-
-.video-responsivo-1 {
-  margin: 0 16px 16px 16px;
-  padding: 24px;
-  padding-bottom: 50%;
-  position: relative;
+.exercicio-03 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.video-responsivo-1 video {
-  height: 90%;
-  left: 5%;
-  position: absolute;
-  top: 5%;
+.exercicio-03 div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px;
+  padding: 16px;
+  width: 240px;
+}
+
+.exercicio-03 div p {
+  margin: 8px 0 24px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.exercicio-03-img {
+  height: 253px;
+  max-width: 180px;
+}
+
+/* Só desafios */
+.desafio h3, .desafio h4, .desafio p {
+  line-height: 1.9em;
+  margin: 8px auto;
+  text-align: center;
   width: 90%;
 }
 
-.video-responsivo-1 iframe {
-  height: 90%;
-  left: 5%;
-  position: absolute;
-  top: 5%;
-  width: 90%;
+p.alinhar-a-esquerda {
+  text-align: left;
 }
 
+.desafio img {
+  margin-top: 8px;
+}
 
+.colunas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.coluna-1, .coluna-2, .coluna-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+  padding: 0 8px;
+  width: 30%;
+}
+
+.colunas h3 {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.desafio-05-lista {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.desafio-06-lista {
+  list-style-position: inside;
+  text-align: left;
+  width: 30%;
+}
+
+/* Material Extra */
 .material-extra {
   display: flex;
   margin: 16px auto;
@@ -482,114 +544,6 @@ blockquote {
   text-align: center;
 }
 
-.exercicio-03 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.exercicio-03 div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 24px;
-  padding: 16px;
-  width: 240px;
-}
-
-.exercicio-03 div p {
-  margin: 8px 0 24px 0;
-  text-align: center;
-  width: 100%;
-}
-
-.img-exercicio-03 {
-  height: 253px;
-  max-width: 180px;
-}
-
-
-/* Páginas dos Desafios */
-.desafio h3, h4 {
-  line-height: 1.9em;
-  margin: auto;
-  text-align: justify;
-  width: 90%;
-}
-
-.desafio h3, h4 {
-  margin: 8px auto;
-}
-
-.desafio p {
-  line-height: 1.9em;
-  margin: auto;
-  text-align: center;
-  width: 90%;
-}
-
-.desafio img {
-  margin-top: 8px;
-}
-
-/*
-.desafio ol, ul {
-  line-height: 1.5em;
-  list-style-position: outside;
-  margin-left: 56px;
-  text-align: center;
-}
-*/
-
-.colunas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 8px 0;
-}
-
-.coluna-1, .coluna-2, .coluna-3 {
-  display: flex;
-  flex-direction: column;
-  margin: 16px auto;
-  padding: 0 8px;
-  width: 30%;
-}
-
-.colunas h3 {
-  margin-top: 16px;
-  text-align: center;
-}
-
-.desafio-05-lista {
-  list-style-position: inside;
-  text-align: left;
-}
-
-.desafio-06-lista {
-  list-style-position: inside;
-  text-align: left;
-  width: 30%;
-}
-
-.desafio picture img {
-  margin-top: 16px;
-  width: 90%;
-}
-
-.desafio a {
-  color: var(--cor3);
-  text-decoration: none;
-}
-
-.desafio a:hover {
-  text-decoration: underline;
-}
-
-
-
 
 /* footer */
 footer {
@@ -622,7 +576,7 @@ footer p {
 }
 
 
-/* Estilo do botão voltar */
+/* Botão Voltar */
 .botao-voltar {
   margin: 2em auto;
   text-align: center;
@@ -693,7 +647,7 @@ footer p {
   }
 
   .exercicios-e-desafios a {
-    width: 70%;
+    width: 100%;
   }
 
 
@@ -715,6 +669,7 @@ footer p {
   .exercicio ol, ul, dl {
     margin-left: 24px;
   }
+
 
   /* Páginas de desafios */
   .colunas {
