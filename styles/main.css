@@ -424,8 +424,9 @@ blockquote {
 .exercicio ol, ul, dl {
   line-height: 1.5em;
   list-style-position: inside;
-  margin-left: 56px;
+  margin: auto;
   text-align: left;
+  width: 90%;
 }
 
 .exercicio audio {
