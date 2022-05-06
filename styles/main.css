@@ -480,21 +480,27 @@ p.alinhar-a-esquerda {
 .colunas {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin: auto;
   padding: 8px 0;
+  width: 77%;
 }
 
-.coluna-1, .coluna-2, .coluna-3 {
+.coluna-1, .coluna-2 {
   display: flex;
   flex-direction: column;
-  margin: 16px auto;
+  margin: 8px auto;
   padding: 0 8px;
-  width: 30%;
+  width: 50%;
 }
 
 .colunas h3 {
-  margin-top: 16px;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.colunas ul {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -503,7 +509,7 @@ p.alinhar-a-esquerda {
   text-align: left;
 }
 
-.desafio-06-lista {
+ul .desafio-06-lista {
   list-style-position: inside;
   text-align: left;
   width: 30%;
@@ -677,18 +683,20 @@ footer p {
     flex-direction: column;
   }
 
-  .coluna-1, .coluna-2, .coluna-3 {
+  .coluna-1, .coluna-2 {
     width: 100%;
+  }
+
+  .colunas h3 {
+    padding-left: 0;
   }
 
   .desafio ol, ul {
     margin-left: 24px;
   }
 
-  .desafio-06-lista {
-    list-style-position: inside;
+  ul .desafio-06-lista {
     margin: auto;
-    text-align: left;
     width: 90%;
   }
 }
