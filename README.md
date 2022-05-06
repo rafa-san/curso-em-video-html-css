@@ -2,7 +2,7 @@
 
 <p>Meu objetivo foi organizar em forma de site todos os desafios e exercícios feitos ao longo do curso de HTML5 + CSS3, do professor Gustavo Guanabara.</p>
 
-<p>Este projeto nasceu de forma bem espontânea e despretensiosa. Eu queria simplesmente criar uma forma de acessar o conteúdo sem ter de ficar abrindo página por página ou sem ter de ficar "navegando" no Explorador de Arquivos do Windows. Em outras palavras, eu queria muito que esse conteúdo estivesse linkado.</p>
+<p>Este projeto nasceu de uma maneira bem espontânea e despretensiosa. Eu queria simplesmente criar um jeito de acessar o material sem ter de ficar abrindo página por página ou sem ter de ficar "navegando" no Explorador de Arquivos do Windows. Em outras palavras, eu queria muito que esse conteúdo estivesse linkado.</p>
 
 <p>No início, criei páginas bem simples, usando somente HTML. Depois comecei a acrescentar um pouco de CSS básico. Foi então que percebi que eu precisava escolher um caminho, pois estava perdendo tempo fazendo as coisas de forma improvisada: ou eu faria algo básico ou faria algo mais desafiador. Escolhi a segunda opção.</p>
 
