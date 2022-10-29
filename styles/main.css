@@ -335,7 +335,7 @@ a.link-ativo {
 }
 
 
-/* Páginas de exercícios e desafios*/
+/* Páginas de exercícios e desafios */
 
 /* Geral */
 .container-exercicio, .container-desafio {
@@ -585,7 +585,7 @@ footer p {
 }
 
 
-/* Botão Voltar */
+/* Botão voltar */
 .botao-voltar {
   margin: 2em auto;
   text-align: center;
@@ -601,7 +601,7 @@ footer p {
 }
 
 
-/* Design Responsivo */
+/* Design responsivo */
 @media screen and (max-width: 750px) {
   /* Header */
   header {
@@ -660,7 +660,7 @@ footer p {
   }
 
 
-  /* módulos - exercícios e desafios */
+  /* Módulos - exercícios e desafios */
   .lista a {
     width: 100%;
   }
