@@ -1,5 +1,7 @@
 /* Geral */
 
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -133,7 +135,7 @@ header a {
 }
 
 
-/* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html*/
+/* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html */
 a.link-ativo {
   text-decoration: underline white 2px;
 }
@@ -300,7 +302,7 @@ a.link-ativo {
 }
 
 
-/* módulos - exercícios e desafios */
+/* Módulos - exercícios e desafios */
 .container-lista-desafios, .container-lista-exercicios {
   margin: 1.5em auto;
   padding: 32px 0;
@@ -515,7 +517,7 @@ ul .desafio-06-lista {
   width: 30%;
 }
 
-/* Material Extra */
+/* Material extra */
 .material-extra {
   display: flex;
   margin: 16px auto;
@@ -626,7 +628,7 @@ footer p {
   }
 
 
-  /* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html*/
+  /* modulo1.html modulo2.html modulo3.html modulo4.html modulo5.html */
   .curso-em-video img {
     margin: 16px auto;
   }
