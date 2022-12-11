@@ -358,6 +358,14 @@ a.link-ativo {
   text-align: center;
 }
 
+.exercicio h3, .desafio h3 {
+  padding: 10px 0;
+}
+
+.exercicio h4, .desafio h4 {
+  padding: 10px 0;
+}
+
 .exercicio a, .desafio a {
   color: var(--cor3);
   text-align: left;
