@@ -21,17 +21,17 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="modulo1.html">Módulo 1</a>
-    <a href="modulo2.html">Módulo 2</a>
-    <a href="modulo3.html">Módulo 3</a>
-    <a href="modulo4.html">Módulo 4</a>
-    <a href="modulo5.html">Módulo 5</a>
+    <a href="modulo2.html" class="link-ativo">Módulo 2</a>
+    <a href="#">Módulo 3</a>
+    <a href="#">Módulo 4</a>
+    <a href="#">Módulo 5</a>
   </nav>
 
   <main class="container-modulo">
-    <h2 class="subtitulo">Módulo 2</h2>
+    <h2 class="subtitulo">Aulas do Módulo 2</h2>
 
     <section class="links-curso">
-      <h3>Acesse o módulo 2 no site do Curso em Vídeo ou no YouTube.</h3>
+      <p>As aulas estão disponíveis no site do Curso em Vídeo e também no YouTube.</p>
       <article class="links-curso-imagens">
         <div class="curso-em-video">
           <a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external">
@@ -46,33 +46,98 @@
       </article>
     </section>
 
-    <section class="o-que-voce-vai-aprender">
-      <h3>O que você vai aprender nesse módulo</h3>
-      <ul>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-        <li>Lorem ipsum dolor sit amet consectetur</li>
-      </ul>
+    <section class="conteudo-do-modulo">
+      <h2 class="subtitulo">Conteúdo do Módulo 2</h2>
+      <article class="linha1">
+        <div class="conteudo-detalhes">
+          <h3>Estudo das Cores</h3>
+          <ul>
+            <li>A Importância que as Cores Possuem</li>
+            <li>Aprenda a Escolher Uma Boa Cor para o Seu Projeto</li>
+            <li>Fundamentos Básicos do Design</li>
+            <li>A Emoção das Cores</li>
+            <li>Psicologia das Cores</li>
+            <li>A Importância das Cores</li>
+            <hr>
+            <li>Psicologia das Cores</li>
+            <li>Representando Cores com CSS</li>
+            <li>Harmonia de Cores</li>
+            <li>Paleta de Cores</li>
+            <li>Como Criar Degradê com CSS</li>
+          </ul>
+        </div>
+
+        <div class="conteudo-detalhes">
+          <h3>Tipografia</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div> 
+      </article>
+
+      <article class="linha2">
+        <div class="conteudo-detalhes">
+          <h3>CSS id e class</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="conteudo-detalhes">
+          <h3>Modelo de Caixas</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="linha3">
+        <div class="conteudo-detalhes">
+          <ul>
+          <h3>Criando um Site do Zero</h3>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </article>
+        
     </section>
 
     <section class="links-atividades">
-      <div class="informacao">
-        <h3>Exercícios e Desafios</h3>
+      <div class="links-atividades-titulo">
+        <h2 class="subtitulo">Exercícios e Desafios</h2>
       </div>
 
       <div class="exercicios-e-desafios">
-        <a href="modulo2-exercicios.html">
+        <a href="modulo1-exercicios.html">
           <div class="div-exercicios">
-            <i class="fa fa-solid fa-pencil"></i>
+            <i class="fa solid fa-laptop-code"></i>
             <p>Exercícios</p>
           </div>
         </a>
-        <a href="modulo2-desafios.html">
+        <a href="modulo1-desafios.html">
           <div class="div-desafios">
             <i class="fa solid fa-code"></i>
             <p>Desafios</p>
@@ -83,17 +148,23 @@
   </main>
 
   <section class="botao-voltar">
-    <a href="index.html"><img src="imagens/circle-arrow-left-solid.svg" alt="Seta voltada para a esquerda" title="Voltar"></a>
+    <a href="index.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
   </section>
   
   <footer>
     <p>Desenvolvido por: Rafa Santana</p>
 
     <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><img src="imagens/icone-github.png" alt="Logo do GitHub"></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank"><img src="imagens/icone-linkedin.png" alt="Logo do LinkedIn"></a>
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
     </section>
   </footer>
+
+  <script src="scripts/menu-responsivo.js"></script>
 </body>
 
 </html>
