@@ -4,9 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 1 - Exercício 07</title>
+  <title>Módulo 2 - Exercício 16</title>
   <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <style>
+    h3.exe1{
+      background-color: #bfbe9f;
+      border-radius: 8px;
+      color: white;
+      font-size: 1.3em;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,7 +29,7 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="../../../modulo1.html">Módulo 1</a>
-    <a href="#">Módulo 2</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
     <a href="#">Módulo 3</a>
     <a href="#">Módulo 4</a>
     <a href="#">Módulo 5</a>
@@ -27,32 +37,28 @@
 
   <main class="container-exercicio">
     <section class="exercicio">
-      <h2>Exercício 07: Outras Formatações</h2>
-      
-      <h3>Código-Fonte / Pré-Formatação</h3>
-      <p>O comando <code>document.getElementById('teste')</code> está inserido dentro da tag code.</p>
+      <h2>Exercício 16: Cores em CSS3</h2>
 
-      <p>Já o próximo comando, está inserido dentro da tag <mark>code</mark> e da tag <mark>pre</mark>.</p>
-      <pre>
-      <code>
-const cars = ["Tesla", "BMW"];
-alert(cars[0]);
-      </code></pre>
-      
-      <h3>Citações Simples</h3>
-      <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido</q>.</p>
-      
-      <h3>Citações Completas</h3>
-      <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-      <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
-      A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-      </blockquote>
+      <p>Nos quatro exemplos abaixo, as cores resultantes são exatamente as mesmas, mas o formato de representação muda conforme o padrão escolhido.</p>
 
-      <h3>Abreviações</h3>
-      <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-      
-      <h3>Texto Invertido</h3>
-      <p><bdo dir="rtl" title="Estou aprendendo a criar coisas em HTML">Estou aprendendo a criar coisas em HTML.</bdo></p>
+      <h3 class="exe1">Exemplo 1: Título colorido usando a cor pelo nome</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
+
+      <h3>Exemplo de cores</h3>
+      <p>Já esse está usando cores pelo código Hexadecimal.</p>
+
+      <h3>Exemplo de cores</h3>
+      <p>Este outro está colorido usando códigos RGB (red, green, blue).</p>
+
+      <h3>Exemplo de cores</h3>
+      <p>Este outro aqui está usando códigos HSL (hue, saturation, lightness).</p>
+
+      <hr>
+
+      <p>Também é possível usar transparência, usando o formato RGBA (red, green, blue, alpha).</p>
+
+      <h2 style="background-color:rgba(0, 0, 139, 0.5);color:white;">Exemplo de cores</h2>
+      <p>Nesse título, o fundo azul teve sua transparência configurada para 50%.</p>
     </section>
 
     <section class="material-extra">
@@ -72,14 +78,14 @@ alert(cars[0]);
   </main>
 
   <section class="botao-voltar">
-    <a href="../../../modulo1-exercicios.html">
+    <a href="../../../modulo2-exercicios.html">
       <i class="fas fa-arrow-left" title="Voltar"></i>
     </a>
   </section>
 
   <footer>
     <p>Desenvolvido por: Rafa Santana</p>
-
+    
     <section class="contato">
       <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
       <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">

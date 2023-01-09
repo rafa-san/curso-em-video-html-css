@@ -30,6 +30,7 @@ body {
 /* Header */
 header {
   background-color: var(--cor4);
+  padding: 16px 0;
   text-align: center;
   width: 100%;
 }
@@ -114,6 +115,7 @@ header a {
 }
 
 #em-breve {
+  cursor: auto;
   position: relative;
   text-align: center;
 }
@@ -130,6 +132,7 @@ header a {
 }
 
 .img-em-breve {
+  cursor: auto;
   opacity: 0.4;
 }
 
@@ -567,10 +570,12 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
+  padding: 16px 0;
   width: 100%;
 }
 
 footer p {
+  font-size: 1.2em;
   padding: 4px 0;
   text-align: center;
   width: 100%;
