@@ -356,7 +356,7 @@ a.link-ativo {
 }
 
 .exercicio h2, .desafio h2 {
-  padding: 16px 0;
+  padding: 16px 8px;
   text-align: center;
 }
 

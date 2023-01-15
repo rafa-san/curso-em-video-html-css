@@ -4,17 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 2 - Exercício 16</title>
+  <title>Módulo 2 - Exercício 01</title>
   <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    h3.exe1{
-      background-color: #bfbe9f;
+    .exe-rgba {
       border-radius: 8px;
-      color: white;
-      font-size: 1.3em;
       padding: 8px;
-      text-align: center;
     }
   </style>
 </head>
@@ -37,28 +33,29 @@
 
   <main class="container-exercicio">
     <section class="exercicio">
-      <h2>Exercício 16: Cores em CSS3</h2>
+      <h2>Exercício 01: Representando Cores em CSS3</h2>
 
       <p>Nos quatro exemplos abaixo, as cores resultantes são exatamente as mesmas, mas o formato de representação muda conforme o padrão escolhido.</p>
 
-      <h3 class="exe1">Exemplo 1: Título colorido usando a cor pelo nome</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
+      <h3>Exemplo 1: Parágrafo colorido usando a cor pelo nome</h3>
+      <p style="color: rosybrown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
 
-      <h3>Exemplo de cores</h3>
-      <p>Já esse está usando cores pelo código Hexadecimal.</p>
+      <h3>Exemplo 2: Parágrafo colorido usando a cor pelo código Hexadecimal</h3>
+      <p style="color: #bc8f8f">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
 
-      <h3>Exemplo de cores</h3>
-      <p>Este outro está colorido usando códigos RGB (red, green, blue).</p>
+      <h3>Exemplo 3: Parágrafo colorido usando a cor pelo código RGB (red, green, blue)</h3>
+      <p style="color: rgb(188, 143, 143)">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
 
-      <h3>Exemplo de cores</h3>
-      <p>Este outro aqui está usando códigos HSL (hue, saturation, lightness).</p>
+      <h3>Exemplo 4: Parágrafo colorido usando a cor pelo código HSL (hue, saturation, lightness)</h3>
+      <p style="color: hsl(0, 25%, 65%)">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus, eligendi molestiae cum ea, in praesentium quibusdam ipsa eius, voluptas nemo illo magni. Corrupti rem iure aspernatur illum doloremque quos error labore? Natus sequi deserunt maxime voluptate illum tempore perferendis?</p>
 
-      <hr>
+      <h3>RGBA</h3>
 
-      <p>Também é possível usar transparência, usando o formato RGBA (red, green, blue, alpha).</p>
+      <p>Também é possível usar transparência usando o formato RGBA (red, green, blue, alpha).</p>
 
-      <h2 style="background-color:rgba(0, 0, 139, 0.5);color:white;">Exemplo de cores</h2>
-      <p>Nesse título, o fundo azul teve sua transparência configurada para 50%.</p>
+      <p class="exe-rgba" style="background-color:rgb(191, 190, 159);opacity: 0.5;">Neste parágrafo, tanto o fundo quanto o texto tiveram suas transparências configuradas para 50%. Aqui não foi usado o formato RGBA e a visualização do texto foi bem prejudicada.</p>
+
+      <p class="exe-rgba" style="background-color:rgba(191, 190, 159, 0.5);">Já nesse parágrafo, foi usado o formato RGBA e a transparência de 50% foi aplicada somente ao fundo e o texto manteve sua configuração original.</p>
     </section>
 
     <section class="material-extra">
