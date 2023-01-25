@@ -4,17 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício 017</title>
+  <title>Módulo 2 - Exercício 04</title>
+  <link rel="stylesheet" href="../../../styles/main.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <style>
+    .conteudo h2, .conteudo h3 {
+      font-family: "Brush Script MT", cursive;
+      margin: auto;
+      padding: 8px 0;
+      text-align: left;
+      width: 90%;
+    }
+
+    .conteudo p {
+      font-family: "Courier New", 'Courier New', Courier, monospace;
+    }
+  </style>
 </head>
 
-<body style="font: 14pt Arial;">
-  <h1>Alinhamento de textos usando CSS</h1>
-  <p style="text-align: left;">Este primeiro parágrafo terá o alinhamento padrão, à esquerda.</p>
-  <p style="text-align: right;">O segundo parágrafo ficará alinhado à direita.</p>
-  <p style="text-align: center;">O terceiro parágrafo terá alinhamento centralizado.</p>
-  <p style="text-align: justify;">O último parágrafo terá o alinhamento justificado. Para que você perceba isso, terei que colocar um texto um pouco maior. Caso você não perceba que o alinhamento está sendo feito nas duas laterais, tente diminuir um pouco o tamanho do seu navegador. Esse tipo de alinhamento é bastante utilizado para textos longos e grandes parágrafos, para dar uma sensação de simetria. Agora eu já não sei mais o que escrever, mas vou continuar para que seu texto fique grande o suficiente para que você possa ver o alinhamento justificado. Nunca pensei que seria tão difícil ficar escrevendo coisas sem sentido só pra que uma explicação faça um sentido mínimo. Já chega, pra mim já deu! Espero que você tenha conseguido entender. </p>
+<body>
+  <header>
+    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+  </header>
 
-  
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="../../../modulo1.html">Módulo 1</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
+    <a href="#">Módulo 3</a>
+    <a href="#">Módulo 4</a>
+    <a href="#">Módulo 5</a>
+  </nav>
+
+  <main class="container-exercicio">
+    <section class="exercicio">
+      <h2>Exercício 04: Web Safe Font Combinations</h2>
+      <div class="container">
+        <div class="conteudo">
+          <h2>Título: Lorem ipsum dolor sit amet</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, deserunt. Voluptate sed delectus nobis enim mollitia illo, perspiciatis odio! Delectus debitis iure tempora doloremque? Quasi fuga tenetur doloribus consequuntur inventore magni ad. Hic tempore animi, culpa facilis minima reprehenderit officia laborum? Reiciendis aliquam, similique a optio cupiditate laborum dolorem consequuntur.</p>
+          <h3>Subtítulo: Lorem ipsum dolor sit amet</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, nisi voluptatem inventore dolore recusandae corporis quam, molestiae maxime, possimus eos autem. At deleniti exercitationem, facilis libero, deserunt fugiat et quibusdam odio tempore unde fugit dolore voluptas maxime quod repellendus necessitatibus quos aliquam optio hic enim magni placeat, earum eos eligendi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="../../../modulo2-exercicios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+    
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="../../../scripts/menu-responsivo.js"></script>
 </body>
 
 </html>

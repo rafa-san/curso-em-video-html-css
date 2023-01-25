@@ -273,6 +273,7 @@ a.link-ativo {
 }
 
 .div-exercicios, .div-desafios {
+  /*background-image: linear-gradient(to bottom, rgb(78, 103, 115), #bf8c91);*/
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   border-radius: 8px;
   margin: 16px auto;
