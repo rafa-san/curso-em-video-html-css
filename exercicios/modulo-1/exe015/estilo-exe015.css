@@ -1,23 +1,12 @@
-.exercicio {
-  background-image: linear-gradient(to bottom, rgba(191, 190, 159, 0.500), rgba(191, 190, 159, 0.200));
-  border-radius: 8px;
-}
-
-#h3 {
-  background-color: #BFBE9F;
-  color: #73484D;
-  border-radius: 8px;
+.exercicio h3 {
+  background-color: rgba(78, 103, 115, 0.2);
+  border-radius:8px;
   font-size: 1.5em;
-  text-align: center;
+  text-align:center;
 }
 
 .exercicio h4 {
-  color: #73484D;
   font-size: 1.2em;
-}
-
-.exercicio p {
-  text-align: justify;
 }
 
 .exercicio .link {
