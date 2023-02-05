@@ -8,42 +8,9 @@
   <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    .gradiente1 {
-      background-image: linear-gradient(to top, /*rgba(120, 168, 191, 0.5),*/ rgb(78, 103, 115), #bf8c91);
+    .exe-rgba {
       border-radius: 8px;
-      height: 200px;
-      margin: 8px auto;
-      position: relative;
-      width: 90%; 
-    }
-
-    .gradiente1 p, .gradiente2 p, .gradiente3 p {
-      color: white;
-      font-size: 1.8em;
-      left: 50%;
-      padding: 0 8px;
-      position: absolute;
-      text-align: center;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .gradiente2 {
-      background-image: radial-gradient(circle, rgb(78, 103, 115) 30%, /*rgba(120, 168, 191, 0.5)*/ #bf8c91);
-      border-radius: 8px;
-      height: 200px;
-      margin: 8px auto;
-      position: relative;
-      width: 90%;
-    }
-
-    .gradiente3 {
-      background-image: conic-gradient(#4E6773 10deg, #78A8BF, #bf8c91);
-      border-radius: 8px;
-      height: 200px;
-      margin: 8px auto;
-      position: relative;
-      width: 90%;
+      padding: 8px;
     }
   </style>
 </head>
@@ -67,13 +34,12 @@
   <main class="container-exercicio">
     <section class="exercicio">
       <div class="conteudo-exercicio">
-        <h2>Exercício 02: Trabalhando com Gradientes</h2>
-        <p>O gradiente em CSS, ou degradê, permite exibir transições suaves entre duas cores ou mais. Podemos trabalhar com três tipos de gradientes: Linear Gradient, Radial Gradient e Conic Gradient.</p>
-        <div class="container">
-          <div class="gradiente1"><p>Linear Gradient</p></div>
-          <div class="gradiente2"><p>Radial Gradient</p></div>
-          <div class="gradiente3"><p>Conic Gradient</p></div>
-        </div>
+        <h2>Exercício 02: Transparência no Formato RGBA</h2>
+        <p>Trabalhar com transparência é simples, basta usar o formato RGBA.</p>
+        <h3 class="titulo3">Parágrafo com transparência e sem o RGBA</h3>
+        <p class="exe-rgba" style="background-color:rgb(191, 190, 159);opacity: 0.5;">Neste parágrafo, tanto o fundo quanto o texto tiveram suas transparências configuradas para 50%. Aqui não foi usado o formato RGBA e a visualização do texto foi bem prejudicada.</p>
+        <h3 class="titulo3">Parágrafo com transparência usando o RGBA</h3>
+        <p class="exe-rgba" style="background-color:rgba(191, 190, 159, 0.5);">Já nesse parágrafo, foi usado o formato RGBA e a transparência de 50% foi aplicada somente ao fundo. Aqui a visualização do texto não foi prejudicada.</p>
       </div>
     </section>
 
@@ -85,7 +51,7 @@
         </a>
       </article>
       <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-02" target="_blank">
           <i class="fa solid fa-file-code"></i>
           <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
         </a>

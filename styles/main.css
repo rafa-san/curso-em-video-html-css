@@ -717,15 +717,17 @@ footer p {
   /* PÁGINAS DE DESAFIOS */
   .colunas {
     flex-direction: column;
+    width: 95%;
   }
 
   .coluna-1, .coluna-2 {
+
     width: 100%;
   }
 
-  .desafio ol, ul {
-    margin-left: 24px;
-  }
+  /*.desafio ol, ul {
+    .margin-left: 24px;
+  }*/
 
   ul .desafio-06-lista {
     margin: auto;
