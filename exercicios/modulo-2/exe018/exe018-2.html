@@ -4,12 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 2 - Exercício 0</title>
+  <title>Módulo 2 - Exercício 07</title>
   <link rel="stylesheet" href="../../../styles/main.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
 
     @font-face {
       font-family: "Celtic";
@@ -17,18 +16,8 @@
     }
 
     @font-face {
-      font-family: "Marathon";
-      src: url("fonts/Marav.ttf") format('truetype');
-    }
-
-    @font-face {
       font-family: "Punk";
       src: url("fonts/PunkTypewriter.otf") format('opentype');
-    }
-
-    @font-face {
-      font-family: "Beauty";
-      src: url("fonts/BeautyMarks.ttf") format('truetype');
     }
 
     @font-face {
@@ -41,69 +30,17 @@
       src: url("fonts/TypeKeys.ttf") format('truetype');
     }
 
-    @font-face {
-      font-family: "QuentinTarantino";
-      src: url("fonts/QuentinTarantino.ttf") format('truetype');
-    }
-
-    .google-font {
-      border: 1px solid red;
-    }
-
-    .google-font h2 {
-      font-family: 'Fredericka the Great', cursive;
-      text-align: left;
-      margin: auto;
-      padding: 8px 0;
-      width: 90%;
-    }
-
-    .google-font p {
-      font-family: 'Open Sans', sans-serif;
-    }
-
-    p.beauty {
-      font-family: "Beauty";
-    }
-
-
-    .container {
-      background-image: linear-gradient(rgba(191, 140, 145, 0.4), rgba(191, 140, 145, 0.2));
+    .estilo-exemplo {
+      background-color: rgba(78, 103, 115, 0.2);
       border-radius: 8px;
       margin: auto;
-      padding: 8px 0;
       width: 90%;
     }
 
-    .conteudo {
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 5px 5px 15px #73484D;
-      margin: 8px auto;
-      padding: 8px;
-      width: 95%;
+    .estilo-exemplo p {
+      padding: 0 8px;
+      width: 100%;
     }
-
-    .conteudo h1 {
-      color: #73484D;
-      font-size: 2em;
-      font-weight: bold;
-      padding: 16px 0;
-      text-shadow: 1px 1px 0px black;
-    }
-
-    .conteudo h2 {
-      color: #73484D;
-      margin: 16px auto;
-      padding: 8px 0;
-      text-align: left;
-      width: 90%;
-    }
-
-    .conteudo p {
-      text-align: justify;
-    }
-
   </style>
 </head>
 
@@ -125,26 +62,22 @@
 
   <main class="container-exercicio">
     <section class="exercicio">
-      <h2>Exercício 05: Fontes Externas</h2>
       <div class="container">
-        <div class="conteudo">
+        <div class="conteudo-exercicio">
+          <h2>Exercício 07: Outras Fontes Externas</h2>
+          <p>Nesse exercício, usei algumas fontes que encontrei no site DaFont.</p>
+          <h3 class="titulo3">Fontes com glifos tradicionais</h3>
+          <div class="estilo-exemplo">
+            <p style="font-family: Celtic;font-size: 1.2em;padding-top:8px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vitae.</p>
+            <p style="font-family: Punk;font-size: 2.1em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vitae.</p>
+          </div>
 
-          <h2>Fontes Externas</h2>
-          <p>Já nesse exemplo, usei algumas fontes que encontrei no site DaFont.</p>
-          <p>Algumas com glifos tradicionais, como essas:</p>
-          <p style="font-family: Celtic;font-size: 1.5em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vitae.</p>
-          <p style="font-family: Marathon;font-size: 2.1em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vitae.</p>
-          <p style="font-family: Punk;font-size: 2.1em">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vitae.</p>
-
-          <p>E outras com glifos mais exóticos, como essas abaixo:</p>
-          <p style="font-family: Beauty;font-size: 2em;margin-top: 32px;">p & C 5 r</p>
-          <p style="font-family: TypeKeys;font-size: 3em;margin-top: 32px;">HELLO, WORLD!</p>
-          <p style="font-family: DK;font-size: 2em;margin-top: 32px;">o H D e !</p>
-
-          <p style="color: black;font-family: QuentinTarantino;font-size: 4em;margin-top: 32px;">Rg7EN</p>
-          
-
-
+          <h3 class="titulo3">Fontes com glifos exóticos</h3>
+          <div class="estilo-exemplo">
+            
+            <p style="font-family: TypeKeys;font-size: 3em;">HELLO, WORLD!</p>
+            <p style="font-family: DK;font-size: 2em;margin-top:8px;">o e D H !</p>
+          </div>
         </div>
       </div>
     </section>

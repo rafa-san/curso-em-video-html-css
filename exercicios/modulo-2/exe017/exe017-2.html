@@ -12,20 +12,24 @@
 
     .conteudo-exercicio h3 {
       font-family: "Work Sans", Arial, Helvetica, sans-serif;
-      font-size: 2.1em;
+      font-size: 1.6em;
       font-style: italic;
       font-weight: 900;
       margin: auto;
       padding: 8px 0;
       text-align: left;
-      text-decoration: underline;
       width: 90%;
     }
 
-    .fonte {
+    p.exemplo1 {
       font-family: "Work Sans", Arial, Helvetica, sans-serif;
-      font-weight: normal;
-      text-align: justify;
+      font-style: italic;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    p.exemplo2 {
+      font: italic bold 17px "Work Sans", Arial, Helvetica, sans-serif;
     }
   </style>
 </head>
@@ -51,23 +55,15 @@
       <div class="container">
         <div class="conteudo-exercicio">
           <h2>Exercício 05: Fontes - Parte 2</h2>
-          <p>Ainda falando sobre fontes, podemos também modificar o peso e o estilo de uma fonte. É possível fazer isso especificando na declaração ou usando uma shorthand.</p>
-          <p>TRABALHAR ESSE TEXTO ACIMA MELHOR
-            4 declarações e uma declaração
-condensar
+          <p>Ainda falando sobre fontes, podemos também modificar o peso e o estilo delas.</p>
 
-shorthand
+          <p>Nos dois parágrafos abaixo, usei a fonte Work Sans.</p>
 
-ao invés de usar 4 linhas para descrever cada uma dessas declrações, podemos substituí-las por somente uma: ____
+          <h3>Exemplo 1</h3>
+          <p class="exemplo1">Neste parágrafo, dentro do seletor p, escrevi quatro declarações: font-family, font-weight, font-size e font-style.</p>
 
-font-family
-font-weight
-font-size
-font-style
-          </p>
-          <p>A fonte usada nesse exemplo é a Work Sans.</p>
-          <h3>Título</h3>
-          <p class="fonte">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, deserunt. Voluptate sed delectus nobis enim mollitia illo, perspiciatis odio! Delectus debitis iure tempora doloremque? Quasi fuga tenetur doloribus consequuntur inventore magni ad. Hic tempore animi, culpa facilis minima reprehenderit officia laborum? Reiciendis aliquam, similique a optio cupiditate laborum dolorem consequuntur.</p>
+          <h3>Exemplo 2</h3>
+          <p class="exemplo2">Já nesse parágrafo aqui, usei uma shorthand para substituir as quatro declarações do exemplo 1 por apenas uma declaração: <em>font</em>.</p>
         </div>
       </div>
     </section>
