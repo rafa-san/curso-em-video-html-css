@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --cor1: #73484D;
+  --cor1: #73484D; /* palavras ou frases em destaque e background com rgba*/
   --cor2: #BFBE9F;
-  --cor3: #bf8c91;
+  --cor3: #bf8c91; /* links */
   --cor4: #78A8BF;
   --cor5: #4E6773;
 
@@ -103,7 +103,7 @@ header a {
 
 .capa h3 {
   color: var(--cor5);
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -160,7 +160,7 @@ a.link-ativo {
 }
 
 .links-curso p {
-  color: var(--cor5);
+  color: #000;
   font-size: 1.2em;
   margin: 16px auto;
   text-align: center;
@@ -226,11 +226,9 @@ a.link-ativo {
 }
 
 .conteudo-detalhes {
-  /*background-image: radial-gradient(circle, rgba(115, 72, 77, 0.2) 10%, rgba(191, 140, 145, 0.1));*/
   background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
   border: 2px solid transparent;
   border-radius: 8px;
-  color: var(--cor5);
   font-weight: 500;
   line-height: 1.5em;
   margin: 8px auto;
@@ -239,11 +237,13 @@ a.link-ativo {
 }
 
 .conteudo-detalhes h3 {
+  color: #000;
   margin: 8px auto;
   text-align: center;
 }
 
 .conteudo-detalhes ul {
+  color: #000;
   list-style-position: inside;
   margin-left: 16px;
 }
@@ -268,6 +268,7 @@ a.link-ativo {
 
 .exercicios-e-desafios a {
   color: var(--cor5);
+  font-weight: bolder;
   margin: auto;
   text-decoration: none;
   width: 46%;
@@ -293,7 +294,7 @@ a.link-ativo {
 }
 
 .div-desafios i, .div-exercicios i {
-  color: var(--cor5);
+  color: rgba(120, 168, 191, 0.7);
   font-size: 4em;
   margin: 8px 0;
   text-align: center;
@@ -322,10 +323,10 @@ a.link-ativo {
 }
 
 .lista a {
-  /*background-image: radial-gradient(circle, rgba(115, 72, 77, 0.2) 10%, rgba(191, 140, 145, 0.1));*/
   background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
   color: var(--cor5);
   border-radius: 8px;
+  font-weight: 500;
   margin: 8px;
   padding: 32px 16px;
   text-align: center;
@@ -370,6 +371,7 @@ a.link-ativo {
 }
 
 .titulo1, .titulo2, .titulo3, .titulo4 {
+  color: #000;
   line-height: 1.9em;
   margin: 8px auto;
   padding: 8px 0;
@@ -431,6 +433,7 @@ span {
 
 /* EXERCÍCIOS - GERAL */
 .conteudo-exercicio p, .conteudo-desafio p {
+  color: #000;
   line-height: 1.9em;
   margin: 8px auto;
   text-align: left;
@@ -438,6 +441,7 @@ span {
 }
 
 .exercicio ol, ul, dl {
+  color: #000;
   line-height: 1.5em;
   list-style-position: inside;
   margin: auto;
@@ -567,13 +571,14 @@ span {
 }
 
 .material-extra article i {
-  color: var(--cor5);
+  color: var(--cor4);
   font-size: 5.5em;
 }
 
 .material-extra article p {
   color: var(--cor5);
   font-size: 1.2em;
+  font-weight: 500;
   padding: 24px 0;
   text-align: center;
 }
@@ -622,6 +627,7 @@ footer p {
 .botao-voltar i {
   /*background-image: radial-gradient(circle, rgba(78, 103, 115, 0.4), rgba(78, 103, 115, 0.2));*/
   background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
+  /*background-image: radial-gradient(circle, rgba(120, 168, 191, 0.2) 10%, rgba(120, 168, 191, 0.1));*/
   border: 1px solid transparent;
   border-radius: 50%;
   color: var(--cor5);
