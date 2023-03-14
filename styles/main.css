@@ -395,6 +395,7 @@ a.link-ativo {
 }
 
 blockquote {
+  color: #000;
   line-height: 1.9em;
   margin: auto;
   padding: 0 8px;

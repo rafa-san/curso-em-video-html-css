@@ -8,6 +8,4 @@
 
 <p>Tive de recomeçar o trabalho do zero: desde o rascunho do layout, usando os tradicionais papel e caneta, passando pela escolha das fontes, a paleta de cores, o design responsivo e etc., até chegar a essa estrutura atual.</p>
 
-<p>Esse curso do professor Guanabara está dividido em cinco módulos. Até o momento em que escrevo, os dois primeiros estão completos e disponíveis no site do Curso em Vídeo ou no Youtube, o terceiro está em andamento e os dois últimos ainda não têm previsão de lançamento.</p>
-
-<p>Neste meu projeto, apenas o módulo 1 está concluído. Aos poucos e com calma, pretendo acrescentar o restante do material. Mas confesso que já estou orgulhoso pra caramba de ter chegado até aqui!</p>
+<p>Neste meu projeto, apenas o módulo 1 está 100% concluído. Ao todo o curso possui cinco módulos. Aos poucos e com calma, pretendo acrescentar o restante do material. Mas confesso que já estou orgulhoso pra caramba de ter chegado até aqui!</p>

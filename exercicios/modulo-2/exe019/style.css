@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .container-exe19 {
-  background-color: rgba(120, 168, 191, 0.3);;
+  /* background-color: rgba(120, 168, 191, 0.3); */
+  /* background-color: rgba(191, 190, 159, 0.4); */
   border-radius: 8px;
   padding: 16px 0;
 }
@@ -48,6 +49,6 @@ h2#secundario {
   color: black;
 }
 
-.fonte-grande {
-  font-size: 1.8em;
-}
+/* .fonte-grande {
+  font-size: 1.6em;
+} */
