@@ -11,16 +11,28 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Trirong&display=swap');
 
+    @font-face {
+      font-family: "Punk";
+      src: url("fonts/PunkTypewriter.otf") format('opentype');
+    }
+
+    @font-face {
+      font-family: "DK";
+      src: url("fonts/DKW.TTF") format('truetype');
+    }
+
+    :root {
+      --cor1: #73484D; /* palavras ou frases em destaque e background com rgba*/
+      --cor2: #BFBE9F;
+      --cor3: #bf8c91; /* links */
+      --cor4: #78A8BF;
+      --cor5: #4E6773;
+    }
+
     h2 {
       font-family: 'Fredericka the Great', cursive;
       font-size: 2em;
     }
-
-    .exemplo {
-      font-family: 'Trirong', sans-serif;
-      font-size: 1.1em;
-    }
-
   </style>
 </head>
 
@@ -44,9 +56,16 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 06: Fontes com Google Fonts</h2>
-            <p class="exemplo">Nesse exercício, usei a fonte <strong>Fredericka the Great</strong> no título e a fonte <strong>Trirong</strong> no parágrafo.</p>
-            <p class="exemplo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laborum minus, alias ipsa voluptas error repudiandae facere aliquam nobis nam.</p>
+          <h2>Exercício 06: Fontes Externas</h2>
+            <p>No título acima, usei a fonte <strong>Fredericka the Great</strong>, que pode ser encontrada no <a href="https://fonts.google.com/?preview.text=Curso%20de%20HTML5%20%2B%20CSS3&preview.text_type=custom" target="_blank">Google Fonts</a>.
+
+            <p style="font-family:Punk;font-size:2.1em">Já nesse parágrafo aqui, usei a fonte PunkTypewriter, que encontrei no site <a href="https://www.dafont.com/pt/" target="_blank">DaFont</a>.</p>
+
+            <p>E abaixo, usei a fonte <strong>DKW</strong>. Quem jogou vídeo-game nos anos 90 irá reconhecer esses personagens carismáticos.</p>
+
+            <p style="font-family:DK;font-size: 2em;margin-top:8px;">o e D H !</p>
+
+            <!-- color:#4E6773; -->
         </div>
       </div>
     </section>
@@ -59,7 +78,7 @@
         </a>
       </article>
       <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-02" target="_blank">
           <i class="fa solid fa-file-code"></i>
           <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
         </a>

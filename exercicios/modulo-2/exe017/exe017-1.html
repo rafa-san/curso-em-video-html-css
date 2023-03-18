@@ -9,16 +9,26 @@
   <link rel="stylesheet" href="../../../styles/responsivo.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
     h2 {
       font-family: "Brush Script MT", cursive;
       font-size: 24px;
     }
 
     .fonte {
-      font-family: "Courier New", Courier, monospace;
+      font-family: "Work Sans", Arial, Helvetica, sans-serif;
       font-size: 1.0em;
+      /* font-style: italic; */
+      font-weight: 400;
+      /* letter-spacing: 1.5px; */
+      line-height: 2.0;
       text-align: justify;
+    }
+
+    .fonte-shorthand {
+      font: 400 1.0em "Work Sans", Arial, Helvetica, sans-serif;
+      line-height: 2.0;
     }
   </style>
 </head>
@@ -43,10 +53,11 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 04: Fontes - Parte 1</h2>
-          <p class="fonte">Ao trabalhar com fontes, podemos escolher diferentes famílias tipográficas (font-family) e tamanhos de fonte (font-size).</p>
-          <p class="fonte">A fonte que utilizei no título se chama Brush Script MT, com um tamanho de 24px.</p>
-          <p class="fonte">Já a fonte do parágrafo, é a Courier New, com um tamanho de 1.0em.</p>
+          <h2>Exercício 04: Fontes</h2>
+          <p class="fonte">Ao trabalhar com fontes, podemos escolher diferentes famílias tipográficas (<em>font-family</em>), tamanhos de fonte (<em>font-size</em>), pesos (<em>font-weight</em>) e estilos (<em>font-style</em>).</p>
+          <p class="fonte">No título acima, usei a fonte <strong>Brush Script MT</strong>, com um tamanho de 24px. Já a fonte dos parágrafos é a <strong>Work Sans</strong> com um tamanho de 1.0em.</p>
+          <p class="fonte-shorthand">Nesse parágrafo aqui, cujo estilo é exatamente igual ao dos anteriores, usei uma <strong>shorthand</strong> para substituir três declarações (<em>font-family</em>, <em>font-size</em> e <em>font-weight</em>) por apenas uma: <em>font</em>.</p>
+          <p class="fonte">Veja o código fonte deste exercício para entender melhor como isso funciona.</p>
           <p class="fonte">Agora use sua criatividade e experimente opções diferentes!</p>
         </div>
       </div>
