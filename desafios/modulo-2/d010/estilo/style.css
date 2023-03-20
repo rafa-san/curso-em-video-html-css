@@ -125,9 +125,10 @@ main strong {
 
 main a {
   background-color: var(--cor1);
+  border-radius: 8px;
   color: var(--cor5);
   font-weight: bold;
-  padding: 2px;
+  padding: 3px;
   text-decoration: none;
 }
 
@@ -180,14 +181,14 @@ aside h3 {
 aside ul {
   columns: 2;
   list-style-position: inside;
-  list-style-type: '\2714\00A0\00A0';
+  list-style-type: '\2714\00A0\00A0'; /* 00A0 é um espaço */
 }
 
 footer {
   background-color: var(--cor5);
   color: white;
-  font-size: 0.8em;
-  padding: 16px;
+  font-size: 0.9em;
+  padding: 16px 8px;
   text-align: center;
 }
 

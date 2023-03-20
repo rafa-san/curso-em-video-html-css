@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2 - Exercício 05</title>
+  <link rel="stylesheet" href="../../../styles/principal.css">
+  <link rel="stylesheet" href="../../../styles/responsivo.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+    @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+    @font-face {
+      font-family: "DK";
+      src: url("fontes/DKW.TTF") format('truetype');
+    }
+
+    :root {
+      --cor1: #73484D; /* palavras ou frases em destaque e background com rgba*/
+      --cor2: #BFBE9F;
+      --cor3: #bf8c91; /* links */
+      --cor4: #78A8BF;
+      --cor5: #4E6773;
+    }
+
+    h2 {
+      /* font-family: 'Poppins', sans-serif; */
+      font-family: 'Anonymous Pro', monospace;
+    }
+
+    .teste {
+      /* border: 1px solid red; */
+      font-family: 'Anonymous Pro', monospace;
+      font-size: 1.1em;
+    }
+
+    ol {
+      margin: auto;
+      padding-bottom: 8px;
+    }
+
+    li {
+      /* border: 1px solid blue; */
+      font-family: 'Anonymous Pro', monospace;
+      font-size: 1.1em;
+      line-height: 2.0;
+    }
+
+    span {
+      color: var(--cor5);
+      font-size: 1.3em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="../../../modulo1.html">Módulo 1</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
+    <a href="#">Módulo 3</a>
+    <a href="#">Módulo 4</a>
+    <a href="#">Módulo 5</a>
+  </nav>
+
+  <main class="container-exercicio">
+    <section class="exercicio">
+      <div class="container">
+        <div class="conteudo-exercicio">
+          <h2>Exercício 05: Usando o Google Fonts e Fontes Externas Baixadas</h2>
+
+            <p class="teste">Nesse exercício, usei as fontes <strong>Anonymous Pro</strong> do <a href="https://fonts.google.com/specimen/Anonymous+Pro?category=Monospace&preview.text=Curso%20de%20HTML5%20%2B%20CSS3&preview.text_type=custom" target="_blank">Google Fonts</a> e a <strong>Donkey Kong World</strong>, que encontrei no site <a href="https://www.dafont.com/pt/donkey-kong-world.font" target="_blank">DaFont</a>.</p>
+
+            <p style="text-align: center">***</p>
+
+            <p class="teste">Um dos jogos de vídeo-game mais inesquecíveis da minha vida foi a série <span style="font-family:DK;">D</span>, dividida em três partes: 
+              
+              <ol>
+                <li>Donkey Kong Country <span style="font-family:DK;">e</span></li>  <li>Donkey Kong Country 2: Diddy's Kong Quest <span style="font-family:DK;">o</span></li>
+                <li>Donkey Kong Country 3: Dixie Kong's Double Trouble! <span style="font-family:DK">!</span></li>
+              </ol>
+            
+            </p>
+
+            <p class="teste">Todos foram desenvolvidos na década de 1990 pela <strong>Rare Limited</strong>, uma desenvolvedora de jogos eletrônicos, para o console <strong>Super Nintendo</strong>.</p>
+
+            <!-- color:#4E6773; -->
+        </div>
+      </div>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-02" target="_blank">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="../../../modulo2-exercicios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+    
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="../../../scripts/menu-responsivo.js"></script>
+</body>
+
+</html>

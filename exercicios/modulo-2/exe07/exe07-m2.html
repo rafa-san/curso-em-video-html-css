@@ -4,32 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 2 - Exercício 04</title>
+  <title>Módulo 2 - Exercício 07</title>
   <link rel="stylesheet" href="../../../styles/principal.css">
   <link rel="stylesheet" href="../../../styles/responsivo.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    h2 {
-      font-family: "Brush Script MT", cursive;
-      font-size: 24px;
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 16px auto;
+      width: 95%;
     }
 
-    .fonte {
-      font-family: "Work Sans", Arial, Helvetica, sans-serif;
-      font-size: 1.0em;
-      /* font-style: italic; */
-      font-weight: 400;
-      /* letter-spacing: 1.5px; */
-      line-height: 2.0;
-      text-align: justify;
+    .area {
+      background-image: linear-gradient(to top, rgb(78, 103, 115), #bf8c91);
+      height: 200px;
+      margin: 16px;
+      min-width: 200px;
     }
 
-    .fonte-shorthand {
-      font: 400 1.0em "Work Sans", Arial, Helvetica, sans-serif;
-      line-height: 2.0;
+    #area-2 {
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 200px solid rgb(78, 103, 115);
     }
+
+    #area-3 {
+      background-image: radial-gradient(circle, rgb(78, 103, 115) 30%, #bf8c91);
+      border-radius: 50%;
+    }
+
+    
+
+    @media screen and (max-width: 755px) {
+      #container {
+        justify-content: center;
+        margin: 16px 0;
+      }
+    }
+    
   </style>
 </head>
 
@@ -53,12 +67,16 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 04: Fontes</h2>
-          <p class="fonte">Ao trabalhar com fontes, podemos escolher diferentes famílias tipográficas (<em>font-family</em>), tamanhos de fonte (<em>font-size</em>), pesos (<em>font-weight</em>) e estilos (<em>font-style</em>).</p>
-          <p class="fonte">No título acima, usei a fonte <strong>Brush Script MT</strong>, com um tamanho de 24px. Já a fonte dos parágrafos é a <strong>Work Sans</strong> com um tamanho de 1.0em.</p>
-          <p class="fonte-shorthand">Nesse parágrafo aqui, cujo estilo é exatamente igual ao dos anteriores, usei uma <strong>shorthand</strong> para substituir três declarações (<em>font-family</em>, <em>font-size</em> e <em>font-weight</em>) por apenas uma: <em>font</em>.</p>
-          <p class="fonte">Veja o código fonte deste exercício para entender melhor como isso funciona.</p>
-          <p class="fonte">Agora use sua criatividade e experimente opções diferentes!</p>
+          <h2>Exercício 07: Seletores Simples em CSS: <em>id</em> & <em>class</em></h2>
+
+          <p>Criei as formas abaixo utilizando somente CSS. Abra o código-fonte e veja como trabalhei com os seletores <mark><em>id</em></mark> e <mark><em>class</em></mark>.</p>
+
+          <div id="container">
+            <div class="area"></div>
+            <div id="area-2" class="area"></div>
+            <div id="area-3" class="area"></div>
+            
+          </div>
         </div>
       </div>
     </section>

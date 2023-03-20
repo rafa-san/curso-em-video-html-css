@@ -4,27 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 2 - Exercício 05</title>
+  <title>Módulo 2 - Exercício 04</title>
   <link rel="stylesheet" href="../../../styles/principal.css">
   <link rel="stylesheet" href="../../../styles/responsivo.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    .conteudo-exercicio h3 {
-      font-family: "Work Sans", Arial, Helvetica, sans-serif;
-      font-size: 1.2em;
+
+    h2 {
+      font-family: 'Monaco', monospace;
     }
 
-    p.exemplo1 {
-      font-family: "Work Sans", Arial, Helvetica, sans-serif;
-      font-style: italic;
-      font-size: 17px;
+    .fonte {
+      /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+      font-family: 'Monaco', monospace;
+      font-size: 1.0em;
+      /* font-style: italic; */
       font-weight: 400;
+      /* letter-spacing: 1.5px; */
+      line-height: 2em;
+      margin: 24px 0;
+      text-align: justify;
     }
 
-    p.exemplo2 {
-      font: italic 400 17px "Work Sans", Arial, Helvetica, sans-serif;
+    .fonte-shorthand {
+      font: 300 1.0em 'Monaco', monospace;
+      line-height: 2.0;
+      margin: 24px 0;
     }
   </style>
 </head>
@@ -49,14 +55,13 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 05: Fontes - Parte 2</h2>
-          <p>Ainda falando sobre fontes, podemos também modificar o peso e o estilo delas.</p>
-
-          <p>Nos dois parágrafos abaixo, usei a fonte Work Sans.</p>
-
-          <p class="exemplo1">Neste parágrafo aqui, dentro do seletor &lt;p&gt;, escrevi quatro declarações: <strong>font-family</strong>, <strong>font-weight</strong>, <strong>font-size</strong> e <strong>font-style</strong>.</p>
-
-          <p class="exemplo2">Já nesse parágrafo aqui, que é exatamente igual ao parágrafo anterior, usei uma shorthand para substituir as quatro declarações do exemplo acima por apenas uma declaração: <strong>font</strong>.</p>
+          <h2>Exercício 04: Fontes</h2>
+          <p class="fonte">Ao trabalhar com fontes, podemos escolher diferentes famílias tipográficas (<mark><em>font-family</em></mark>), tamanhos de fonte (<mark><em>font-size</em></mark>), pesos (<mark><em>font-weight</em></mark>) e estilos (<mark><em>font-style</em></mark>).</p>
+          
+          <p class="fonte">Nesse exercício, estou usando uma <strong>Web Safe Font</strong> chamada <strong>Monaco</strong>, com um tamanho de <strong>1.0em</strong>.</p>
+          <p class="fonte-shorthand">E nesse parágrafo aqui, cujo estilo é exatamente igual ao dos anteriores, usei uma <strong>shorthand</strong> para substituir três declarações (<mark><em>font-family</em></mark>, <mark><em>font-size</em></mark> e <mark><em>font-weight</em></mark>) por apenas uma: <mark><em>font</em></mark>.</p>
+            
+          <p class="fonte">Veja o código fonte deste exercício para entender melhor como isso funciona.</p>
         </div>
       </div>
     </section>

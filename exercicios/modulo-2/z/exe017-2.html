@@ -4,34 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 2 - Exercício 06</title>
+  <title>Módulo 2 - Exercício 05</title>
   <link rel="stylesheet" href="../../../styles/principal.css">
   <link rel="stylesheet" href="../../../styles/responsivo.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Trirong&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    @font-face {
-      font-family: "Punk";
-      src: url("fonts/PunkTypewriter.otf") format('opentype');
+    .conteudo-exercicio h3 {
+      font-family: "Work Sans", Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
     }
 
-    @font-face {
-      font-family: "DK";
-      src: url("fonts/DKW.TTF") format('truetype');
+    p.exemplo1 {
+      font-family: "Work Sans", Arial, Helvetica, sans-serif;
+      font-style: italic;
+      font-size: 17px;
+      font-weight: 400;
     }
 
-    :root {
-      --cor1: #73484D; /* palavras ou frases em destaque e background com rgba*/
-      --cor2: #BFBE9F;
-      --cor3: #bf8c91; /* links */
-      --cor4: #78A8BF;
-      --cor5: #4E6773;
-    }
-
-    h2 {
-      font-family: 'Fredericka the Great', cursive;
-      font-size: 2em;
+    p.exemplo2 {
+      font: italic 400 17px "Work Sans", Arial, Helvetica, sans-serif;
     }
   </style>
 </head>
@@ -56,16 +49,14 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 06: Fontes Externas</h2>
-            <p>No título acima, usei a fonte <strong>Fredericka the Great</strong>, que pode ser encontrada no <a href="https://fonts.google.com/?preview.text=Curso%20de%20HTML5%20%2B%20CSS3&preview.text_type=custom" target="_blank">Google Fonts</a>.
+          <h2>Exercício 05: Fontes Externas</h2>
+          <p>Ainda falando sobre fontes, podemos também modificar o peso e o estilo delas.</p>
 
-            <p style="font-family:Punk;font-size:2.1em">Já nesse parágrafo aqui, usei a fonte PunkTypewriter, que encontrei no site <a href="https://www.dafont.com/pt/" target="_blank">DaFont</a>.</p>
+          <p>Nos dois parágrafos abaixo, usei a fonte Work Sans.</p>
 
-            <p>E abaixo, usei a fonte <strong>DKW</strong>. Quem jogou vídeo-game nos anos 90 irá reconhecer esses personagens carismáticos.</p>
+          <p class="exemplo1">Neste parágrafo aqui, dentro do seletor &lt;p&gt;, escrevi quatro declarações: <strong>font-family</strong>, <strong>font-weight</strong>, <strong>font-size</strong> e <strong>font-style</strong>.</p>
 
-            <p style="font-family:DK;font-size: 2em;margin-top:8px;">o e D H !</p>
-
-            <!-- color:#4E6773; -->
+          <p class="exemplo2">Já nesse parágrafo aqui, que é exatamente igual ao parágrafo anterior, usei uma shorthand para substituir as quatro declarações do exemplo acima por apenas uma declaração: <strong>font</strong>.</p>
         </div>
       </div>
     </section>
@@ -78,7 +69,7 @@
         </a>
       </article>
       <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-02" target="_blank">
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
           <i class="fa solid fa-file-code"></i>
           <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
         </a>

@@ -9,11 +9,31 @@
   <link rel="stylesheet" href="../../../styles/responsivo.css">
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <style>
-    .paragrafo {
-      border-radius: 8px;
-      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.377);
-      padding: 8px;
+    #container-img {
+      border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+      padding: 16px 8px;
+      width: 90%;
     }
+
+    img {
+      cursor: pointer;
+      transition: 0.4s ease-in-out;
+      max-width: 200px;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    .caixa-txt::after {
+      content: ' oi';
+    }
+
+
   </style>
 </head>
 
@@ -37,20 +57,29 @@
     <section class="exercicio">
       <div class="container">
         <div class="conteudo-exercicio">
-          <h2>Exercício 08: Tipos de Alinhamento</h2>
+          <h2>Exercício 08: <em>pseudo-class</em> & <em>pseudo-element</em></a></h2>
+          <h3 class="titulo3">1999, Um Ano de Filmes Inesquecíveis</h3>
+          <div id="container-img">
+            <div>
+              <img src="../../../imagens/10-coisas-que-eu-odeio-em-voce.jpg" alt="">
+                <p class="caixa-txt">teste</p>
+            </div>
+            <div>
+              <img src="../../../imagens/clube-da-luta.jpg" alt="">
+              <p class="caixa-txt">teste</p>
+            </div>
+            <div>
+              <img src="../../../imagens/matrix.jpg" alt="">
+              <p class="caixa-txt">teste</p>
+            </div>
+            <div>
+              <img src="../../../imagens/tres-reis.jpg" alt="">
+              <p class="caixa-txt">teste</p>
+            </div>
+          </div>
 
-          <h3 class="titulo3">Alinhamento Padrão (à esquerda)</h3>
-          <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eveniet sunt temporibus quod, blanditiis quisquam. Hic perspiciatis voluptates commodi. Inventore exercitationem maiores eum minus eaque fugit, consectetur neque facere molestiae excepturi reiciendis! Veritatis illo corporis, cupiditate, ut magni cumque, laudantium ratione deserunt debitis nihil molestias?</p>
+          <!-- <i class="fa-solid fa-gun"></i> -->
 
-          <h3 class="titulo3">Alinhamento à Direita</h3>
-          <p class="paragrafo" style="text-align:right;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eveniet sunt temporibus quod, blanditiis quisquam. Hic perspiciatis voluptates commodi. Inventore exercitationem maiores eum minus eaque fugit, consectetur neque facere molestiae excepturi reiciendis! Veritatis illo corporis, cupiditate, ut magni cumque, laudantium ratione deserunt debitis nihil molestias?</p>
-
-          <h3 class="titulo3">Alinhamento ao Centro</h3>
-          <p class="paragrafo" style="text-align:center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eveniet sunt temporibus quod, blanditiis quisquam. Hic perspiciatis voluptates commodi. Inventore exercitationem maiores eum minus eaque fugit, consectetur neque facere molestiae excepturi reiciendis! Veritatis illo corporis, cupiditate, ut magni cumque, laudantium ratione deserunt debitis nihil molestias?</p>
-
-          <h3 class="titulo3">Alinhamento Justificado (alinhado à esquerda e à direita) e com text-indent</h3>
-          <p class="paragrafo" style="text-align:justify;text-indent:50px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eveniet sunt temporibus quod, blanditiis quisquam. Hic perspiciatis voluptates commodi. Inventore exercitationem maiores eum minus eaque fugit, consectetur neque facere molestiae excepturi reiciendis! Veritatis illo corporis, cupiditate, ut magni cumque, laudantium ratione deserunt debitis nihil molestias?</p>
-          
         </div>
       </div>
     </section>
