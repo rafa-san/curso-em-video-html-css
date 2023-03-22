@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2 - Desafio 02</title>
+  <link rel="stylesheet" href="../../../styles/principal.css">
+  <link rel="stylesheet" href="../../../styles/responsivo.css">
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <style>
+    .container-imagens {
+      position: relative;
+    }
+    
+    .imagem-1 {
+      border-radius: 8px;
+      height: auto;
+      width: 100%;
+    }
+
+    .imagem-2 {
+      height: auto;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+  </header>
+
+  <nav class="topnav" id="topnavResponsivo">
+    <a href="#" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="../../../modulo1.html">Módulo 1</a>
+    <a href="../../../modulo2.html">Módulo 2</a>
+    <a href="#">Módulo 3</a>
+    <a href="#">Módulo 4</a>
+    <a href="#">Módulo 5</a>
+  </nav>
+
+  <main class="container-desafio">
+    <section class="desafio">
+      <div class="conteudo-desafio">
+        <h2>2. Desafio do Astronauta</h2> 
+        <div class="container-imagens">
+          <img src="../../../imagens/desafio02-m2-espaco.jpg" alt="Imagem do espaço em um tom azulado" class="imagem-1">
+          <img src="../../../imagens/desafio02-m2-astronauta.png" alt="Imagem de um astronauta" class="imagem-2">
+        </div>
+      </div>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Conheça o material em PDF do curso clicando aqui.</p>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-02" target="_blank">
+          <i class="fa solid fa-file-code"></i>
+          <p>Tenha acesso aos códigos originais de cada exercício aqui.</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="../../../modulo2-desafios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+    
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="../../../scripts/menu-responsivo.js"></script>
+</body>
+
+</html>
