@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uso de tabelas grandes</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    caption {
+      background-color: lightcyan;
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    thead, tfoot {
+      background-color: gray;
+      color: white;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    td:nth-child(2) {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Uso de Tabelas Grandes</h1>
+  <table>
+    <caption>População das Unidades Federativas</caption>
+    <thead>
+      <tr>
+        <th scope="col">Estado</th>
+        <th scope="col" style="width:20%;">População</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>São Paulo</td>
+        <td>46.024,937</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td>20.732,660</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td>16.615,526</td>
+      </tr>
+      <tr>
+        <td>Bahia</td>
+        <td>14.659,023</td>
+      </tr>
+      <tr>
+        <td>Paraná</td>
+        <td>11.835,379</td>
+      </tr>
+      <tr>
+        <td>Rio Grande do Sul</td>
+        <td>11.088,065</td>
+      </tr>
+      <tr>
+        <td>Pernambuco</td>
+        <td>9.051,113</td>
+      </tr>
+      <tr>
+        <td>Ceará</td>
+        <td>8.936,431</td>
+      </tr>
+      <tr>
+        <td>Pará</td>
+        <td>8.442,962</td>
+      </tr>
+      <tr>
+        <td>Santa Catarina</td>
+        <td>7.762,154</td>
+      </tr>
+      <tr>
+        <td>Goiás</td>
+        <td>6.950,976</td>
+      </tr>
+      <tr>
+        <td>Maranhão</td>
+        <td>6.800,605</td>
+      </tr>
+      <tr>
+        <td>Espírito Santo</td>
+        <td>4.108,508</td>
+      </tr>
+      <tr>
+        <td>Paraíba</td>
+        <td>4.030,961</td>
+      </tr>
+      <tr>
+        <td>Amazonas</td>
+        <td>3.952,262</td>
+      </tr>
+      <tr>
+        <td>Mato Grosso</td>
+        <td>3.784,239</td>
+      </tr>
+      <tr>
+        <td>Rio Grande do Norte</td>
+        <td>3.303,953</td>
+      </tr>
+      <tr>
+        <td>Piauí</td>
+        <td>3.270,174</td>
+      </tr>
+      <tr>
+        <td>Alagoas</td>
+        <td>3.125,254</td>
+      </tr>
+      <tr>
+        <td>Distrito Federal</td>
+        <td>2.923,369</td>
+      </tr>
+      <tr>
+        <td>Mato Grosso do Sul</td>
+        <td>2.833,742</td>
+      </tr>
+      <tr>
+        <td>Sergipe</td>
+        <td>2.211,868</td>
+      </tr>
+      <tr>
+        <td>Rondônia</td>
+        <td>1.616,379</td>
+      </tr>
+      <tr>
+        <td>Tocantins</td>
+        <td>1.584,306</td>
+      </tr>
+      <tr>
+        <td>Acre</td>
+        <td>829,780</td>
+      </tr>
+      <tr>
+        <td>Amapá</td>
+        <td>774,268</td>
+      </tr>
+      <tr>
+        <td>Roraima</td>
+        <td>634,805</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Total de Habitantes</th>
+        <td><strong>215.880,137</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
