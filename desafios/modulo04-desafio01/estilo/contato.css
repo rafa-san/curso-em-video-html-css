@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  background-color: darkred;
+  color: white;
+  display: block;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: red;
+}
