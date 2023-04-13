@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Estilo para Telas */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightskyblue;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  background-color: gray;
+  list-style-type: none;
+}
+
+nav li {
+  background-color: darkgray;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+article {
+  margin: auto;
+  width: 600px;
+}
