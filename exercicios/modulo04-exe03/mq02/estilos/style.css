@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #233eff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #2526a7;
+  width: 100%;
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: lightgrey;
+}
+
+header {
+  background-color: grey;
+}
+
+header h1 {
+  padding: 8px;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#burger {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  cursor: pointer;
+  display: block;
+  padding: 8px;
+  text-align: center;
+  
+}
+
+#burger:hover {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+ul li a {
+  background-color: rgb(87, 87, 87);
+  border: 2px solid grey;
+  color: white;
+  display: block;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: gray;
+}
+
+main {
+  background-color: white;
+  border-radius: 8px;
+  margin: 8px auto;
+  padding: 8px;
+  width: 90%;
+}
+
+main h2 {
+  padding: 8px 0;
+}
+
+article p {
+  line-height: 2em;
+  margin-bottom: 8px;
+  text-align: justify;
+  text-indent: 16px;
+}
