@@ -421,9 +421,9 @@ pre {
   display: block;
   font-family: monospace;
   margin: 1em auto 0.6em;
-  padding-top: 8px;
+  /* padding-top: 8px; */
   text-align: left;
-  white-space: pre;
+  white-space: normal;
   width: 90%;
 }
 
