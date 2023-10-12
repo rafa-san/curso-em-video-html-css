@@ -1,6 +1,6 @@
 # Atividades do Curso de HTML5 e CSS3
 
-Eu quis organizar em forma de site todos os desafios e exercícios feitos ao longo do curso de **HTML5 + CSS3**, do professor **Gustavo Guanabara**.
+Aqui meu objetivo foi organizar em forma de site todos os desafios e exercícios feitos ao longo do curso de **HTML5 + CSS3**, do professor **Gustavo Guanabara**.
 
 No início fui criando páginas bem simples, usando somente HTML e um pouco de CSS. Eu estava mais focado no conteúdo do que na aparência. Fiz dessa forma até o fim do módulo 1.
 
