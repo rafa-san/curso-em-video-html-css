@@ -1,5 +1,7 @@
+@charset "utf-8";
+
 @media screen and (max-width: 755px) {
-  /* Header */
+  /* HEADER */
   header {
     padding: 16px 0;
   }
@@ -33,7 +35,9 @@
     margin: 16px auto;
   }
 
-  .linha1, .linha2, .linha3 {
+  .linha1,
+  .linha2,
+  .linha3 {
     flex-direction: column;
     width: 100%;
   }
@@ -71,7 +75,9 @@
     width: 100%;
   }
 
-  .exercicio ol, ul, dl {
+  .exercicio ol, 
+  ul,
+  dl {
     margin-left: 24px;
   }
 
@@ -82,7 +88,8 @@
     width: 95%;
   }
 
-  .coluna-1, .coluna-2 {
+  .coluna-1,
+  .coluna-2 {
     width: 100%;
   }
 

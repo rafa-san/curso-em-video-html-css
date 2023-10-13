@@ -1,6 +1,7 @@
-/* GERAL */
-@charset "UTF-8";
+@charset "utf-8";
 
+
+/* GERAL */
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -11,7 +12,6 @@
   --cor3: #bf8c91; /* links */
   --cor4: #78A8BF;
   --cor5: #4E6773;
-
   --fonte-titulo: 'Bungee', cursive;
   --fonte-padrao: 'Inter', sans-serif;
 }
@@ -214,14 +214,16 @@ a.link-ativo {
   width: 100%;
 }
 
-.linha1, .linha2, .linha3 {
+.linha-1,
+.linha-2,
+.linha-3 {
   display: flex;
   justify-content: center;
   margin: 8px auto;
   width: 100%;
 }
 
-.linha3 {
+.linha-3 {
   width: 90%;
 }
 
@@ -248,7 +250,7 @@ a.link-ativo {
   margin-left: 16px;
 }
 
-.linha3 .conteudo-detalhes {
+.linha-3 .conteudo-detalhes {
   padding: 24px 0 40px;
 }
 
@@ -274,7 +276,8 @@ a.link-ativo {
   width: 46%;
 }
 
-.div-exercicios, .div-desafios {
+.div-exercicios,
+.div-desafios {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
@@ -293,7 +296,8 @@ a.link-ativo {
   transition: all 0.3s ease;
 }
 
-.div-desafios i, .div-exercicios i {
+.div-desafios i,
+.div-exercicios i {
   color: rgba(120, 168, 191, 0.7);
   font-size: 4em;
   margin: 8px 0;
@@ -301,14 +305,16 @@ a.link-ativo {
   width: 100%;
 }
 
-.div-desafios p, .div-exercicios p {
+.div-desafios p, 
+.div-exercicios p {
   font-size: 1.5em;
   text-align: center;
 }
 
 
 /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
-.container-lista-desafios, .container-lista-exercicios {
+.container-lista-desafios, 
+.container-lista-exercicios {
   margin: 1.5em auto;
   padding: 32px 0;
   width: 90%;
@@ -337,214 +343,6 @@ a.link-ativo {
 .lista a:hover {
   box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
   transition: all 0.3s ease;
-}
-
-
-/* PÁGINAS DE EXERCÍCIOS E DESAFIOS - GERAL */
-.container-exercicio, .container-desafio {
-  margin: 1.5em auto;
-  padding: 32px 0;
-  text-align: center;
-  width: 80%;
-}
-
-.exercicio, .desafio {
-  /*background-image: radial-gradient(circle, rgba(115, 72, 77, 0.3) 10%, rgba(191, 140, 145, 0.2));*/
-  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
-  border-radius: 8px;
-  color: var(--cor5);
-  margin-bottom: 32px;
-  padding: 16px 0;
-}
-
-.conteudo-exercicio, .conteudo-desafio {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
-  margin: 8px auto;
-  padding: 8px;
-  width: 95%;
-}
-
-.conteudo-exercicio h2, .conteudo-desafio h2 {
-  padding: 8px 8px 16px;
-}
-
-.titulo1, .titulo2, .titulo3, .titulo4 {
-  color: #000;
-  line-height: 1.9em;
-  margin: 8px auto;
-  padding: 8px 0;
-  text-align: left;
-  width: 90%;
-}
-
-.exercicio a, .desafio a {
-  color: var(--cor3);
-  text-align: left;
-  text-decoration: none;
-}
-
-.exercicio a:hover, .desafio a:hover {
-  text-decoration: underline;
-}
-
-.exercicio picture img, .desafio picture img {
-  margin-top: 16px;
-  width: 90%;
-}
-
-blockquote {
-  color: #000;
-  line-height: 1.9em;
-  margin: auto;
-  padding: 0 8px;
-  text-align: left;
-  width: 90%;
-}
-
-dd {
-  display: block;
-  line-height: 1.9em;
-  margin-left: 24px;
-}
-
-mark {
-  color: var(--cor1);
-  background-color: rgba(115, 72, 77, 0.2);
-  border-radius: 8px;
-  padding: 2px;
-}
-
-pre {
-  color: var(--cor1);
-  display: block;
-  font-family: monospace;
-  margin: 1em auto 0.6em;
-  /* padding-top: 8px; */
-  text-align: left;
-  white-space: normal;
-  width: 90%;
-}
-
-span {
-  color: var(--cor1);
-}
-
-
-/* EXERCÍCIOS - GERAL */
-.conteudo-exercicio p, .conteudo-desafio p {
-  color: #000;
-  line-height: 1.9em;
-  margin: 8px auto;
-  text-align: left;
-  width: 90%;
-}
-
-.exercicio ol, ul, dl {
-  color: #000;
-  line-height: 1.5em;
-  list-style-position: inside;
-  margin: auto;
-  text-align: left;
-  width: 90%;
-}
-
-
-/* EXERCÍCIO 03 */
-.exercicio-03 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.exercicio-03 div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 24px;
-  padding: 16px;
-  width: 240px;
-}
-
-.exercicio-03 div p {
-  margin: 8px 0 24px 0;
-  text-align: center;
-  width: 100%;
-}
-
-.exercicio-03-img {
-  height: 253px;
-  max-width: 180px;
-}
-
-/* EXERCÍCIO 11 */
-.exercicio audio {
-  margin-top: 16px;
-  width: 90%;
-}
-
-/* EXERCÍCIO 12 */
-.video-responsivo {
-  margin: 0 16px 16px 16px;
-  padding: 24px;
-  padding-bottom: 50%;
-  position: relative;
-}
-
-.video-responsivo video {
-  height: 90%;
-  left: 5%;
-  position: absolute;
-  top: 5%;
-  width: 90%;
-}
-
-.video-responsivo iframe {
-  height: 90%;
-  left: 5%;
-  position: absolute;
-  top: 5%;
-  width: 90%;
-}
-
-/* DESAFIO 04 */
-.colunas {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 8px 0;
-  width: 77%;
-}
-
-.coluna-1, .coluna-2 {
-  display: flex;
-  flex-direction: column;
-  margin: 8px auto;
-  padding: 0 8px;
-  width: 50%;
-}
-
-.colunas h3 {
-  margin: 0;
-  text-align: left;
-}
-
-.colunas ul {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-
-.colunas ul li {
-  padding: 3px 0;
-}
-
-/* DESAFIO 5 */
-.desafio-05-lista {
-  list-style-position: inside;
-  text-align: left;
 }
 
 
