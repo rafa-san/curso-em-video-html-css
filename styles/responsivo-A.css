@@ -35,14 +35,14 @@
     margin: 16px auto;
   }
 
-  .linha1,
-  .linha2,
-  .linha3 {
+  .linha-1,
+  .linha-2,
+  .linha-3 {
     flex-direction: column;
     width: 100%;
   }
 
-  .linha3 {
+  .linha-3 {
     width: 100%;
   }
 
@@ -90,7 +90,9 @@
 
   .coluna-1,
   .coluna-2 {
+    border: 1px solid red;
     width: 100%;
+    flex-direction: column;
   }
 
   /*.desafio ol, ul {

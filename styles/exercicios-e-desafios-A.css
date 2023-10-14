@@ -34,10 +34,10 @@
   padding: 8px 8px 16px;
 }
 
-.titulo1,
-.titulo2,
-.titulo3,
-.titulo4 {
+.titulo-1,
+.titulo-2,
+.titulo-3,
+.titulo-4 {
   color: #000;
   line-height: 1.9em;
   margin: 8px auto;
@@ -189,14 +189,14 @@ dl {
 
 
 /* DESAFIOS 1 E 2 */
-#paragrafo-desafio01-m1,
-#paragrafo-desafio02-m1 {
+#paragrafo-desafio-01-m1,
+#paragrafo-desafio-02-m1 {
   text-align: center;
 }
 
 
 /* DESAFIO 3 */
-#paragrafo-desafio03-m1 {
+#paragrafo-desafio-03-m1 {
   line-height: 1.9em;
   margin: 8px auto;
   text-align: center;
@@ -246,12 +246,12 @@ dl {
 
 
 /* DESAFIO 5 */
-#container-img-desafio05 {
+#container-img-desafio-05 {
   margin: 0 auto;
   width: 90%;
 }
 
-#container-img-desafio05 img {
+#container-img-desafio-05 img {
   display: block;
   border-radius: 50%;
   max-width: 100%;
