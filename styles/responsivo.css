@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) {
+  
+  /* HEADER */
+  .topnav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .topnav i {
+    display: none;
+  }
+
+  .responsivo li {
+    display: block;
+  }
+
+
+  /* INDEX */
+  .capas-modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .capa {
+    flex: 33%;
+  }
+
+  /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
+  /* .container-modulo {
+    background-color: coral;
+  } */
+
+  /* Links Curso */
+  .links-curso {
+    border: 1px solid white;
+  }
+
+  .links-curso-imagens {
+    border: 1px solid blue;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+  }
+
+  /* Conteúdo do Módulo */
+  .linha-1,
+  .linha-2,
+  .linha-3 {
+    border: 1px solid white;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .conteudo-detalhes {
+    background-color: yellow;
+    margin: 16px;
+  }
+
+  /* Links Atividades */
+  .exercicios-e-desafios {
+    border: 1px solid green;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .div-exercicios,
+  .div-desafios {
+    margin: 0 72px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  /* INDEX */
+  .capa {
+    flex: 50%;
+  }
+
+  /* Links Curso */
+  .links-curso-imagens {
+    width: 100%;
+  }
+
+  /* Conteúdo do Módulo */
+  .linha-1,
+  .linha-2,
+  .linha-3 {
+    border: 1px solid white;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .conteudo-detalhes {
+    background-color: blue;
+    margin: 8px auto;
+    width: 75%
+  }
+
+  /* Links Atividades */
+
+}
+
