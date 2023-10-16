@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 @media screen and (min-width: 768px) {
-  
   /* HEADER */
   .topnav {
     flex-direction: row;
@@ -29,51 +28,47 @@
   }
 
   /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
-  /* .container-modulo {
-    background-color: coral;
-  } */
 
   /* Links Curso */
-  .links-curso {
-    border: 1px solid white;
+  .links-curso-imagens,
+  .exercicios-e-desafios  {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
-  .links-curso-imagens {
-    border: 1px solid blue;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-  }
 
   /* Conteúdo do Módulo */
   .linha-1,
   .linha-2,
   .linha-3 {
-    border: 1px solid white;
     flex-direction: row;
     justify-content: space-around;
   }
 
   .conteudo-detalhes {
-    background-color: yellow;
     margin: 16px;
   }
 
-  /* Links Atividades */
-  .exercicios-e-desafios {
-    border: 1px solid green;
-    flex-direction: row;
-    justify-content: space-around;
+  .conteudo-detalhes.ocultar {
+    background-image: unset;
+    display: block;
   }
 
+  /* Links Atividades */
   .div-exercicios,
   .div-desafios {
-    margin: 0 72px;
+    width: 90%;
+  }
+
+
+  /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
+  .lista a {
+    width: 31%;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   /* INDEX */
   .capa {
     flex: 50%;
@@ -84,22 +79,34 @@
     width: 100%;
   }
 
+  .links-curso-imagens,
+  .exercicios-e-desafios  {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   /* Conteúdo do Módulo */
   .linha-1,
   .linha-2,
   .linha-3 {
-    border: 1px solid white;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .conteudo-detalhes {
-    background-color: blue;
     margin: 8px auto;
     width: 75%
   }
 
-  /* Links Atividades */
+  .conteudo-detalhes.ocultar {
+    display: none;
+  }
 
+  /* Links Atividades */
+  .div-exercicios,
+  .div-desafios {
+    margin: 16px auto;
+  }
 }
 

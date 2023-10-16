@@ -46,24 +46,31 @@ header a {
   background-color: var(--cor5);
   font-size: 1.1em;
   font-weight: 600;
+  height: 50px;
   list-style-type: none;
   padding: 8px 0;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
-.topnav i {
+.topnav li a {
+  display: none;
+}
+
+.topnav li a.link-ativo {
+  text-decoration: underline white 2px;
+}
+
+.topnav li i {
   cursor: pointer;
 }
 
-.topnav i,
-li {
+.topnav li {
   padding: 8px;
   text-align: center;
 }
 
-.topnav i,
-li a {
+.topnav li i,
+.topnav li a {
   color: white;
   text-decoration: none;
 }
@@ -72,8 +79,12 @@ li a {
   text-decoration: underline 2px;
 }
 
-.responsivo li {
-  display: none;
+.responsivo { /* Classe (responsivo) adicionada via JavaScript */
+  height: unset;
+}
+
+.responsivo li a { 
+  display: block;
 }
 
 
@@ -144,10 +155,6 @@ li a {
 
 
 /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
-a.link-ativo {
-  text-decoration: underline white 2px;
-}
-
 .container-modulo {
   padding: 16px 8px;
 }
@@ -156,7 +163,6 @@ a.link-ativo {
 .links-curso,
 .conteudo-do-modulo,
 .links-atividades {
-  border: 1px solid pink;
   margin: auto;
   padding: 16px;
   width: 90%;
@@ -172,14 +178,11 @@ a.link-ativo {
 .links-curso-imagens {
   margin: 8px auto;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .curso-em-video img,
 .youtube img {
-  border: 1px solid green;
-  /* border: 1px solid transparent; */
+  border: 1px solid transparent;
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   height: auto; 
@@ -197,20 +200,6 @@ a.link-ativo {
 }
 
 /* Conteúdo do Módulo */
-/* .conteudo-do-modulo {
-  margin: auto;
-  padding: 8px;
-  width: 90%;
-} */
-
-.linha-1,
-.linha-2,
-.linha-3 {
-  /* margin: 8px auto; */
-  display: flex;
-  flex-direction: column;
-}
-
 .conteudo-detalhes {
   background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
   border: 2px solid transparent;
@@ -218,7 +207,7 @@ a.link-ativo {
   font-weight: 500;
   line-height: 1.5em;
   margin: 8px auto;
-  width: 100%;
+  width: 85%;
 }
 
 .conteudo-detalhes h3 {
@@ -237,17 +226,12 @@ a.link-ativo {
   text-align: left;
 }
 
-/* Links Atividades */
-/* .links-atividades {
-  margin: auto;
-  padding: 8px;
-  width: 90%;
-} */
+.conteudo-detalhes.ocultar {
+  display: none;
+}
 
+/* Links Atividades */
 .exercicios-e-desafios {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin: 8px auto;
   padding: 8px;
 }
@@ -265,8 +249,10 @@ a.link-ativo {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
+  max-width: 336px;
   padding: 24px;
   text-align: center;
+  width: 100%;
 }
 
 .div-exercicios:hover,
@@ -290,6 +276,40 @@ a.link-ativo {
 }
 
 
+/* MÓDULOS - EXERCÍCIOS E DESAFIOS */
+.container-lista-desafios, 
+.container-lista-exercicios {
+  margin: 1.5em auto;
+  padding: 32px 0;
+  width: 90%;
+}
+
+.lista {
+  margin: 8px auto;
+  padding: 0 0 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.lista a {
+  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
+  color: var(--cor5);
+  border-radius: 8px;
+  font-weight: 500;
+  margin: 8px;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.lista a:hover {
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
+  transition: all 0.3s ease;
+}
+
+
 /* BOTÃO VOLTAR */
 .botao-voltar {
   margin: 2em auto;
@@ -297,9 +317,7 @@ a.link-ativo {
 }
 
 .botao-voltar i {
-  /*background-image: radial-gradient(circle, rgba(78, 103, 115, 0.4), rgba(78, 103, 115, 0.2));*/
   background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
-  /*background-image: radial-gradient(circle, rgba(120, 168, 191, 0.2) 10%, rgba(120, 168, 191, 0.1));*/
   border: 1px solid transparent;
   border-radius: 50%;
   color: var(--cor5);
@@ -318,9 +336,7 @@ footer {
   background-image: linear-gradient(to top, var(--cor5), var(--cor4));
   background-color: var(--cor4);
   color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 24px 0;
+  padding: 32px 0;
   width: 100%;
 }
 
