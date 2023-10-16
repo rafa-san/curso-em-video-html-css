@@ -1,12 +1,14 @@
+let iconeMenu = document.querySelector('#icone-menu');
+iconeMenu.addEventListener('click', menu);
+
 function menu() {
-  let menu = document.getElementById("topnavResponsivo");
-  if (menu.className === "topnav") {
-    menu.className += " responsivo";
+  let menuResponsivo = document.getElementById("topnavResponsivo");
+  if (menuResponsivo.className === "topnav") {
+    menuResponsivo.className += " responsivo";
   } else {
-    menu.className = "topnav";
+    menuResponsivo.className = "topnav";
   }
 }
-
 
 
 
