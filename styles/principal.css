@@ -48,8 +48,27 @@ header a {
   font-weight: 600;
   height: 50px;
   list-style-type: none;
+  overflow: hidden;
   padding: 8px 0;
   width: 100%;
+}
+
+.topnav li {
+  margin: auto;
+  padding: 8px;
+  text-align: center;
+  width: 50%;
+}
+
+.topnav li i {
+  cursor: pointer;
+  display: block;
+}
+
+.topnav li i,
+.topnav li a {
+  color: white;
+  text-decoration: none;
 }
 
 .topnav li a {
@@ -60,26 +79,11 @@ header a {
   text-decoration: underline white 2px;
 }
 
-.topnav li i {
-  cursor: pointer;
-}
-
-.topnav li {
-  padding: 8px;
-  text-align: center;
-}
-
-.topnav li i,
-.topnav li a {
-  color: white;
-  text-decoration: none;
-}
-
 .topnav li a:hover {
   text-decoration: underline 2px;
 }
 
-.responsivo { /* Classe (responsivo) adicionada via JavaScript */
+.responsivo { /* Classe (.responsivo) adicionada via JavaScript */
   height: unset;
 }
 
@@ -206,8 +210,9 @@ header a {
   border-radius: 8px;
   font-weight: 500;
   line-height: 1.5em;
-  margin: 8px auto;
-  width: 85%;
+  margin: 16px auto;
+  padding: 24px 16px;
+  width: 100%;
 }
 
 .conteudo-detalhes h3 {
@@ -219,7 +224,7 @@ header a {
 .conteudo-detalhes ul {
   color: #000;
   list-style-position: inside;
-  margin-left: 16px;
+  /* margin-left: 8px; */
 }
 
 .conteudo-detalhes ul li {
@@ -250,7 +255,7 @@ header a {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
   max-width: 336px;
-  padding: 24px;
+  padding: 24px 0;
   text-align: center;
   width: 100%;
 }
@@ -279,14 +284,14 @@ header a {
 /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
 .container-lista-desafios, 
 .container-lista-exercicios {
-  margin: 1.5em auto;
-  padding: 32px 0;
+  margin: auto;
+  padding: 16px;
   width: 90%;
 }
 
 .lista {
   margin: 8px auto;
-  padding: 0 0 32px 0;
+  padding: 8px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -312,7 +317,7 @@ header a {
 
 /* BOTÃO VOLTAR */
 .botao-voltar {
-  margin: 2em auto;
+  margin: 16px auto;
   text-align: center;
 }
 

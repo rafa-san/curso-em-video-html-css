@@ -1,17 +1,31 @@
 @charset "utf-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {  
   /* HEADER */
   .topnav {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  .topnav i {
+  .topnav::after {
+    /* border: 1px solid pink; */
+    content:'';
+    width: 16%;
+  }
+
+  .topnav li {
+    /* border: 1px solid blue; */
+    margin-right: 16px;
+    width: 16%;
+    padding: 8px 0;
+  }
+
+  .topnav li i {
     display: none;
   }
 
-  .responsivo li {
+  .topnav li a {
     display: block;
   }
 
@@ -33,6 +47,7 @@
   .links-curso-imagens,
   .exercicios-e-desafios  {
     width: 80%;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -42,6 +57,7 @@
   .linha-1,
   .linha-2,
   .linha-3 {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -58,7 +74,7 @@
   /* Links Atividades */
   .div-exercicios,
   .div-desafios {
-    width: 90%;
+    width: 100%;
   }
 
 
@@ -66,6 +82,21 @@
   .lista a {
     width: 31%;
   }
+
+
+  /* MATERIAL EXTRA */
+  .material-extra {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .material-extra article {
+    border: 1px solid blue;
+    width: 18%;
+  }
+
+
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
@@ -78,7 +109,7 @@
   .links-curso-imagens {
     width: 100%;
   }
-
+  
   .links-curso-imagens,
   .exercicios-e-desafios  {
     width: 100%;
@@ -107,6 +138,12 @@
   .div-exercicios,
   .div-desafios {
     margin: 16px auto;
+  }
+
+
+  /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
+  .lista a {
+    width: 40%;
   }
 }
 
