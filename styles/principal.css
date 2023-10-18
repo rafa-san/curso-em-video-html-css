@@ -113,11 +113,6 @@ header a {
   width: 73%;
 }
 
-.capa:hover {
-  opacity: 0.7;
-  transition: all 0.3s ease;
-}
-
 .capa h3 {
   color: var(--cor5);
   font-weight: bold;
@@ -135,26 +130,14 @@ header a {
   display: block;
 }
 
-#em-breve {
-  cursor: auto;
-  text-align: center;
-  position: relative;
-}
-
-.centralizado {
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  font-size: 2em;
-  width: 334px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.capa img:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
 .img-em-breve {
-  cursor: auto;
-  opacity: 0.4;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 
@@ -254,7 +237,7 @@ header a {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
-  max-width: 336px;
+  max-width: 350px;
   padding: 24px 0;
   text-align: center;
   width: 100%;

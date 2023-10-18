@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* #1 */
 @media screen and (min-width: 768px) {  
   /* HEADER */
   .topnav {
@@ -9,13 +10,11 @@
   }
 
   .topnav::after {
-    /* border: 1px solid pink; */
     content:'';
     width: 16%;
   }
 
   .topnav li {
-    /* border: 1px solid blue; */
     margin-right: 16px;
     width: 16%;
     padding: 8px 0;
@@ -38,112 +37,104 @@
   }
 
   .capa {
-    flex: 33%;
-  }
-
-  /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
-
-  /* Links Curso */
-  .links-curso-imagens,
-  .exercicios-e-desafios  {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-
-  /* Conteúdo do Módulo */
-  .linha-1,
-  .linha-2,
-  .linha-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .conteudo-detalhes {
-    margin: 16px;
-  }
-
-  .conteudo-detalhes.ocultar {
-    background-image: unset;
-    display: block;
-  }
-
-  /* Links Atividades */
-  .div-exercicios,
-  .div-desafios {
-    width: 100%;
-  }
-
-
-  /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
-  .lista a {
+    margin: 16px 8px;
     width: 31%;
   }
 
 
-  /* MATERIAL EXTRA */
-  .material-extra {
-    border: 1px solid black;
-    display: flex;
-  }
-
-  .material-extra article {
-    border: 1px solid blue;
-    width: 18%;
-  }
-
-
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-  /* INDEX */
-  .capa {
-    flex: 50%;
-  }
+  /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
 
   /* Links Curso */
-  .links-curso-imagens {
-    width: 100%;
+  .container-modulo {
+    background-color: gray;
   }
-  
+
   .links-curso-imagens,
-  .exercicios-e-desafios  {
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-evenly;
+  .exercicios-e-desafios {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links-curso-imagens::after,
+  .links-curso-imagens::before {
+    content: '';
+    width: 15%;
+  }
+
+  .curso-em-video,
+  .youtube {
+    margin: 0 8px;
   }
 
   /* Conteúdo do Módulo */
   .linha-1,
   .linha-2,
   .linha-3 {
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: flex;
   }
-
+  
   .conteudo-detalhes {
-    margin: 8px auto;
-    width: 75%
-  }
-
-  .conteudo-detalhes.ocultar {
-    display: none;
+    margin: 16px;
+    width: 75%;
   }
 
   /* Links Atividades */
+  .exercicios-e-desafios::after,
+  .exercicios-e-desafios::before {
+    content: '';
+    width: 16%;
+  }
+
   .div-exercicios,
   .div-desafios {
-    margin: 16px auto;
+    max-width: 90%;
+  }
+  
+}
+
+/* #2 */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  /* INDEX */
+  .capa {
+    width: 48%;
   }
 
 
-  /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
-  .lista a {
-    width: 40%;
-  }
+  /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
+
+  /* Links Curso */
+  /* .links-curso-imagens,
+  .exercicios-e-desafios {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  /* .links-curso-imagens::after,
+  .links-curso-imagens::before {
+    content: '';
+    width: 10%;
+  } */
+
+  /* .curso-em-video,
+  .youtube {
+    margin: 0 8px;
+  } */
+
+  /* Conteúdo do Módulo */
+  /* .conteudo-detalhes {
+    width: 75%;
+  } */
+
+  /* Links Atividades */
+  /* .exercicios-e-desafios::after,
+  .exercicios-e-desafios::before {
+    content: '';
+    width: 16%;
+  } */
+
+  /* .div-exercicios,
+  .div-desafios {
+    max-width: 90%;
+  } */
 }
 
