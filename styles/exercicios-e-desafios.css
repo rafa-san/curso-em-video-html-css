@@ -123,12 +123,13 @@ dl {
 /* EXERCÍCIO 03 - MÓDULO 01 */
 .exercicio-03-m1 {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .exercicio-03-m1 div {
-  margin: 16px 0;
+  margin: 16px auto;
   padding: 16px 8px;
   width: 100%;
 }
@@ -146,26 +147,30 @@ dl {
 
 
 /* EXERCÍCIO 12 - MÓDULO 01 */
+.container-video {
+  margin: 16px 0;
+  padding: 8px 0;
+}
+
 .video-responsivo {
-  margin: 16px;
   padding-bottom: 50%;
   position: relative;
 }
 
 .video-responsivo video {
   height: 90%;
-  width: 94%;
+  left: 5%;
   position: absolute;
   top: 5%;
-  left: 5%;
+  width: 90%;
 }
 
 .video-responsivo iframe {
   height: 90%;
-  width: 94%;
+  left: 5%;
   position: absolute;
   top: 5%;
-  left: 5%;
+  width: 90%;
 }
 
 
@@ -193,42 +198,32 @@ dl {
 
 /* DESAFIO 04 - MÓDULO 01 */
 .desafio-04-m1 .titulo-3 {
-  /* text-align: center; */
   width: 91%;
 }
-
-/* .desafio-04-m1 ul {
-  width: 58%;
-} */
-
-/* .desafio-04-m1 .colunas {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 
 
 /* DESAFIO 05 - MÓDULO 01 */
 .desafio-05-m1 img {
-  border: 1px solid red;
   border-radius: 50%;
+  margin-left: 5%;
   display: block;
 }
 
 
 /* MATERIAL EXTRA */
 .material-extra {
-  margin: 16px auto;
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .material-extra article {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
-  padding: 40px 8px;
-  width: 100%;
+  padding: 32px 8px;
+  width: 95%;
 }
 
 .material-extra article a {
@@ -249,8 +244,10 @@ dl {
   color: var(--cor5);
   font-size: 1.2em;
   font-weight: 500;
-  padding: 24px 0;
+  margin: 8px auto;
+  padding: 16px 0;
   text-align: center;
+  width: 90%;
 } 
 
 

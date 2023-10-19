@@ -30,111 +30,68 @@
 
 
   /* INDEX */
-  .capas-modulos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
   .capa {
-    margin: 16px 8px;
-    width: 31%;
+    width: 30%;
   }
 
 
   /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
-
   /* Links Curso */
-  .container-modulo {
-    background-color: gray;
+  .links-curso-imagens {
+    flex-direction: row;
   }
 
-  .links-curso-imagens,
-  .exercicios-e-desafios {
-    display: flex;
-    justify-content: space-between;
+  .links-curso-imagens .curso-em-video,
+  .links-curso-imagens .youtube {
+    margin: 8px 24px;
   }
 
-  .links-curso-imagens::after,
-  .links-curso-imagens::before {
-    content: '';
-    width: 15%;
-  }
-
-  .curso-em-video,
-  .youtube {
-    margin: 0 8px;
+  .curso-em-video img,
+  .youtube img {
+    max-width: 500px;
   }
 
   /* Conteúdo do Módulo */
   .linha-1,
   .linha-2,
   .linha-3 {
-    display: flex;
+    margin: 8px 0;
+    flex-direction: row;
   }
-  
-  .conteudo-detalhes {
-    margin: 16px;
-    width: 75%;
+
+  .conteudo-detalhes.ocultar {
+    background-image: unset;
+    display: block;
   }
 
   /* Links Atividades */
-  .exercicios-e-desafios::after,
-  .exercicios-e-desafios::before {
-    content: '';
-    width: 16%;
+  .exercicios-e-desafios {
+    margin: auto;
+    flex-direction: row;
+    width: 80%;
   }
 
   .div-exercicios,
   .div-desafios {
-    max-width: 90%;
+    width: 90%;
+  }
+
+
+  /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
+  .lista {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
-}
-
-/* #2 */
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-  /* INDEX */
-  .capa {
-    width: 48%;
+  .lista a {
+    width: 18%;
   }
-
-
-  /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
-
-  /* Links Curso */
-  /* .links-curso-imagens,
-  .exercicios-e-desafios {
-    display: flex;
-    justify-content: space-between;
-  } */
-
-  /* .links-curso-imagens::after,
-  .links-curso-imagens::before {
-    content: '';
-    width: 10%;
-  } */
-
-  /* .curso-em-video,
-  .youtube {
-    margin: 0 8px;
-  } */
-
-  /* Conteúdo do Módulo */
-  /* .conteudo-detalhes {
-    width: 75%;
-  } */
-
-  /* Links Atividades */
-  /* .exercicios-e-desafios::after,
-  .exercicios-e-desafios::before {
-    content: '';
-    width: 16%;
-  } */
-
-  /* .div-exercicios,
-  .div-desafios {
-    max-width: 90%;
-  } */
+  
+  .lista::after {
+    display: none;
+  }
+  
+  .lista a {
+    width: 60%;
+  }
 }
-
