@@ -37,26 +37,14 @@
 
   /* MÓDULO1.HTML MÓDULO2.HTML MÓDULO3.HTML MÓDULO4.HTML MÓDULO5.HTML */
   /* Links Curso */
-  .links-curso-imagens {
-    flex-direction: row;
-  }
-
-  .links-curso-imagens .curso-em-video,
-  .links-curso-imagens .youtube {
-    margin: 8px 24px;
-  }
-
   .curso-em-video img,
   .youtube img {
     max-width: 500px;
   }
 
   /* Conteúdo do Módulo */
-  .linha-1,
-  .linha-2,
-  .linha-3 {
-    margin: 8px 0;
-    flex-direction: row;
+  .conteudo-detalhes {
+    width: 47%;
   }
 
   .conteudo-detalhes.ocultar {
@@ -65,33 +53,32 @@
   }
 
   /* Links Atividades */
-  .exercicios-e-desafios {
-    margin: auto;
-    flex-direction: row;
-    width: 80%;
+  .exercicios-e-desafios a {
+    width: 48%;
   }
 
   .div-exercicios,
   .div-desafios {
-    width: 90%;
+    width: 75%;
+  }
+
+  .div-exercicios {
+    margin-right: 23px;
+  }
+
+  .div-desafios {
+    margin-left: 23px;
   }
 
 
   /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
-  .lista {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
   .lista a {
-    width: 18%;
+    width: 47%;
   }
   
   .lista::after {
-    display: none;
-  }
-  
-  .lista a {
-    width: 60%;
+    content: "";
+    margin: 8px auto;
+    width: 47%;
   }
 }

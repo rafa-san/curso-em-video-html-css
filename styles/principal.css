@@ -30,7 +30,7 @@ body {
 /* HEADER */
 header {
   background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
-  padding: 16px 0;
+  padding: 24px 0;
   text-align: center;
   width: 100%;
 }
@@ -117,7 +117,6 @@ header a {
   margin: 16px auto;
   padding: 16px 0;
   width: 60%;
-  min-width: 370px;
 }
 
 .capa h3 {
@@ -174,9 +173,14 @@ header a {
 .links-curso-imagens {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.links-curso-imagens .curso-em-video,
+.links-curso-imagens .youtube {
+  margin: 16px 24px;
 }
 
 .curso-em-video img,
@@ -202,9 +206,10 @@ header a {
 .linha-1,
 .linha-2,
 .linha-3 {
-  margin: 8px 0;
+  margin: 8px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -240,17 +245,20 @@ header a {
 
 /* Links Atividades */
 .exercicios-e-desafios {
+  margin: 16px auto;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .exercicios-e-desafios a {
   color: var(--cor5);
   font-weight: bolder;
-  margin: auto;
+  margin: 16px auto;
   text-decoration: none;
-  width: 100%;
+  width: 70%;
 }
 
 .div-exercicios,
@@ -258,7 +266,6 @@ header a {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
-  /* max-width: 360px; */
   padding: 24px 0;
   text-align: center;
   width: 100%;
@@ -288,7 +295,6 @@ header a {
 /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
 .container-lista-desafios, 
 .container-lista-exercicios {
-  border: 1px solid black;
   margin: auto;
   padding: 16px;
   width: 90%;
@@ -298,9 +304,8 @@ header a {
   margin: 8px auto;
   padding: 8px;
   display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
-  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .lista a {
@@ -308,11 +313,11 @@ header a {
   color: var(--cor5);
   border-radius: 8px;
   font-weight: 500;
-  margin: 8px;
+  margin: 8px auto;
   padding: 32px 16px;
   text-align: center;
   text-decoration: none;
-  width: 100%;
+  width: 90%;
 }
 
 .lista a:hover {
@@ -347,7 +352,7 @@ footer {
   background-image: linear-gradient(to top, var(--cor5), var(--cor4));
   background-color: var(--cor4);
   color: white;
-  padding: 32px 0;
+  padding: 40px 0;
   width: 100%;
 }
 

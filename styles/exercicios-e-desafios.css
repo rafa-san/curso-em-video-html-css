@@ -222,7 +222,7 @@ dl {
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   margin: 16px auto;
-  padding: 32px 8px;
+  padding: 16px 8px;
   width: 95%;
 }
 
@@ -237,6 +237,7 @@ dl {
 
 .material-extra article i {
   color: var(--cor4);
+  /* display: none; */
   font-size: 5.5em;
 }
 
