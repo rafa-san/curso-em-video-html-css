@@ -131,8 +131,8 @@ header a {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   height: auto;
   margin: auto;
-  max-width: 336px;
-  width: 100%;
+  /* max-width: 336px; */
+  max-width: 100%;
   display: block;
 }
 
@@ -358,13 +358,13 @@ footer {
 
 footer p {
   font-size: 1.2em;
-  padding: 4px 0;
+  padding: 8px;
   text-align: center;
   width: 100%;
 }
 
 .contato {
-  padding: 4px 0;
+  padding: 8px;
   text-align: center;
   width: 100%;
 }

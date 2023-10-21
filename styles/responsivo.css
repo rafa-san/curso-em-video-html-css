@@ -81,4 +81,21 @@
     margin: 8px auto;
     width: 47%;
   }
+
+
+  /* EXERCÍCIO 03 - MÓDULO 01 */
+  .exercicio-03-m1 div {
+    max-width: 26%;
+    min-width: 280px;
+  }
+
+  .exercicio-03-m1-img {
+    margin-top: 8px;
+  }
+
+
+  /* MATERIAL EXTRA */
+  .material-extra article {
+    max-width: 44%;
+  }
 }

@@ -129,7 +129,7 @@ dl {
 }
 
 .exercicio-03-m1 div {
-  margin: 16px auto;
+  margin: 8px;
   padding: 16px 8px;
   width: 100%;
 }
@@ -141,6 +141,7 @@ dl {
 }
 
 .exercicio-03-m1-img {
+  border-radius: 2px;
   height: 253px;
   max-width: 230px;
 }
@@ -212,10 +213,10 @@ dl {
 
 /* MATERIAL EXTRA */
 .material-extra {
-  margin: 16px 0;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .material-extra article {
@@ -237,8 +238,10 @@ dl {
 
 .material-extra article i {
   color: var(--cor4);
-  /* display: none; */
   font-size: 5.5em;
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
 }
 
 .material-extra article p {
@@ -246,9 +249,9 @@ dl {
   font-size: 1.2em;
   font-weight: 500;
   margin: 8px auto;
-  padding: 16px 0;
+  padding: 8px;
   text-align: center;
-  width: 90%;
+  width: 100%;
 } 
 
 
