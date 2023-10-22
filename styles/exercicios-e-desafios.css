@@ -140,10 +140,20 @@ dl {
   width: 100%;
 }
 
+.exercicio-03-m1 img {
+  height: auto;
+  max-width: 100%;
+}
+
 .exercicio-03-m1-img {
   border-radius: 2px;
-  height: 253px;
-  max-width: 230px;
+}
+
+
+/* EXERCÍCIO 11 */
+.exercicio audio {
+  margin: 8px;
+  width: 90%;
 }
 
 
@@ -154,24 +164,25 @@ dl {
 }
 
 .video-responsivo {
+  margin: auto;
   padding-bottom: 50%;
   position: relative;
 }
 
 .video-responsivo video {
   height: 90%;
-  left: 5%;
+  width: 86%;
   position: absolute;
+  left: 7%;
   top: 5%;
-  width: 90%;
 }
 
 .video-responsivo iframe {
   height: 90%;
-  left: 5%;
+  width: 86%;
   position: absolute;
+  left: 7%;
   top: 5%;
-  width: 90%;
 }
 
 

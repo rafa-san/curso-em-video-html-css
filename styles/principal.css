@@ -116,7 +116,7 @@ header a {
 .capa {
   margin: 16px auto;
   padding: 16px 0;
-  width: 60%;
+  width: 75%;
 }
 
 .capa h3 {
@@ -131,7 +131,6 @@ header a {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
   height: auto;
   margin: auto;
-  /* max-width: 336px; */
   max-width: 100%;
   display: block;
 }
