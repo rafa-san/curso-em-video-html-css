@@ -44,6 +44,7 @@ span {
   padding: 24px 16px;
   text-align: center;
   width: 80%;
+  /* width: 90%; */
 }
 
 .exercicio,
@@ -120,6 +121,8 @@ dl {
   width: 90%;
 }
 
+/* MÓDULO 01 */
+
 /* EXERCÍCIO 03 - MÓDULO 01 */
 .exercicio-03-m1 {
   display: flex;
@@ -149,13 +152,11 @@ dl {
   border-radius: 2px;
 }
 
-
 /* EXERCÍCIO 11 */
 .exercicio audio {
   margin: 8px;
   width: 90%;
 }
-
 
 /* EXERCÍCIO 12 - MÓDULO 01 */
 .container-video {
@@ -185,7 +186,6 @@ dl {
   top: 5%;
 }
 
-
 /* DESAFIO 01 - MÓDULO 01 */
 #desafio-01-m1 {
   text-align: center;
@@ -200,17 +200,35 @@ dl {
 
 /* DESAFIO 03 - MÓDULO 01 */
 .desafio-03-m1 > p {
-  text-align: justify;
+  text-align: center;
 }
 
 .desafio-03-m1 > img {
   max-width: 29%; 
 }
 
-
 /* DESAFIO 04 - MÓDULO 01 */
+.desafio-04-m1 .colunas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.desafio-04-m1 .coluna-1,
+.desafio-04-m1 .coluna-2 {
+  margin: auto;
+  width: 90%;
+}
+
 .desafio-04-m1 .titulo-3 {
-  width: 91%;
+  margin: 24px auto 8px;
+  padding: 0;
+  text-align: center;
+}
+
+.desafio-04-m1 ul {
+  list-style-type: none;
+  text-align: center;
 }
 
 
@@ -220,6 +238,99 @@ dl {
   margin-left: 5%;
   display: block;
 }
+
+
+/* DESAFIO 09 - MÓDULO 01 */
+.desafio-09-m1 p {
+  text-align: center;
+}
+
+/* MÓDULO 02 */
+/* EXERCÍCIO 02 */ 
+.exercicio-02-m2 .exemplo-01,
+.exercicio-02-m2 .exemplo-02 {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.exercicio-02-m2 .exemplo-01 {
+  background-color: rgb(191, 190, 159);
+  opacity: 0.4;
+}
+
+.exercicio-02-m2 .exemplo-02 {
+  background-color:rgba(191, 190, 159, 0.4);
+}
+
+/* EXERCÍCIO 03 */
+.container-gradientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-gradientes .gradiente-1 {
+  background-image: linear-gradient(to top, rgb(78, 103, 115), #bf8c91);
+  border-radius: 8px;
+  height: 200px;
+  margin: 8px;
+  width: 90%;
+  position: relative;
+}
+
+.container-gradientes .gradiente-2 {
+  background-image: radial-gradient(circle, rgb(78, 103, 115) 30%, #bf8c91);
+  border-radius: 8px;
+  height: 200px;
+  margin: 8px;
+  width: 90%;
+  position: relative;
+}
+
+.container-gradientes .gradiente-3 {
+  background-image: conic-gradient(#4E6773 10deg, #78A8BF, #bf8c91);
+  border-radius: 8px;
+  height: 200px;
+  margin: 8px;
+  width: 90%;
+  position: relative;
+}
+
+.gradiente-1 p, 
+.gradiente-2 p, 
+.gradiente-3 p {
+  color: white;
+  font-size: 1.8em;
+  padding: 0 8px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* EXERCÍCIO 04 */
+.exercicio-04-m2 h2 {
+  font-family: 'Monaco', monospace;
+}
+
+.exercicio-04-m2 .fonte {
+  font-family: 'Monaco', monospace;
+  font-size: 1.0em;
+  font-weight: 400;
+  line-height: 2em;
+  margin: 24px 0;
+  text-align: justify;
+}
+
+.exercicio-04-m2 .fonte-shorthand {
+  font: 300 1.0em 'Monaco', monospace;
+  line-height: 2.0;
+  margin: 24px 0;
+}
+
+
 
 
 /* MATERIAL EXTRA */

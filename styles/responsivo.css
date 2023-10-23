@@ -90,6 +90,43 @@
   }
 
 
+  /* DESAFIO 04 - MÓDULO 01 */
+  .desafio-04-m1 .colunas {
+    margin: auto;
+    width: 75%;
+  }
+
+  .desafio-04-m1 .coluna-1,
+  .desafio-04-m1 .coluna-2 {
+    max-width: 48%;
+  }
+
+
+  /* DESAFIO 09 - MÓDULO 01 */
+  .desafio-09-m1 .capas-modulos {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+  }
+  
+  .desafio-09-m1 .capa {
+    margin: 8px;
+    width: 46%;
+  }
+
+
+
+  /* MÓDULO 02*/ 
+  /* EXERCÍCIO 03 */
+  .container-gradientes .gradiente-1,
+  .container-gradientes .gradiente-2,
+  .container-gradientes .gradiente-3 {
+    max-width: 29%;
+  }
+
+
+
+  
   /* MATERIAL EXTRA */
   .material-extra article {
     max-width: 44%;
