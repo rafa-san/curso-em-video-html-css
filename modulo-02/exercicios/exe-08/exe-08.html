@@ -8,87 +8,6 @@
   <link rel="stylesheet" href="../../../styles/principal.css" />
   <link rel="stylesheet" href="../../../styles/responsivo.css" />
   <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-  <style>
-    :root {
-      --cor1: #73484D; /* palavras ou frases em destaque e background com rgba*/
-      --cor2: #BFBE9F;
-      --cor3: #bf8c91; /* links */
-      --cor4: #78A8BF;
-      --cor5: #4E6773;
-    }
-
-    .titulo3 {
-      text-align: center;
-    }
-
-    #container-exercicio08-m2 {
-      /* border: 1px solid black; */
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: auto;
-      padding: 16px 8px;
-      width: 95%;
-    }
-
-    .galeria {
-      background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
-      /* border: 1px solid red; */
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 8px 11px;
-      width: 24%;
-    }
-
-    .imagem {
-      border-radius: 8px;
-      cursor: pointer;
-      height: auto;
-      transition: 0.4s ease-in-out;
-      width: 100%;
-    }
-
-    .imagem:hover {
-      transform: scale(1.1);
-    }
-
-    p.titulo {
-      font-size: 1.2em;
-      font-weight: bold;
-      padding-top: 8px;
-    }
-
-    p.titulo, p.trailer {
-      margin: auto;
-      text-align: center;
-    }
-
-    .trailer img {
-      cursor: pointer;
-    }
-
-    .trailer::after {
-      content: url('../../../imagens/play-circle.svg');
-    }
-
-
-    @media screen and (max-width: 1280px) {
-      .galeria {
-        margin: 8px 0;
-        padding: 12px 17px;
-        width: 49%;
-      }
-    }
-
-    @media screen and (max-width: 640px) {
-      .galeria {
-        padding: 12px 19px;
-        width: 100%;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -110,12 +29,11 @@
   <main class="container-exercicio">
     <section class="exercicio">
       <div class="container">
-        <div class="conteudo-exercicio">
+        <div class="conteudo-exercicio exercicio-08-m2">
           <h2>Exercício 08: <em>pseudo-class</em> & <em>pseudo-element</em></a></h2>
           <h3 class="titulo3">Meus 4 Filmes Preferidos de Quentin Tarantino</h3>
           
-          <div id="container-exercicio08-m2">
-            
+          <div id="container-exercicio-08-m2">
             <div class="galeria">
               <img src="../../../imagens/filme-pulp-fiction.jpg" alt="Cena do filme Pulp Fiction" class="imagem">
                 <p class="titulo">Pulp Fiction</p>
