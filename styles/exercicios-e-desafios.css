@@ -1,6 +1,13 @@
 @charset "utf-8";
 
 /* PÁGINAS DE EXERCÍCIOS E DESAFIOS - GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+@font-face {
+  font-family: "DK";
+  src: url("../modulo-02/exercicios/exe-05/fontes/DKW.TTF") format('truetype');
+}
+
 blockquote {
   color: #000;
   line-height: 1.9em;
@@ -44,7 +51,6 @@ span {
   padding: 24px 16px;
   text-align: center;
   width: 80%;
-  /* width: 90%; */
 }
 
 .exercicio,
@@ -93,8 +99,8 @@ span {
 }
 
 .exercicio ol,
-ul,
-dl {
+.exercicio ul,
+.exercicio dl {
   color: #000;
   line-height: 1.5em;
   list-style-position: inside;
@@ -121,9 +127,8 @@ dl {
   width: 90%;
 }
 
-/* MÓDULO 01 */
 
-/* EXERCÍCIO 03 - MÓDULO 01 */
+/* MÓDULO 01 - EXERCÍCIO 03 */
 .exercicio-03-m1 {
   display: flex;
   flex-direction: row;
@@ -152,13 +157,15 @@ dl {
   border-radius: 2px;
 }
 
-/* EXERCÍCIO 11 */
+
+/* MÓDULO 01 - EXERCÍCIO 11 */
 .exercicio audio {
   margin: 8px;
   width: 90%;
 }
 
-/* EXERCÍCIO 12 - MÓDULO 01 */
+
+/* MÓDULO 01 - EXERCÍCIO 12 */
 .container-video {
   margin: 16px 0;
   padding: 8px 0;
@@ -186,19 +193,20 @@ dl {
   top: 5%;
 }
 
-/* DESAFIO 01 - MÓDULO 01 */
+
+/* MÓDULO 01 - DESAFIO 01 */
 #desafio-01-m1 {
   text-align: center;
 }
 
 
-/* DESAFIO 02 - MÓDULO 01 */
+/* MÓDULO 01 - DESAFIO 02 */
 #desafio-02-m1 {
   text-align: justify;
 }
 
 
-/* DESAFIO 03 - MÓDULO 01 */
+/* MÓDULO 01 - DESAFIO 03 */
 .desafio-03-m1 > p {
   text-align: center;
 }
@@ -207,7 +215,8 @@ dl {
   max-width: 29%; 
 }
 
-/* DESAFIO 04 - MÓDULO 01 */
+
+/* MÓDULO 01 - DESAFIO 04 */
 .desafio-04-m1 .colunas {
   display: flex;
   flex-direction: row;
@@ -232,7 +241,7 @@ dl {
 }
 
 
-/* DESAFIO 05 - MÓDULO 01 */
+/* MÓDULO 01 - DESAFIO 05 */
 .desafio-05-m1 img {
   border-radius: 50%;
   margin-left: 5%;
@@ -240,13 +249,13 @@ dl {
 }
 
 
-/* DESAFIO 09 - MÓDULO 01 */
+/* MÓDULO 01 - DESAFIO 09 */
 .desafio-09-m1 p {
   text-align: center;
 }
 
-/* MÓDULO 02 */
-/* EXERCÍCIO 02 */ 
+
+/* MÓDULO 02 - EXERCÍCIO 02 */ 
 .exercicio-02-m2 .exemplo-01,
 .exercicio-02-m2 .exemplo-02 {
   border-radius: 8px;
@@ -262,7 +271,8 @@ dl {
   background-color:rgba(191, 190, 159, 0.4);
 }
 
-/* EXERCÍCIO 03 */
+
+/* MÓDULO 02 - EXERCÍCIO 03 */
 .container-gradientes {
   display: flex;
   flex-wrap: wrap;
@@ -310,7 +320,7 @@ dl {
 }
 
 
-/* EXERCÍCIO 04 */
+/* MÓDULO 02 - EXERCÍCIO 04 */
 .exercicio-04-m2 h2 {
   font-family: 'Monaco', monospace;
 }
@@ -331,6 +341,195 @@ dl {
 }
 
 
+/* MÓDULO 02 - EXERCÍCIO 05 */
+.exercicio-05-m2 h2 {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.exercicio-05-m2 .paragrafo {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.1em;
+}
+
+.exercicio-05-m2 .paragrafo-alinhamento {
+  text-align: center;
+}
+
+.exercicio-05-m2 ol {
+  margin: auto;
+  padding-bottom: 8px;
+}
+
+.exercicio-05-m2 ol li {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 1.1em;
+  line-height: 2.0;
+}
+
+.exercicio-05-m2 span {
+  color: var(--cor5);
+  font-size: 1.3em;
+}
+
+
+/* MÓDULO 02 - EXERCÍCIO 06 */
+.exercicio-06-m2 .paragrafo {
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.377);
+  padding: 8px;
+}
+
+.exercicio-06-m2 #direita {
+  text-align: right;
+}
+
+.exercicio-06-m2 #centro {
+  text-align: center;
+}
+
+.exercicio-06-m2 #justificado-indent {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+
+/* MÓDULO 02 - EXERCÍCIO 07 */
+.exercicio-07-m2 #container {
+  margin: 16px auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.exercicio-07-m2 .area {
+  background-image: linear-gradient(to top, rgb(78, 103, 115), #bf8c91);
+  height: 200px;
+  margin: 16px;
+  min-width: 200px;
+}
+
+.exercicio-07-m2 #area-2 {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid rgb(78, 103, 115);
+}
+
+.exercicio-07-m2 #area-3 {
+  background-image: radial-gradient(circle, rgb(78, 103, 115) 30%, #bf8c91);
+  border-radius: 50%;
+}
+
+
+/* MÓDULO 02 - EXERCÍCIO 08 */
+.exercicio-08-m2 .titulo3 {
+  text-align: center;
+}
+
+.exercicio-08-m2 #container-exercicio-08-m2 {
+  margin: 16px 8px;
+  padding: 8px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-08-m2 #container-exercicio-08-m2 .galeria {
+  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px 11px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.exercicio-08-m2 .imagem {
+  border-radius: 8px;
+  cursor: pointer;
+  height: auto;
+  transition: 0.4s ease-in-out;
+  width: 100%;
+}
+
+.exercicio-08-m2 .imagem:hover {
+  transform: scale(1.05);
+}
+
+.exercicio-08-m2 p.titulo {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.exercicio-08-m2 p.titulo, 
+.exercicio-08-m2 p.trailer {
+  margin: auto;
+  text-align: center;
+}
+
+.exercicio-08-m2 a {
+  margin: 0 auto;
+  padding-top: 8px;
+  width: 20%;
+}
+
+.exercicio-08-m2 .trailer img {
+  cursor: pointer;
+}
+
+.exercicio-08-m2 .trailer::after {
+  content: url('../../../imagens/play-circle.svg');
+}
+
+
+/* MÓDULO 02 - EXERCÍCIO 09 */
+.exercicio-09-m2 #sombra-texto {
+  color: #fff;
+  background-image: linear-gradient(to top, rgba(78, 103, 115, 0.8), rgba(191, 140, 145, 0.7));
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.377);
+  font-size: 1.8em;
+  padding: 24px 16px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+/* MÓDULO 02 - DESAFIO 01 */
+.desafio-01-m2 .paragrafo-alinhamento {
+  text-align: center;
+}
+
+.desafio-01-m2 iframe {
+  height: 500px;
+  overflow: auto;
+  width: 90%;
+}
+
+
+/* MÓDULO 02 - DESAFIO 02 */
+.desafio-02-m2 .container-imagens {
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+
+.desafio-02-m2 .imagem-1 {
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+}
+
+.desafio-02-m2 .imagem-2 {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 /* MATERIAL EXTRA */
@@ -374,11 +573,4 @@ dl {
   padding: 8px;
   text-align: center;
   width: 100%;
-} 
-
-
-
-
-
-
-
+}

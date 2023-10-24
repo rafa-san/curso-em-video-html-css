@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* #1 */
 @media screen and (min-width: 768px) {  
   /* HEADER */
   .topnav {
@@ -83,14 +82,14 @@
   }
 
 
-  /* EXERCÍCIO 03 - MÓDULO 01 */
+  /* MÓDULO 01 - EXERCÍCIO 03 */
   .exercicio-03-m1 div {
     max-width: 26%;
     min-width: 280px;
   }
 
 
-  /* DESAFIO 04 - MÓDULO 01 */
+  /* MÓDULO 01 - DESAFIO 04 */
   .desafio-04-m1 .colunas {
     margin: auto;
     width: 75%;
@@ -102,7 +101,7 @@
   }
 
 
-  /* DESAFIO 09 - MÓDULO 01 */
+  /* MÓDULO 01 - DESAFIO 09 */
   .desafio-09-m1 .capas-modulos {
     margin: auto;
     width: 90%;
@@ -115,9 +114,7 @@
   }
 
 
-
-  /* MÓDULO 02*/ 
-  /* EXERCÍCIO 03 */
+  /* MÓDULO 02 - EXERCÍCIO 03 */
   .container-gradientes .gradiente-1,
   .container-gradientes .gradiente-2,
   .container-gradientes .gradiente-3 {
@@ -125,8 +122,19 @@
   }
 
 
+  /* MÓDULO 02 - EXERCÍCIO 07 */
+  .exercicio-07-m2 #container {
+    justify-content: center;
+    margin: 16px 0;
+  }
 
-  
+
+  /* MÓDULO 02 - EXERCÍCIO 08 */
+  .exercicio-08-m2 #container-exercicio-08-m2 .galeria {
+    max-width: 46%;
+  }
+
+
   /* MATERIAL EXTRA */
   .material-extra article {
     max-width: 44%;
