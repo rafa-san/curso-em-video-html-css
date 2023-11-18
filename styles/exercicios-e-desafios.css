@@ -532,6 +532,41 @@ span {
 }
 
 
+/* MÓDULO 03 - EXERCÍCIO 01 */
+.exercicio-01-m3 .container-quadrados {
+  background-image: url('../imagens/wallpaper001.jpg');
+  padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-quadrados .quadrado {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 200px;
+  margin: 8px;
+  max-width: 250px;
+  width: 200px;
+}
+
+.exercicio-01-m3 #quadrado-1 {
+  background-color: skyblue;
+}
+
+.exercicio-01-m3 #quadrado-2 {
+  background-image: linear-gradient(to bottom, yellow, coral);
+}
+
+.exercicio-01-m3 #quadrado-3 {
+  background-image: url('../imagens/pattern003.png');
+}
+
+.exercicio-01-m3 #quadrado-4 {
+  background-image: url('../imagens/pattern002.png');
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
