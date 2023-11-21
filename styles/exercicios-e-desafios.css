@@ -546,7 +546,7 @@ span {
   border-radius: 8px;
   height: 200px;
   margin: 8px;
-  max-width: 250px;
+  max-width: 255px;
   width: 200px;
 }
 
@@ -564,6 +564,33 @@ span {
 
 .exercicio-01-m3 #quadrado-4 {
   background-image: url('../imagens/pattern002.png');
+}
+
+
+/* MÓDULO 03 - EXERCÍCIO 02 */
+.exercicio-02-m3 .m3-exemplo-01,
+.exercicio-02-m3 .m3-exemplo-02,
+.exercicio-02-m3 .m3-exemplo-03,
+.exercicio-02-m3 .m3-exemplo-04 {
+  background-image: url('../imagens/img-mascote.png');
+  background-size: 80px 80px;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 200px;
+  margin: 24px auto;
+  width: 89%;
+}
+
+.exercicio-02-m3 .m3-exemplo-02 {
+  background-repeat: no-repeat;
+}
+
+.exercicio-02-m3 .m3-exemplo-03 {
+  background-repeat: repeat-x;
+}
+
+.exercicio-02-m3 .m3-exemplo-04 {
+  background-repeat: repeat-y;
 }
 
 
