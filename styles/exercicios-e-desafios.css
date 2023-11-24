@@ -594,6 +594,54 @@ span {
 }
 
 
+/* MÓDULO 03 - EXERCÍCIO 03 */
+.exercicio-03-m3 p{
+  text-align: center;
+}
+
+.exercicio-03-m3 .container-retangulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.exercicio-03-m3 .retangulo {
+  background-image: url('../imagens/wallpaper003.jpg');
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 200px;
+  margin: 8px 2px;
+  width: 90%;
+  max-width: 300px;
+}
+
+.retangulo:hover {
+  box-shadow: 2px 2px 6px black;
+}
+
+.exercicio-03-m3 #imagem-inteira {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exercicio-03-m3 #r2 {
+  background-position: left center;
+}
+
+.exercicio-03-m3 #r3 {
+  background-position: right bottom;
+}
+
+.exercicio-03-m3 #r4 {
+  background-position: center center;
+}
+
+.exercicio-03-m3 #r5 {
+  background-position: top right;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
