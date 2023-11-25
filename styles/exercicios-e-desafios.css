@@ -582,6 +582,7 @@ span {
 }
 
 .exercicio-02-m3 .m3-exemplo-02 {
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -639,6 +640,30 @@ span {
 
 .exercicio-03-m3 #r5 {
   background-position: top right;
+}
+
+
+/* MÓDULO 03 - EXERCÍCIO 04 */
+.exercicio-04-m3 .container-exemplo {
+  background: black url('../../../imagens/wallpaper002.jpg') no-repeat fixed center center/cover;
+}
+
+.exercicio-04-m3 .texto-exemplo {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: auto;
+  width: 85%;
+}
+
+.exercicio-04-m3 .texto-exemplo h3 {
+  color: #fff;
+  font-weight: bolder;
+  padding: 24px 0 8px;
+}
+
+.exercicio-04-m3 .texto-exemplo p {
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 8px 16px;
 }
 
 
