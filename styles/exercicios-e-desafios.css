@@ -751,6 +751,26 @@ span {
 }
 
 
+/* MÓDULO 03 - EXERCÍCIO 08 */
+.exercicio-08-m3 .container-atividade table {
+  border: 1px solid var(--cor1);
+  border-collapse: collapse;
+  margin: 16px auto;
+  width: 80%;
+}
+
+.exercicio-08-m3 .container-atividade td {
+  border: 1px solid var(--cor1);
+  cursor: pointer;
+  padding: 16px;
+}
+
+.exercicio-08-m3 .container-atividade td:hover {
+  background-color: var(--cor1);
+  color: #fff;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
