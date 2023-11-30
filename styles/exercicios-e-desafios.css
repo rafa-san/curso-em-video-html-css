@@ -771,6 +771,49 @@ span {
 }
 
 
+/* MÓDULO 03 - EXERCÍCIO 09 */
+.exercicio-09-m3 .container-atividade table {
+  border-collapse: collapse;
+  margin: 16px auto;
+  width: 100%;
+}
+
+.exercicio-09-m3 caption {
+  color: var(--cor1);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 8px auto;
+}
+
+.exercicio-09-m3 th {
+  background-color: var(--cor1);
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.exercicio-09-m3 thead th:nth-child(1),
+.exercicio-09-m3 thead th:nth-child(2),
+.exercicio-09-m3 thead th:nth-child(3) {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.exercicio-09-m3 tbody th:nth-child(1) {
+  border-bottom: 1px solid #fff;
+}
+
+.exercicio-09-m3 th,
+.exercicio-09-m3 td {
+  border-bottom: 1px solid var(--cor1);
+  padding: 8px 2px;
+}
+
+.exercicio-09-m3 tbody tr:hover {
+  background-color: var(--cor3);
+  color: #fff;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
