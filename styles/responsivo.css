@@ -71,6 +71,12 @@
 
 
   /* MÓDULOS - EXERCÍCIOS E DESAFIOS */
+  /* PÁGINAS DE EXERCÍCIOS E DESAFIOS - GERAL */
+  .container-exercicio,
+  .container-desafio {
+    max-width: 90%;
+  }
+
   .lista a {
     width: 47%;
   }
