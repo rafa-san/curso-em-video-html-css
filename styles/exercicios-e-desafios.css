@@ -772,7 +772,7 @@ span {
 
 
 /* MÓDULO 03 - EXERCÍCIO 09 */
-.exercicio-09-m3 .container-atividade table {
+.exercicio-09-m3 table {
   border-collapse: collapse;
   margin: 16px auto;
   width: 100%;
@@ -813,6 +813,47 @@ span {
   color: #fff;
 }
 
+
+/* MÓDULO 03 - EXERCÍCIO 10 */
+.exercicio-10-m3 table {
+  /* border: 1px solid var(--cor1); */
+  border-collapse: collapse;
+  margin: 16px auto;
+  width: 100%;
+}
+
+.exercicio-10-m3 caption {
+  color: var(--cor1);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 8px auto;
+}
+
+.exercicio-10-m3 th {
+  background-color: var(--cor1);
+  border: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 8px 2px;
+}
+
+.exercicio-10-m3 td {
+  color: #fff;
+  letter-spacing: 1.5px;
+  padding: 8px 2px;
+}
+
+.exercicio-10-m3 col.nome {
+  background-color: var(--cor5);
+}
+
+.exercicio-10-m3 col.sexo-e-idade {
+  background-color: var(--cor4);
+}
+
+.exercicio-10-m3 col.profissao {
+  background-color: var(--cor2);
+}
 
 /* MATERIAL EXTRA */
 .material-extra {
