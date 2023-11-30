@@ -50,7 +50,7 @@ span {
   margin: 1.5em auto;
   padding: 24px 16px;
   text-align: center;
-  width: 80%;
+  width: 98%;
 }
 
 .exercicio,
@@ -700,19 +700,28 @@ span {
 }
 
 .exercicio-06-m3 .container-atividade td {
-  border: 1px solid blue;
+  border: 1px solid rgba(115, 74, 79, 0.4);
   padding: 8px;
+}
+
+.exercicio-06-m3 .container-atividade td:hover {
+  background-color: rgba(115, 74, 79, 0.4);
+  color: #fff;
+  cursor: pointer;
 }
 
 
 /* MÓDULO 03 - EXERCÍCIO 07 */
 .exercicio-07-m3 .container-atividade table {
+  border: 1px solid rgba(115, 74, 79, 0.4);
   border-collapse: collapse;
   margin: 8px auto;
   width: 100%;
 }
 
 .exercicio-07-m3 .container-atividade caption {
+  color: var(--cor1);
+  font-weight: bold;
   margin: auto;
   padding: 8px 0;
 }
@@ -723,19 +732,17 @@ span {
   color: #fff;
 }
 
-.exercicio-07-m3 .container-atividade thead th {
+.exercicio-07-m3 .container-atividade th:nth-child(1) {
   border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
 }
 
 .exercicio-07-m3 .container-atividade th,
 .exercicio-07-m3 .container-atividade td {
-  border-right: 1px solid rgba(115, 74, 79, 0.4);
-  border-left: 1px solid rgba(115, 74, 79, 0.4);
   padding: 8px;
 }
 
 .exercicio-07-m3 .container-atividade td:nth-child(1) {
+  border-right: 1px solid rgba(115, 74, 79, 0.4);
   text-align: left;
 }
 
