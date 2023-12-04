@@ -29,57 +29,57 @@
   <main class="container-exercicio">
     <section class="exercicio">
       <div class="conteudo-exercicio exercicio-10-m3">
-        <h2>Exercício 10: Usando o elemento <em>colgroup</em> em Tabelas</h2>
+        <h2>Exercício 10: Mesclagem de Células em Tabelas | Parte 3</h2>
         <div class="container-atividade">
           <table>
-            <colgroup>
-              <col class="nome">
-              <col class="sexo-e-idade" span="2">
-              <col class="profissao">
-            </colgroup>
-            <caption>Cadastro</caption>
-            <tr>
-              <th scope="col">Nome</th>
-              <th scope="col">Sexo</th>
-              <th scope="col">Idade</th>
-              <th scope="col">Profissão</th>
-            </tr>
-            <tr>
-              <td>Ana Maria</td>
-              <td>F</td>
-              <td>25</td>
-              <td>Jornalista</td>
-            </tr>
-            <tr>
-              <td>Cláudio</td>
-              <td>M</td>
-              <td>28</td>
-              <td>Programador</td>
-            </tr>
-            <tr>
-              <td>Gustavo</td>
-              <td>M</td>
-              <td>42</td>
-              <td>Professor</td>
-            </tr>
-            <tr>
-              <td>Hélio</td>
-              <td>M</td>
-              <td>19</td>
-              <td>Vendedor</td>
-            </tr>
-            <tr>
-              <td>Maria</td>
-              <td>F</td>
-              <td>39</td>
-              <td>Médica</td>
-            </tr>
-            <tr>
-              <td>Otávio</td>
-              <td>M</td>
-              <td>22</td>
-              <td>Nutricionista</td>
-            </tr>
+            <caption>Filmes Favoritos</caption>
+            <thead>
+              <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+              </tr>
+              <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+              </tr>
+              <tr>
+                <td>Cláuda Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+              </tr>
+              <tr>
+                <th rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+              </tr>
+              <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Candy</td>
+              </tr>
+              <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars IV</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
