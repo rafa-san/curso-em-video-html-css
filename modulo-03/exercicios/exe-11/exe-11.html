@@ -29,67 +29,57 @@
   <main class="container-exercicio">
     <section class="exercicio">
       <div class="conteudo-exercicio exercicio-11-m3">
-        <h2>Exercício 11: Tabelas Responsivas</h2>
+        <h2>Exercício 11: Usando o elemento <em>colgroup</em> em Tabelas</h2>
         <div class="container-atividade">
           <table>
-            <thead>
-              <tr>
-                <td>Diretor</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Alejandro González Iñarritu</th>
-                <td>Amores Brutos (2000)</td>
-                <td>21 Gramas (2003)</td>
-                <td>Babel (2006)</td>
-                <td>Biutiful (2010)</td>
-                <td>Birdman Ou (A Inesperada Virtude da Ignorância) (2014)</td>
-                <td>O Regresso (2015)</td>
-              </tr>
-              <tr>
-                <th>Christopher Nolan</th>
-                <td>Amnésia (2000)</td>
-                <td>Insônia (2002)</td>
-                <td>Batman Begins (2005)</td>
-                <td>O Grande Truque (2006)</td>
-                <td>Batman: O Cavaleiro das Trevas (2008)</td>
-                <td>A Origem (2010)</td>
-              </tr>
-              <tr>
-                <th>Zack Snyder</th>
-                <td>Madrugada dos Mortos (2004)</td>
-                <td>300 (2006)</td>
-                <td>Watchmen: O Filme (2009)</td>
-                <td>A Lenda dos Guardiões (2010)</td>
-                <td>Sucker Punch: Mundo Surreal (2011)</td>
-                <td>O Homem de Aço (2013)</td>
-              </tr>
-              <tr>
-                <th>Tim Burton</th>
-                <td>Os Fantasmas se Divertem (1988)</td>
-                <td>Batman (1989)</td>
-                <td>Edward Mãos de Tesoura (1990)</td>
-                <td>Batman: O Retorno (1992)</td>
-                <td>Ed Wood (1994)</td>
-                <td>A Lenda do Cavaleiro Sem Cabeça (1999)</td>
-              </tr>
-              <tr>
-                <th>Michael Mann</th>
-                <td>Profissão, Ladrão (1981)</td>
-                <td>O Último dos Moicanos (1992)</td>
-                <td>Fogo Contra Fogo (1995)</td>
-                <td>O Informante (1999)</td>
-                <td>Ali (2001)</td>
-                <td>Colateral (2004)</td>
-              </tr>
-            </tbody>
+            <colgroup>
+              <col class="nome">
+              <col class="sexo-e-idade" span="2">
+              <col class="profissao">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+              <th scope="col">Nome</th>
+              <th scope="col">Sexo</th>
+              <th scope="col">Idade</th>
+              <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+              <td>Ana Maria</td>
+              <td>F</td>
+              <td>25</td>
+              <td>Jornalista</td>
+            </tr>
+            <tr>
+              <td>Cláudio</td>
+              <td>M</td>
+              <td>28</td>
+              <td>Programador</td>
+            </tr>
+            <tr>
+              <td>Gustavo</td>
+              <td>M</td>
+              <td>42</td>
+              <td>Professor</td>
+            </tr>
+            <tr>
+              <td>Hélio</td>
+              <td>M</td>
+              <td>19</td>
+              <td>Vendedor</td>
+            </tr>
+            <tr>
+              <td>Maria</td>
+              <td>F</td>
+              <td>39</td>
+              <td>Médica</td>
+            </tr>
+            <tr>
+              <td>Otávio</td>
+              <td>M</td>
+              <td>22</td>
+              <td>Nutricionista</td>
+            </tr>
           </table>
         </div>
       </div>
