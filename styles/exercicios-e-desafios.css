@@ -751,74 +751,30 @@ span {
 }
 
 
-/* MÓDULO 03 - EXERCÍCIO 08 */
-.exercicio-08-m3 .container-atividade table {
+/* MÓDULO 03 - EXERCÍCIOS 08 e 09 */
+.exercicio-08-m3 table,
+.exercicio-09-m3 table {
   border: 1px solid var(--cor1);
   border-collapse: collapse;
   margin: 16px auto;
   width: 80%;
 }
 
-.exercicio-08-m3 .container-atividade td {
+.exercicio-08-m3 td,
+.exercicio-09-m3 td {
   border: 1px solid var(--cor1);
   cursor: pointer;
   padding: 16px;
 }
 
-.exercicio-08-m3 .container-atividade td:hover {
+.exercicio-08-m3 td:hover,
+.exercicio-09-m3 td:hover {
   background-color: var(--cor1);
-  color: #fff;
-}
-
-
-/* MÓDULO 03 - EXERCÍCIO 09 */
-.exercicio-09-m3 table {
-  border-collapse: collapse;
-  margin: 16px auto;
-  width: 100%;
-}
-
-.exercicio-09-m3 caption {
-  color: var(--cor1);
-  font-weight: bold;
-  letter-spacing: 3px;
-  margin: 8px auto;
-}
-
-.exercicio-09-m3 th {
-  background-color: var(--cor1);
-  color: #fff;
-  letter-spacing: 2px;
-}
-
-.exercicio-09-m3 thead th:nth-child(1),
-.exercicio-09-m3 thead th:nth-child(2),
-.exercicio-09-m3 thead th:nth-child(3) {
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-}
-
-.exercicio-09-m3 tbody th:nth-child(1) {
-  border-bottom: 1px solid #fff;
-}
-
-.exercicio-09-m3 th,
-.exercicio-09-m3 td {
-  border-bottom: 1px solid var(--cor1);
-  padding: 8px 2px;
-}
-
-.exercicio-09-m3 tbody tr:hover {
-  background-color: var(--cor3);
   color: #fff;
 }
 
 
 /* MÓDULO 03 - EXERCÍCIO 10 */
-.exercicio-10-m3 .container-atividade {
-  overflow-x: auto;
-}
-
 .exercicio-10-m3 table {
   border-collapse: collapse;
   margin: 16px auto;
@@ -834,70 +790,152 @@ span {
 
 .exercicio-10-m3 th {
   background-color: var(--cor1);
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.exercicio-10-m3 thead th:nth-child(1),
+.exercicio-10-m3 thead th:nth-child(2),
+.exercicio-10-m3 thead th:nth-child(3) {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.exercicio-10-m3 tbody th:nth-child(1) {
+  border-bottom: 1px solid #fff;
+}
+
+.exercicio-10-m3 th,
+.exercicio-10-m3 td {
+  border-bottom: 1px solid var(--cor1);
+  padding: 8px 2px;
+}
+
+.exercicio-10-m3 tbody tr:hover {
+  background-color: var(--cor3);
+  color: #fff;
+}
+
+
+/* MÓDULO 03 - EXERCÍCIO 10 */
+.exercicio-11-m3 .container-atividade {
+  overflow-x: auto;
+}
+
+.exercicio-11-m3 table {
+  border-collapse: collapse;
+  margin: 16px auto;
+  width: 100%;
+}
+
+.exercicio-11-m3 caption {
+  color: var(--cor1);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 8px auto;
+}
+
+.exercicio-11-m3 th {
+  background-color: var(--cor1);
   border: 1px solid #fff;
   color: #fff;
   letter-spacing: 2px;
   padding: 8px 2px;
 }
 
-.exercicio-10-m3 td {
+.exercicio-11-m3 td {
   color: #fff;
   letter-spacing: 1.5px;
   padding: 8px 2px;
 }
 
-.exercicio-10-m3 col.nome {
+.exercicio-11-m3 col.nome {
   background-color: var(--cor5);
 }
 
-.exercicio-10-m3 col.sexo-e-idade {
+.exercicio-11-m3 col.sexo-e-idade {
   background-color: var(--cor4);
 }
 
-.exercicio-10-m3 col.profissao {
+.exercicio-11-m3 col.profissao {
   background-color: var(--cor2);
 }
 
 
 /* MÓDULO 03 - EXERCÍCIO 11 */
-.exercicio-11-m3 .container-atividade {
+.exercicio-12-m3 .container-atividade {
   overflow-x: auto;
 }
 
-.exercicio-11-m3 table {
+.exercicio-12-m3 table {
   border: 2px solid var(--cor1);
   border-collapse: collapse;
   margin: 16px 8px;
-  min-width: 1000px;
+  min-width: 900px;
 }
 
-.exercicio-11-m3 th,
-.exercicio-11-m3 td {
+.exercicio-12-m3 th,
+.exercicio-12-m3 td {
   border-top: 1px solid var(--cor1);
   border-bottom: 1px solid var(--cor1);
   padding: 16px 2px;
 }
 
-.exercicio-11-m3 thead td:nth-child(1) {
+.exercicio-12-m3 thead td:nth-child(1) {
   background-color: var(--cor1);
   color: #fff;
   min-width: 280px;
 }
 
-.exercicio-11-m3 thead td {
+.exercicio-12-m3 thead td {
   background-color: var(--cor1);
   color: #fff;
 }
 
-.exercicio-11-m3 tbody th {
+.exercicio-12-m3 tbody th {
   letter-spacing: 2px;
   padding-left: 8px;
   text-align: left;
 }
 
-.exercicio-11-m3 tbody td {
+.exercicio-12-m3 tbody td {
   min-width: 360px;
 }
+
+
+/* MÓDULO 03 - DESAFIO 01 */
+.desafio-01-m3 table {
+  border-collapse: collapse;
+  font-weight: bold;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.desafio-01-m3 thead > tr > th {
+  background-color: var(--cor1);
+  color: white;
+  letter-spacing: 2px;
+}
+
+.desafio-01-m3 th, 
+.desafio-01-m3 td {
+  border: 1px solid var(--cor2);
+  padding: 8px 2px;
+}
+
+.desafio-01-m3 td.notas {
+  font-style: italic;
+}
+
+.desafio-01-m3 tr.media {
+  background-color: var(--cor2);
+  color: var(--cor1);
+  letter-spacing: 2px;
+}
+
+/* .desafio-01-m3 th.media td {
+  background-color: yellow;
+} */
 
 
 /* MATERIAL EXTRA */
