@@ -775,6 +775,10 @@ span {
 
 
 /* MÓDULO 03 - EXERCÍCIO 10 */
+.exercicio-10-m3 .container-atividade {
+  overflow-x: auto;
+}
+
 .exercicio-10-m3 table {
   border-collapse: collapse;
   margin: 16px auto;
@@ -817,7 +821,7 @@ span {
 }
 
 
-/* MÓDULO 03 - EXERCÍCIO 10 */
+/* MÓDULO 03 - EXERCÍCIO 11 */
 .exercicio-11-m3 .container-atividade {
   overflow-x: auto;
 }
@@ -904,6 +908,10 @@ span {
 
 
 /* MÓDULO 03 - DESAFIO 01 */
+.desafio-01-m3 .atividade {
+  overflow-x: auto;
+}
+
 .desafio-01-m3 table {
   border-collapse: collapse;
   font-weight: bold;
@@ -915,6 +923,7 @@ span {
   background-color: var(--cor1);
   color: white;
   letter-spacing: 2px;
+  min-width: 160px; 
 }
 
 .desafio-01-m3 th, 
