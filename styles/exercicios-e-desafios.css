@@ -942,9 +942,29 @@ span {
   letter-spacing: 2px;
 }
 
-/* .desafio-01-m3 th.media td {
-  background-color: yellow;
-} */
+
+/* MÓDULO 04 - EXERCÍCIO 01 */
+.exercicio-01-m4 p,
+.exercicio-02-m4 p {
+  text-align: center;
+}
+
+.exercicio-01-m4 iframe {
+  border: none;
+  height: 500px;
+  overflow: auto;
+  width: 90%;
+}
+
+
+/* MÓDULO 04 - EXERCÍCIO 02 */
+.exercicio-02-m4 iframe {
+  border: 1px solid var(--cor2);
+  height: 500px;
+  margin: 16px auto;
+  overflow: auto;
+  width: 90%;
+}
 
 
 /* MATERIAL EXTRA */
