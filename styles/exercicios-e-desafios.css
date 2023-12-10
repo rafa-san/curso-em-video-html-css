@@ -958,12 +958,44 @@ span {
 
 
 /* MÓDULO 04 - EXERCÍCIO 02 */
+.exercicio-02-m4 .container-botoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.exercicio-02-m4 a {
+  margin: 8px;
+}
+
+.exercicio-02-m4 button {
+  background-color: var(--cor3);
+  border: 1px solid transparent;
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin: auto;
+  padding: 16px 8px;
+  width: 310px;
+}
+
+.exercicio-02-m4 button:hover {
+  background-color: #fff;
+  border: 1px solid var(--cor3);
+  color: var(--cor3);
+}
+
 .exercicio-02-m4 iframe {
   border: 1px solid var(--cor2);
   height: 500px;
   margin: 16px auto;
   overflow: auto;
   width: 90%;
+  display: none;
 }
 
 
