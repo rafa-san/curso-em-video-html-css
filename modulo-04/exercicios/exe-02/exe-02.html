@@ -33,12 +33,14 @@
         <div class="atividade">
           <p>Abaixo listei outros projetos bacanas que desenvolvi.</p>
           <p>Clique neles para visualizar o conteúdo dentro do mesmo iFrame.</p>
-          <div>
-            <a href="https://rafa-san.github.io/curso-em-video-algoritmo/" target="quadro"><button>Curso em Vídeo - Curso de Algoritmo</button></a>
-            <a href="https://rafa-san.github.io/dio-netflix/" target="quadro"><button>DIO - Interface da Netflix</button></a>
-            <a href="https://rafa-san.github.io/freeCodeCamp-15-city-skyline/" target="quadro"><button>FreeCodeCamp - City Skyline</button></a>
+          <div class="container-botoes">
+            <a href="https://rafa-san.github.io/curso-em-video-algoritmo/" target="quadro" id="botao"><button>Curso em Vídeo - Curso de Algoritmo</button></a>
+            <a href="https://rafa-san.github.io/dio-netflix/" target="quadro" id="botao"><button>DIO - Interface da Netflix</button></a>
+            <a href="https://rafa-san.github.io/freeCodeCamp-15-city-skyline/" target="quadro" id="botao"><button>FreeCodeCamp - City Skyline</button></a>
           </div>
-          <iframe name="quadro">[Seu navegador não é compatível com iFrames]</iframe>
+          <iframe name="quadro" id="iFrame">
+            [Seu navegador não é compatível com iFrames]
+          </iframe>
         </div>
       </div>
     </section>
@@ -78,6 +80,7 @@
 
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <script src="../../../scripts/menu-responsivo.js"></script>
+  <script src="../../../scripts/modulo-04-exe-02.js"></script>
 </body>
 
 </html>
