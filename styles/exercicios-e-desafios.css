@@ -999,6 +999,24 @@ span {
 }
 
 
+/* MÓDULO 04 - EXERCÍCIO 03 */
+.exercicio-03-m4 .iframe-container {
+  margin: 16px auto; 
+  padding: 8px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.exercicio-03-m4 iframe {
+  border: 1px solid var(--cor4);
+  margin: 16px auto;
+  width: 95%;
+  max-width: 390px;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
