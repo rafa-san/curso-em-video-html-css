@@ -1017,6 +1017,15 @@ span {
 }
 
 
+/* MÓDULO 04 - EXERCÍCIO 04 */
+.exercicio-04-m4 iframe {
+  border: 1px solid var(--cor4);
+  height: 450px;
+  margin: auto;
+  width: 90%;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
