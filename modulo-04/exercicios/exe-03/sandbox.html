@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Módulo 4 - Exemplo de <em>sandbox</em></title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    button {
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 16px;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <button>Clique aqui</button>
+  <div id="retorno"></div>
+
+  <script>
+    const botao = document.querySelector('button');
+
+    botao.addEventListener('click', clicar);
+    function clicar() {
+      const retorno = document.getElementById('retorno');
+      retorno.innerHTML += '<p>Você clicou!</p>';
+    }
+  </script>
+</body>
+
+</html>
