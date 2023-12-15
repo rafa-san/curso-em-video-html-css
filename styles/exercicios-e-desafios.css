@@ -1036,6 +1036,32 @@ span {
 }
 
 /* MÓDULO 04 - EXERCÍCIO 07 */
+.exercicio-07-m4 p {
+  text-align: center;
+}
+
+.exercicio-07-m4 code,
+.exercicio-07-m4 li {
+  background-color: var(--cor3);
+  color: #fff;
+  font-size: 0.9em;
+  padding: 4px;
+}
+
+.exercicio-07-m4 ul {
+  list-style-type: none;
+  max-width: 500px;
+  padding: 8px 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-07-m4 li {
+  margin: 8px;
+}
+
 .exercicio-07-m4 form {
   padding: 16px 0;
 }
