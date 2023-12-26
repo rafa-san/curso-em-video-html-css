@@ -59,14 +59,25 @@
                 <input type="text" id="nome" name="nome"/>
             
                 <label for="contato">Clique no campo abaixo para escolher a melhor forma de contato</label>
-                <input list="formas-contato" id="contato" name="contato"/>
+                <input list="formas-contato" id="contato" name="contato" required />
                 <datalist id="formas-contato">
                   <option value="E-mail"></option>
                   <option value="Celular - Ligação"></option>
                   <option value="Celular - WhatsApp"></option>
                 </datalist>
+
+                <div class="email-opcional">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+
+                <div class="celular-opcional">
+                  <label for="telefone">Celular</label>
+                  <input type="tel" id="telefone" name="telefone" pattern="([0-9]{2}) [0-9]{4,5}-[0-9]{4}" placeholder="(xx) xxxxx-xxxx" />
+                </div>
+
             
-                <label for="categoria">Selecione abaixo a categoria do produto que gostaria de encomendar:</label>
+                <label for="categoria">Selecione a categoria do produto que gostaria de encomendar:</label>
                 <select id="categoria" name="categoria" size="1">
                   <option>--Categorias--</option>
                   <optgroup label="Filmes & Documentários">
@@ -89,7 +100,8 @@
                 <label for="descricao">Descrição do produto</label>
                 <textarea id="descricao" name="descricao"></textarea>
             
-                <button type="button">Enviar</button>
+                <input type="submit" value="Enviar" class="botao" />
+                <input type="reset" value="Limpar" class="botao" />
               </fieldset>
             </form>
         </div>
@@ -132,7 +144,7 @@
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
   <script src="../../../scripts/menu-responsivo.js"></script>
   <script src="../../../scripts/modulo-04-exe-02.js"></script>
-  <script src="exe-07.js"></script>
+  <script src="exe-08.js"></script>
 </body>
 
 </html>
