@@ -141,6 +141,12 @@
   }
 
 
+  /* MÓDULO 04 - EXERCÍCIO 09 */
+  .exercicio-09-m4 ul li {
+    max-width: 40%;
+  }
+
+
   /* MATERIAL EXTRA */
   .material-extra article {
     max-width: 44%;
