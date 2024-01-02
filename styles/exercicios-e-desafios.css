@@ -1037,14 +1037,13 @@ span {
 
 /* MÓDULO 04 - EXERCÍCIO 07 & 08 */
 .exercicio-07-m4 p,
-.exercicio-08-m4 p {
+.exercicio-08-m4 p,
+.exercicio-09-m4 p {
   text-align: center;
 }
 
 .exercicio-07-m4 code,
-.exercicio-08-m4 code,
-.exercicio-07-m4 li,
-.exercicio-08-m4 li {
+.exercicio-07-m4 li {
   background-color: var(--cor3);
   border-radius: 16px;
   color: #fff;
@@ -1053,8 +1052,7 @@ span {
   padding: 4px 8px;
 }
 
-.exercicio-07-m4 ul,
-.exercicio-08-m4 ul {
+.exercicio-07-m4 ul {
   list-style-type: none;
   max-width: 700px;
   padding: 8px 2px;
@@ -1065,7 +1063,8 @@ span {
 }
 
 .exercicio-07-m4 li,
-.exercicio-08-m4 li {
+.exercicio-08-m4 li,
+.exercicio-09-m4 li {
   margin: 8px;
 }
 
@@ -1088,7 +1087,8 @@ span {
 }
 
 .exercicio-07-m4 #botao,
-.exercicio-08-m4 .botao {
+.exercicio-08-m4 .botao,
+.exercicio-09-m4 .botao {
   background-color: var(--cor4);
   border: 1px solid transparent;
   border-radius: 8px;
@@ -1102,7 +1102,8 @@ span {
 }
 
 .exercicio-07-m4 #botao:hover,
-.exercicio-08-m4 .botao:hover {
+.exercicio-08-m4 .botao:hover,
+.exercicio-09-m4 .botao:hover {
   background-color: #fff;
   border: 1px solid var(--cor4);
   color: var(--cor4);
@@ -1110,6 +1111,43 @@ span {
 
 
 /* MÓDULO 04 - EXERCÍCIO 08 */
+.exercicio-08-m4 p code {
+  background-color: var(--cor3);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 1.0em;
+  margin: 0 2px;
+  padding: 4px 8px;
+}
+
+.exercicio-08-m4 ul,
+.exercicio-09-m4 ul {
+  list-style-type: none;
+  max-width: 700px;
+  padding: 8px 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-08-m4 ul li,
+.exercicio-09-m4 ul li {
+  width: 50%;
+}
+
+.exercicio-08-m4 ul li code,
+.exercicio-09-m4 ul li code {
+  background-color: var(--cor3);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 1.0em;
+  margin: auto;
+  padding: 4px;
+  text-align: center;
+  display: block;
+}
+
 .container-exe-08-m4 {
   background-color: rgba(230, 229, 222, 1);
   margin: auto;
@@ -1127,11 +1165,11 @@ span {
 }
 
 .exercicio-08-m4 form fieldset {
-  border: 1px solid #fff;
+  border: 1px solid var(--cor1);
 }
 
 .exercicio-08-m4 form legend {
-  color: #fff;
+  color: var(--cor1);
   margin-left: 16px;
   padding: 0 8px;
   text-align: left;
@@ -1157,6 +1195,10 @@ span {
   margin: 16px auto;
   display: block;
 }
+
+
+/* MÓDULO 04 - EXERCÍCIO 09 */
+
 
 
 
