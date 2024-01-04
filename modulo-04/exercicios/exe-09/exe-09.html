@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Módulo 4 - Exercício 09</title>
+  <link rel="stylesheet" href="../../../styles/principal.css" />
+  <link rel="stylesheet" href="../../../styles/responsivo.css" />
+  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
+</head>
+
+<body>
+  <header>
+    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+  </header>
+
+  <nav>
+    <ul id="topnavResponsivo" class="topnav">
+      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
+      <li><a href="../../../modulo-01/modulo-01.html">Módulo 1</a></li>
+      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
+      <li><a href="../../../modulo-03/modulo-03.html">Módulo 3</a></li>
+      <li><a href="../../modulo-04.html" class="link-ativo">Módulo 4</a></li>
+      <li><a href="#">Módulo 5</a></li>
+    </ul>
+  </nav>
+
+  <main class="container-exercicio">
+    <section class="exercicio">
+      <div class="conteudo-exercicio exercicio-09-m4">
+        <h2>Exercício 09: Formulários | <em>input type</em></h2>
+        <div class="atividade">
+          <p>Neste exercício, foram usados os seguintes <em>input types</em>:</p>
+          <ul>
+            <li><code>&lt;input type="checkbox"&gt;</code></li>
+            <li><code>&lt;input type="date"&gt;</code></li>
+            <li><code>&lt;input type="email"&gt;</code></li>
+            <li><code>&lt;input type="password"&gt;</code></li>
+            <li><code>&lt;input type="radio"&gt;</code></li>
+            <li><code>&lt;input type="reset"&gt;</code></li>
+            <li><code>&lt;input type="submit"&gt;</code></li>
+            <li><code>&lt;input type="tel"&gt;</code></li>
+            <li><code>&lt;input type="text"&gt;</code></li>
+          </ul>
+
+          <p>***</p>
+
+          <form action="../mensagem-formulario.html" target="_blank" method="get">
+            <fieldset>
+              <legend>Formulário de Inscrição</legend>
+              <!-- Nome -->
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="nome" required />
+              
+              <!-- E-mail -->
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required />
+              
+              <!-- Telefone -->
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" required />
+
+              <!-- Data de Nascimento -->
+              <label for="nascimento">Data de Nascimento</label>
+              <input type="date" id="nascimento" name="nascimento" required />
+
+              <!-- Módulos -->
+              <p>O que você quer aprender?</p>
+              <label for="opcao1">
+                <input type="radio" id="opcao1" name="modulo" value="Front-End" /> Front-End
+              </label>
+              <label for="opcao2">
+                <input type="radio" id="opcao2" name="modulo" value="Data Science" /> Data Science
+              </label>
+              <label for="opcao3">
+                <input type="radio" id="opcao3" name="modulo" value="Mobile" /> Mobile
+              </label>
+              <label for="opcao4">
+                <input type="radio" id="opcao4" name="modulo" value="Inteligência Artificial" /> Inteligência Artificial
+              </label>
+              
+              <!-- Períodos -->
+              <p>Disponibilidade para assistir as aulas ao vivo</p>
+              <label for="periodo1">
+                <input type="checkbox" id="periodo1" name="periodo1" value="Manhã" /> Manhã
+              </label>
+              <label for="periodo2">
+                <input type="checkbox" id="periodo2" name="periodo2" value="Tarde" /> Tarde
+              </label>
+              <label for="periodo3">
+                <input type="checkbox" id="periodo3" name="periodo3" value="Noite" /> Noite
+              </label>
+
+              <!-- Senha -->
+              <label for="pwd">Crie uma senha numérica com quatro dígitos</label>
+              <input type="password" id="pwd" name="pwd" pattern="[0-9]{4}" placeholder="xxxx" required />
+          
+              <!-- Botões -->
+              <div class="botoes">
+                <input type="submit" value="Enviar" class="botao" />
+                <input type="reset" value="Limpar" class="botao" />
+              </div>
+
+
+
+
+
+
+            </fieldset>
+          </form>
+      </div>
+    </section>
+
+    <section class="material-extra">
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
+          <i class="fa solid fa-file-pdf"></i>
+          <p>Material em PDF do curso</p>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04" target="_blank">
+          <i class="fa solid fa-file-code"></i>
+          <p>Exercícios do módulo 4</p>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <section class="botao-voltar">
+    <a href="../../modulo-04-exercicios.html">
+      <i class="fas fa-arrow-left" title="Voltar"></i>
+    </a>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por: Rafa Santana</p>
+    
+    <section class="contato">
+      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+        <i class="fa brands fa-linkedin"></i>
+      </a>
+    </section>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <script src="../../../scripts/menu-responsivo.js"></script>
+  <script src="../../../scripts/modulo-04-exe-02.js"></script>
+  <script src="exe-07.js"></script>
+</body>
+
+</html>
