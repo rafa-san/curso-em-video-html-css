@@ -8,4 +8,4 @@ Mas antes de iniciar o módulo 2, tive vontade de dar sequência nesse projeto d
 
 Foi então que decidi recomeçar tudo: desde o rascunho do layout, usando papel e caneta, passando pela escolha das fontes, a paleta de cores, o design responsivo e etc., até chegar a essa estrutura atual.
 
-Até o momento, este projeto está atualizado com o conteúdo dos módulos 1 e 2. Aos poucos e com calma, pretendo acrescentar os materiais dos módulos 3 e 4. O módulo 5, por enquanto, ainda não foi lançado na plataforma do canal **Curso em Vídeo**.
+Até o momento, este projeto está atualizado com o conteúdo dos módulos 1 ao 3. Atualmente estou trabalhando no módulo 4. O módulo 5 ainda não foi lançado na plataforma do canal **Curso em Vídeo**.
