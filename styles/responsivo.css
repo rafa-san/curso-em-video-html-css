@@ -136,14 +136,20 @@
 
 
   /* MÓDULO 02 - EXERCÍCIO 08 */
-  .exercicio-08-m2 #container-exercicio-08-m2 .galeria {
-    max-width: 46%;
+  .exercicio-08-m4 ul li {
+    max-width: 300px;
   }
 
 
   /* MÓDULO 04 - EXERCÍCIO 09 */
   .exercicio-09-m4 ul li {
-    max-width: 40%;
+    max-width: 300px;
+  }
+
+  .exercicio-09-m4 ul::after {
+    content: "";
+    margin: 8px;
+    width: 300px;
   }
 
 
