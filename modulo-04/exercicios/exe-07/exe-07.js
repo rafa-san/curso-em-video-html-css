@@ -1,6 +1,6 @@
 const nome = document.getElementById('nome');
 const sobrenome = document.getElementById('sobrenome');
-const btn = document.getElementById('botao');
+const btn = document.querySelector('.botao');
 
 nome.focus();
 
