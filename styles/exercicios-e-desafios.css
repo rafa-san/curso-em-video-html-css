@@ -1203,15 +1203,22 @@ span {
   display: none;
 }
 
-#descricao {
+.exercicio-08-m4 #descricao {
   border: none;
   height: 160px;
-  width: 70%;
+  width: 60%;
 }
 
-.exercicio-08-m4 button {
-  margin: 16px auto;
-  display: block;
+.exercicio-08-m4 .botoes {
+  margin: 8px auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-08-m4 .botoes .botao {
+  width: 60%;
 }
 
 
@@ -1272,21 +1279,58 @@ span {
   text-align: left;
 }
 
-.exercicio-09-m4 form input {
-  background-color: yellow;
+.exercicio-09-m4 form #nome,
+.exercicio-09-m4 form #email,
+.exercicio-09-m4 form #telefone,
+.exercicio-09-m4 form #nascimento {
   border: 1px solid var(--cor1);
-  left: 8px;
+  border-radius: 2px;
+  margin-left: 16px;
+  margin-top: 8px;
   padding: 8px;
+  width: 70%;
+  display: block;
+}
+
+.exercicio-09-m4 form .label-senha {
+  margin-top: 40px;
+}
+
+.exercicio-09-m4 form #senha {
+  border: 1px solid var(--cor1);
+  border-radius: 2px;
+  margin-left: 16px;
+  margin-top: 8px;
+  padding: 8px;
+  max-width: 100px;
+  display: block;
 }
 
 .exercicio-09-m4 label {
-  margin-left: 8px;
+  margin-top: 16px;
+  margin-left: 16px;
   text-align: left;
   display: block;
 }
 
+.exercicio-09-m4 form p {
+  color: var(--cor4);
+  margin: 40px 0 0 16px;
+  text-align: left;
+}
 
+.exercicio-09-m4 .botoes {
+  margin: 24px auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.exercicio-09-m4 .botoes .botao {
+  margin: 8px;
+  width: 60%;
+}
 
 
 /* MATERIAL EXTRA */
