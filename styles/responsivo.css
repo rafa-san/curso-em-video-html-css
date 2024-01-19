@@ -140,6 +140,10 @@
     max-width: 300px;
   }
 
+  .exercicio-08-m4 .botoes .botao {
+    max-width: 46%;
+  }
+
 
   /* MÓDULO 04 - EXERCÍCIO 09 */
   .exercicio-09-m4 ul li {
@@ -150,6 +154,10 @@
     content: "";
     margin: 8px;
     width: 300px;
+  }
+
+  .exercicio-09-m4 .botoes .botao {
+    max-width: 46%;
   }
 
 
