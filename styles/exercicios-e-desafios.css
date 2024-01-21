@@ -1333,6 +1333,80 @@ span {
 }
 
 
+/* MÓDULO 04 - EXERCÍCIO 10 */
+.exercicio-10-m4 p {
+  text-align: center;
+}
+
+.exercicio-10-m4 p em {
+  background-color: var(--cor3);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 1.0em;
+  margin: 0 2px;
+  padding: 4px 8px;
+}
+
+.exercicio-10-m4 ul {
+  list-style-type: none;
+  max-width: 700px;
+  padding: 8px 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-10-m4 ul li {
+  margin: 8px;
+  text-align: center;
+  width: 60%;
+}
+
+.exercicio-10-m4 ul li code {
+  background-color: var(--cor3);
+  border-radius: 16px;
+  color: #fff;
+  font-size: 1.0em;
+  margin: auto;
+  padding: 4px;
+  text-align: center;
+  display: block;
+}
+
+.exercicio-10-m4 form {
+  margin: 16px auto;
+  max-width: 700px;
+}
+
+.exercicio-10-m4 form fieldset {
+  border: 1px solid var(--cor1);
+  padding: 16px 8px;
+}
+
+.exercicio-10-m4 form legend {
+  color: var(--cor1);
+  margin-left: 16px;
+  padding: 0 8px;
+  text-align: left;
+}
+
+.exercicio-10-m4 label {
+  border: 1px solid var(--cor1);
+  border-radius: 2px;
+  margin: auto;
+  padding: 8px;
+  width: 70%;
+  display: block;
+}
+
+.exercicio-10-m4 input {
+  margin: auto;
+  width: 140px; 
+  display: block;
+}
+
+
 /* MATERIAL EXTRA */
 .material-extra {
   display: flex;
