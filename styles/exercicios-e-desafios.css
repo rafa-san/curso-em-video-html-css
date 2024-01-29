@@ -1391,18 +1391,32 @@ span {
   text-align: left;
 }
 
+.exercicio-10-m4 form h3 {
+  margin-top: 30px;
+  padding: 8px;
+}
+
+.exercicio-10-m4 form .botao {
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+}
+
 .exercicio-10-m4 label {
-  border: 1px solid var(--cor1);
+  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
   border-radius: 2px;
-  margin: auto;
+  margin: 16px auto;
   padding: 8px;
   width: 70%;
   display: block;
 }
 
 .exercicio-10-m4 input {
-  margin: auto;
-  width: 140px; 
+  margin: 16px auto;
+  padding: 16px;
+  width: 200px; 
   display: block;
 }
 
