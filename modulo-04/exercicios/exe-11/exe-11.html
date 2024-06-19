@@ -35,47 +35,36 @@
 
           <p>***</p>
 
-          <form action="../mensagem-formulario.html" target="_blank" method="get">
-            <fieldset>
-              <legend>>Tipos de input types</legend>
-              <h3>&lt;input type="button"&gt;</h3>
-              <input type="button" class="botao" value="Pressione este botão" onclick="alert('Você pressionou o botão!')" />
+          <h3>Exemplo 1</h3>
+          <form action="#" method="get" autocomplete="on">
+            <p>
+              <label for="in1">Número 1: </label>
+              <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" />
+            </p>
+        
+            <p>
+              <label for="in2">Número 2: </label>
+              <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" />
+            </p>
+        
+            <p>
+              <label for="isoma">Soma: </label>
+              <output name="soma" id="isoma">0</output>
+            </p>
+        
+            <!-- <p>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+            </p> -->
+          </form>
 
-              <h3>&lt;input type="color"&gt;</h3>
-              <label for="cor" class="label">Selecione abaixo uma cor para este parágrafo
-                <input type="color" id="cor" name="cor" />
-              </label>
-              
-
-              <h3>&lt;input type="datetime-local"&gt;</h3>
-              <label for="data-nascimento">Selecione a data e a hora do seu nascimento
-                <input type="datetime-local" id="data-nascimento" name="data-nascimento" />
-              </label>
-              
-
-              <h3>&lt;input type="month"&gt;</h3>
-              <label for="mes">Selecione o mês em que deseja iniciar um novo curso
-                <input type="month" id="mes" name="mes" />
-              </label>
-              
-
-              <h3>&lt;input type="number"&gt;</h3>
-              <label for="numero">Quantos anos de idade você tem?
-                <input type="number" id="numero" name="numero" />
-              </label>
-              
-
-              <h3>&lt;input type="time"&gt;</h3>
-              <label for="hora">Por favor, que horas são agora?
-                <input type="time" id="hora" name="hora" />
-              </label>
-              
-
-              <h3>&lt;input type="week"&gt;</h3>
-              <label for="semana">Descubra em qual semana do ano vai cair seu aniversário
-                <input type="week" id="semana" name="semana" />
-              </label>
-            </fieldset>
+          <h3>Exemplo 2</h3>
+          <form action="#" method="get" autocomplete="on">
+            <p>
+              <!-- <label for="inum">Número: </label> -->
+              <input type="range" name="num" id="inum" min="0" max="20" value="10" oninput="ival.innerHTML = Number(inum.value)">
+              <output id="ival"></output>
+            </p>
           </form>
         </div>
       </div>
