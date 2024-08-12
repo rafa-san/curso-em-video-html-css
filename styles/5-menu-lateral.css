@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+.menu-responsivo {
+  position: fixed;
+  left: -3px;
+  top: 70px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 16px 0;
+  transition: 0.3s ease-out;
+  width: 0;
+  z-index: 1;
+}
+
+.menu-responsivo {
+  padding: 8px;
+}
+
+.menu-responsivo ol {
+  margin-bottom: 88px
+}
+
+.menu-responsivo .modulo {
+  margin: 16px 0;
+}
+
+.menu-responsivo details {
+  margin: 8px 0;
+  padding: 4px 4px 4px 16px;
+}
+
+.menu-responsivo summary {
+  padding: 4px 0;
+}
+
+.menu-responsivo summary:hover {
+  cursor: pointer;
+}
+
+.menu-responsivo ::marker {
+  color: red;
+}
+
+.menu-responsivo ul > li {
+  /* margin-left: 23px; */
+  margin-bottom: 4px;
+  padding: 4px 0;
+}
+
+.menu-responsivo .teste details {
+  margin-left: 23px;
+}
+
+.menu-responsivo ul > li a:hover {
+  text-decoration: underline;
+}
+
+.menu-responsivo a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 4px 0;
+  width: 99%;
+}
+
+.menu-responsivo .teste ul a {
+  background-color: yellow;
+  margin: 4px 0;
+  padding: 4px 0;
+}
+
+.menu-responsivo .link-ativo a {
+  background-color: rgba(128, 0, 128, 0.4);
+  border-left: 4px solid rgba(128, 0, 128, 0.8);
+  padding: 4px;
+}
+
+.responsivo {
+  width: 340px;
+}
+
+.menu-responsivo details .teste {
+  font-size: 0.9em;
+  margin: 0 0 0 8px;
+  padding: 4px 4px 4px 0;
+}
+
+.menu-responsivo details .teste summary {
+  padding: 0px;
+}

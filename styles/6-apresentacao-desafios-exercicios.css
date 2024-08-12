@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+@font-face {
+  font-family: "DK";
+  src: url("../modulo-02/exercicios/exe-05/fontes/DKW.TTF") format('truetype');
+}
+
+
+/* Apresentação */
+
+.container-principal {
+  margin-top: 70px;
+  padding: 24px 8px;
+}

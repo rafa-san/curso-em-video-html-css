@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@media (min-width: 850px) {
+  /* HEADER */
+  #menu-icone {
+    display: none;
+  }
+
+  
+  /* INDEX */
+  .container-index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .materia {
+    max-width: 50%;
+  }
+
+  .capa {
+    width: 28vw;
+  }
+
+
+  /* MENU LATERAL */
+  #menu-lateral {
+    width: 340px;
+  }
+
+
+  /* CONTEÚDO: INTRODUÇÃO, EXEMPLOS E EXERCÍCIOS */
+  .container-principal {
+    margin-left: 340px;
+  }
+
+
+  /* FOOTER */
+  .footer-index {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  footer {
+    margin-left: 340px;
+    width: calc(100% - 340px);
+  }
+}

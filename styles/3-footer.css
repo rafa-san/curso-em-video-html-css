@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+footer {
+  background-image: linear-gradient(to top, var(--cor5), var(--cor4));
+  background-color: var(--cor4);
+  color: white;
+  padding: 24px 8px;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.contato {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.fa-github,
+.fa-linkedin {
+  color: white;
+  font-size: 1.2em;
+  /* text-shadow: 1px 1px 1px #1f1f1f; */
+  transition: 0.3s ease-out;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  transform: translateY(6px); 
+}
+
+.texto-icone {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  word-spacing: 2px;
+}
