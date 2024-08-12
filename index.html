@@ -1,85 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles/1-global-styles.css" />
+    <link rel="stylesheet" href="styles/2-header.css" />
+    <link rel="stylesheet" href="styles/3-footer.css" />
+    <link rel="stylesheet" href="styles/4-index.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página Inicial</title>
-  <link rel="stylesheet" href="styles/principal.css" />
-  <link rel="stylesheet" href="styles/responsivo.css" />
-</head>
+  <body>
+    <header>
+      <h1><a href="index.html">Curso de HTML5 + CSS3</a></h1>
+    </header>
+    
+    <main class="container-index">
+      <h2>Curso completo de HTML5 e CSS3, do professor Gustavo Guanabara</h2>
+      <section class="modulos">
+        <div class="capa">
+          <h3>Módulo 1</h3>
+          <a href="modulo-01/modulo-01.html" rel="next">
+            <img src="imagens/home-modulo1-capa.jpg" alt="Imagem de capa do módulo 1" />
+          </a>
+        </div>
+        <div class="capa">
+          <h3>Módulo 2</h3>
+          <a href="modulo-02/modulo-02.html" rel="next">
+            <img src="imagens/home-modulo2-capa.jpg" alt="Imagem de capa do módulo 2" />
+          </a>
+        </div>
+        <div class="capa">
+          <h3>Módulo 3</h3>
+          <a href="modulo-03/modulo-03.html" rel="next">
+            <img src="imagens/home-modulo3-capa.jpg" alt="Imagem de capa do módulo 3" />
+          </a>
+        </div>
+        <div class="capa">
+          <h3>Módulo 4</h3>
+          <a href="modulo-04/modulo-04.html" rel="next">
+            <img src="imagens/home-modulo4-capa.jpg" alt="Imagem de capa do módulo 4" />
+          </a>
+        </div>
+        <div class="capa">
+          <h3>Módulo 5</h3>
+          <a href="#" rel="next">
+            <img src="imagens/home-modulo5-capa.jpg" alt="Logo GitHub" class="img-em-breve" />
+          </a>
+        </div>
+        <div class="capa">
+          <h3>Repositório GitHub</h3>
+          <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="external">
+            <img src="imagens/repositorio-github.png" alt="Logo do curso" />
+          </a>
+        </div>
+      </section>
+    </main>
 
-<body>
-  <header>
-    <h1><a href="index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
+    <footer class="footer-index">
+      <p>Desenvolvido por Rafa Santana</p>
 
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="modulo-01/modulo-01.html">Módulo 1</a></li>
-      <li><a href="modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="modulo-03/modulo-03.html">Módulo 3</a></li>
-      <li><a href="modulo-04/modulo-04.html">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
-  
-  <main class="container-index">
-    <h2 class="subtitulo">Curso completo de HTML5 e CSS3, do professor Gustavo Guanabara</h2>
-    <section class="capas-modulos">
-      <div class="capa">
-        <h3>Módulo 1</h3>
-        <a href="modulo-01/modulo-01.html" rel="next">
-          <img src="imagens/home-modulo1-capa.jpg" alt="Imagem de capa do módulo 1" />
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </div>
-      <div class="capa">
-        <h3>Módulo 2</h3>
-        <a href="modulo-02/modulo-02.html" rel="next">
-          <img src="imagens/home-modulo2-capa.jpg" alt="Imagem de capa do módulo 2" />
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </div>
-      <div class="capa">
-        <h3>Módulo 3</h3>
-        <a href="modulo-03/modulo-03.html" rel="next">
-          <img src="imagens/home-modulo3-capa.jpg" alt="Imagem de capa do módulo 3" />
-        </a>
-      </div>
-      <div class="capa">
-        <h3>Módulo 4</h3>
-        <a href="modulo-04/modulo-04.html" rel="next">
-          <img src="imagens/home-modulo4-capa.jpg" alt="Imagem de capa do módulo 4" />
-        </a>
-      </div>
-      <div class="capa em-breve">
-        <h3>Módulo 5 (Em Breve)</h3>
-        <a href="#" rel="next">
-          <img src="imagens/home-em-breve.png" alt="Logo GitHub" class="img-em-breve" />
-        </a>
-      </div>
-      <div class="capa">
-        <h3>Repositório GitHub</h3>
-        <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="external">
-          <img src="imagens/repositorio-github.png" alt="Logo do curso" />
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="scripts/menu-responsivo.js"></script>
-</body>
+      </section>
+    </footer>
+  </body>
 
 </html>
