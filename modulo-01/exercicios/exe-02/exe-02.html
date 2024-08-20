@@ -1,97 +1,266 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Exemplos e exercícios do site MDN Web Docs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 1 - Exercício 02</title>
+    <link rel="stylesheet" href="../../../styles/1-global-styles.css" />
+    <link rel="stylesheet" href="../../../styles/2-header.css" />
+    <link rel="stylesheet" href="../../../styles/3-footer.css" />
+    <link rel="stylesheet" href="../../../styles/5-menu-lateral.css" />
+    <link rel="stylesheet" href="../../../styles/6-apresentacao-desafios-exercicios.css" />
+    <link rel="stylesheet" href="../../../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../../../scripts/menu-lateral.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Módulo 1 - Exercício 02</title>
-  <link rel="stylesheet" href="../../../styles/principal.css" />
-  <link rel="stylesheet" href="../../../styles/responsivo.css" />
-  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-</head>
+  <body>
+    <header>
+      <h1><a href="../../../index.html">Curso em Vídeo</a></h1>
 
-<body>
-  <header>
-    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
-
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="../../modulo-01.html">Módulo 1</a></li>
-      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="../../../modulo-03/modulo-03.html">Módulo 3</a></li>
-      <li><a href="#">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
-
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <div class="conteudo-exercicio">
-        <h2>Exercício 02: Parágrafos, Símbolos e Emojis</h2>
-        <h3 class="titulo-3">Parágrafo e Quebra de Linha</h3>
-        <p>Você pode
-          escrever um
-          parágrafo de qualquer jeito.
-          Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;. <!-- lt = less than / gt = greater than-->
-        </p>
-        <p>Se precisar quebrar
-          o texto em algum lugar
-          específico, como esse,<br>
-          você pode usar a tag &lt;br&gt;.
-        </p>
-        
-        <h3 class="titulo-3">Símbolos</h3>
-        <p>Vamos adicionar alguns símbolos especiais:
-          &reg;
-          &copy;
-          &trade;
-          &euro;
-          &pound;
-        </p>
-        
-        <h3 class="titulo-3">Emojis</h3>
-        <p>Vamos adicionar alguns emojis:</p>
-        <p>&#x1f596 &#x1f913</p>
+      <div id="menu-icone" title="Abrir Menu Lateral">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
       </div>
-    </section>
+    </header>
 
-    <section class="material-extra">
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
-          <i class="fa solid fa-file-pdf"></i>
-          <p>Material em PDF do curso</p>
+    <nav id="menu-lateral" class="menu-responsivo">
+      <ol>
+        <!-- Módulo 1 -->
+        <li class="modulo">
+          <details open>
+            <summary>Módulo 1</summary>
+            <ul>
+              <li>
+                <a href="../../modulo-01.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades" open>
+                  <summary>Exercícios</summary>
+                  <ul>
+                    <li>
+                      <a href="exercicios/exe-01/exe-01.html">Exercício 01: Meu Primeiro Exercício</a>
+                    </li>
+                    <li class="link-ativo">
+                      <a href="exercicios/exe-02/exe-02.html">Exercício 02: Parágrafos, Símbolos e Emojis</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-03/exe-03.html">Exercício 03: Inserindo Imagens</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-04/exe-04.html">Exercício 04: Ícone de Favoritos (favicons)</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-05/exe-05.html">Exercício 05: Hierarquia de Títulos</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-06/exe-06.html">Exercício 06: Formatação de Textos</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-07/exe-07.html">Exercício 07: Outras Formatações</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-08/exe-08.html">Exercício 08: Listas</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-09/pagina-1.html">Exercício 09: Trabalhando com Links</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-10/exe-10.html">Exercício 10: Imagem Dinâmica</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-11/exe-11.html">Exercício 11: Áudio</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-12/exe-12.html">Exercício 12: Vídeos</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-13/exe-13.html">Exercício 13: Trabalhando com CSS Inline</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-14/exe-14.html">Exercício 14: Trabalhando com CSS Interno</a>
+                    </li>
+                    <li>
+                      <a href="exercicios/exe-15/pagina-1.html">Exercício 15: Trabalhando com CSS Externo</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                  <ul>
+                    <li><a href="desafios/desafio-01/desafio-01.html">1. Desafio da Contagem</a></li>
+                    <li><a href="desafios/desafio-02/desafio-02.html">2. Desafio das Imagens</a></li>
+                    <li><a href="desafios/desafio-03/desafio-03.html">3. Desafio do Mapa Mundi</a></li>
+                    <li><a href="desafios/desafio-04/desafio-04.html">4. Desafio da Lista de Emojis</a></li>
+                    <li><a href="desafios/desafio-05/desafio-05.html">5. Desafio do Perfil Social</a></li>
+                    <li><a href="desafios/desafio-06/desafio-06.html">6. Desafio das <em>tags</em></a></li>
+                    <li><a href="desafios/desafio-07/desafio-07.html">7. Desafio da Imagem Flexível</a></li>
+                    <li><a href="desafios/desafio-08/desafio-08.html">8. Desafio da Navegação</a></li>
+                    <li><a href="desafios/desafio-09/desafio-09.html">9. Desafio dos Vídeos</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 2 -->
+        <li class="modulo">
+          <details open>
+            <summary>Módulo 2</summary>
+            <ul class="ul-menu">
+              <li>
+                <a href="home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul class="ul-menu">
+                    <li>
+                      <a href="../02-html/home.html">Exercício 01</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 3 -->
+        <li class="modulo">
+          <details open>
+            <summary>Módulo 3</summary>
+            <ul class="ul-menu">
+              <li>
+                <a href="home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul class="ul-menu">
+                    <li>
+                      <a href="../02-html/home.html">Exercício 01</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 4 -->
+        <li class="modulo">
+          <details open>
+            <summary>Módulo 4</summary>
+            <ul class="ul-menu">
+              <li>
+                <a href="home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul class="ul-menu">
+                    <li>
+                      <a href="../02-html/home.html">Exercício 01</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 5 -->
+        <li class="modulo">
+          <details class="details-ultimo" open>
+            <summary>Módulo 5</summary>
+            <ul class="ul-menu">
+              <li>
+                <a href="home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul class="ul-menu">
+                    <li>
+                      <a href="../02-html/home.html">Exercício 01</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+    </nav>
+
+    <main class="container-principal">
+      <section class="exercicio">
+        <div class="conteudo-exercicio">
+          <h2>Exercício 02: Parágrafos, Símbolos e Emojis</h2>
+          <h3>Parágrafo e Quebra de Linha</h3>
+          <p>Você pode
+            escrever um
+            parágrafo de qualquer jeito.
+            Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;. <!-- lt = less than / gt = greater than-->
+          </p>
+          <p>Se precisar quebrar
+            o texto em algum lugar
+            específico, como esse,<br>
+            você pode usar a tag &lt;br&gt;.
+          </p>
+          
+          <h3>Símbolos</h3>
+          <p>Vamos adicionar alguns símbolos especiais:
+            &reg;
+            &copy;
+            &trade;
+            &euro;
+            &pound;
+          </p>
+          
+          <h3>Emojis</h3>
+          <p>Vamos adicionar alguns emojis: &#x1f596 &#x1f913</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </article>
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-01" target="_blank">
-          <i class="fa solid fa-file-code"></i>
-          <p>Exercícios do módulo 1</p>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </article>
-    </section>
-  </main>
-
-  <section class="botao-voltar">
-    <a href="../../modulo-01-exercicios.html">
-      <i class="fas fa-arrow-left" title="Voltar"></i>
-    </a>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../../../scripts/menu-responsivo.js"></script>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
