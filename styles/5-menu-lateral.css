@@ -2,7 +2,7 @@
 
 .menu-responsivo {
   position: fixed;
-  left: -3px;
+  left: -16px;
   top: 70px;
   background-color: white;
   border-right: 1px solid lightgray;
@@ -49,7 +49,7 @@
   padding: 4px 0;
 }
 
-.menu-responsivo .teste details {
+.menu-responsivo .details-atividades details {
   margin-left: 23px;
 }
 
@@ -64,8 +64,8 @@
   width: 99%;
 }
 
-.menu-responsivo .teste ul a {
-  background-color: yellow;
+.menu-responsivo .details-atividades ul a {
+  /* background-color: yellow; */
   margin: 4px 0;
   padding: 4px 0;
 }
@@ -80,12 +80,12 @@
   width: 340px;
 }
 
-.menu-responsivo details .teste {
+.menu-responsivo details .details-atividades {
   font-size: 0.9em;
   margin: 0 0 0 8px;
   padding: 4px 4px 4px 0;
 }
 
-.menu-responsivo details .teste summary {
+.menu-responsivo details .details-atividades summary {
   padding: 0px;
 }

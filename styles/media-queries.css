@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (min-width: 850px) {
+@media (min-width: 996px) {
   /* HEADER */
   #menu-icone {
     display: none;
@@ -35,6 +35,23 @@
     margin-left: 340px;
   }
 
+  /* Conteúdo do Módulo */
+  .conteudo-detalhes {
+    width: 47%;
+  }
+
+  .conteudo-detalhes.ocultar {
+    background-image: unset;
+    display: block;
+  }
+
+
+  /* MÓDULO 01 - EXERCÍCIO 03 */
+  .exercicio-03-m1 div {
+    max-width: 26%;
+    min-width: 280px;
+  }
+
 
   /* FOOTER */
   .footer-index {
@@ -43,7 +60,8 @@
   }
 
   footer {
-    margin-left: 340px;
+    /* border: 1px solid red; */
+    margin-left: 326px;
     width: calc(100% - 340px);
   }
 }

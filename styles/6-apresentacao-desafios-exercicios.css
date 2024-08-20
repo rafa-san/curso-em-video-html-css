@@ -2,7 +2,6 @@
 
 
 /* Geral */
-
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
 @font-face {
@@ -12,8 +11,278 @@
 
 
 /* Apresentação */
-
 .container-principal {
   margin-top: 70px;
   padding: 24px 8px;
+}
+
+.conteudo {
+  /* border: 1px solid red; */
+  margin: 8px auto;
+  /* padding: 2px; */
+  width: 97%;
+}
+
+.conteudo h1,
+.conteudo-exercicio h1,
+.conteudo-desafio h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.conteudo h2,
+.conteudo-exercicio h2,
+.conteudo-desafio h2 {
+  display: block;
+  font-size: 1.5em;
+  /* margin-top: 0.31em; */
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.conteudo h3,
+.conteudo-exercicio h3,
+.conteudo-desafio h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.conteudo p,
+.conteudo-exercicio p,
+.conteudo-desafio p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.conteudo ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.conteudo ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.conteudo-exercicio ol {
+  display: block;
+  list-style-position: inside;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.conteudo-exercicio ul {
+  display: block;
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.conteudo-exercicio dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+dd {
+  display: block;
+  margin-left: 40px;
+}
+
+
+/* Links Curso */
+.links-curso,
+.conteudo-do-modulo {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  /* padding: 8px; */
+  /* width: 90%; */
+}
+
+/* .links-curso p {
+  color: #000;
+  font-size: 1.2em;
+  margin: auto;
+} */
+
+.links-curso-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.links-curso-imagens .curso-em-video,
+.links-curso-imagens .youtube {
+  margin: 16px 24px;
+}
+
+.curso-em-video img,
+.youtube img {
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+  height: auto; 
+  margin: 16px auto;
+  max-width: 280px;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.curso-em-video img:hover,
+.youtube img:hover {
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
+  transition: all 0.3s ease;
+}
+
+/* CONTINUAR A PARTIR DESTE PONTO */
+
+
+/* Conteúdo do Módulo */
+.linha-1,
+.linha-2,
+.linha-3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 8px;
+}
+
+.conteudo-detalhes {
+  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin: 8px;
+  padding: 24px 16px;
+  width: 95%;
+}
+
+.conteudo-detalhes h3 {
+  color: #000;
+  margin: 8px auto;
+  text-align: center;
+}
+
+.conteudo-detalhes ul {
+  color: #000;
+  list-style-position: inside;
+}
+
+.conteudo-detalhes ul li {
+  text-align: left;
+}
+
+.conteudo-detalhes.ocultar {
+  display: none;
+}
+
+
+
+
+/* EXERCÍCIOS */
+.exercicio,
+.desafio {
+  /* border: 1px solid red; */
+  background-image: radial-gradient(circle, rgba(191, 190, 159, 0.3) 10%, rgba(191, 190, 159, 0.2));
+  border-radius: 8px;
+  color: var(--cor5);
+  margin: 16px auto;
+  padding: 16px;
+  width: 95%;
+}
+
+.conteudo-exercicio,
+.conteudo-desafio {
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-evenly; */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.377);
+  margin: 16px auto;
+  min-height: 65vh;
+  padding: 16px;
+  width: 95%;
+}
+
+
+/* MÓDULO 01 - EXERCÍCIO 03 */
+.exercicio-03-m1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.exercicio-03-m1 div {
+  margin: 8px;
+  padding: 16px 8px;
+  width: 100%;
+}
+
+.exercicio-03-m1 div p {
+  margin: 8px 0 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.exercicio-03-m1 img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+.exercicio-03-m1-img {
+  border-radius: 2px;
 }
