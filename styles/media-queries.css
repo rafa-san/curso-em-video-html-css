@@ -2,6 +2,10 @@
 
 @media (min-width: 996px) {
   /* HEADER */
+  header a {
+    font-size: 1.0em;
+  }
+
   #menu-icone {
     display: none;
   }
@@ -25,23 +29,28 @@
 
 
   /* MENU LATERAL */
+  .menu-responsivo {
+    left: 0;
+  }
+
   #menu-lateral {
     width: 340px;
   }
 
 
-  /* CONTEÚDO: INTRODUÇÃO, EXEMPLOS E EXERCÍCIOS */
+  /* PÁGINA DE APRESENTAÇÃO - GERAL */
   .container-principal {
     margin-left: 340px;
   }
 
-  /* Conteúdo do Módulo */
+
+  /* PÁGINA DE APRESENTAÇÃO - CONTEÚDO DO MÓDULO */
   .conteudo-detalhes {
     width: 47%;
   }
 
   .conteudo-detalhes.ocultar {
-    background-image: unset;
+    border: unset;
     display: block;
   }
 
@@ -60,8 +69,7 @@
   }
 
   footer {
-    /* border: 1px solid red; */
-    margin-left: 326px;
+    margin-left: 340px;
     width: calc(100% - 340px);
   }
 }

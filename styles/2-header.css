@@ -6,25 +6,26 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  height: 70px;
-  padding: 24px 0;
+  justify-content: space-around;
+  background-color: var(--cor1);
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.05);
+  height: 90px;
+  padding: 8px;
   width: 100%;
   z-index: 1;
 }
 
 header h1 {
   text-align: center;
+  width: 100%;
 }
 
 header a {
-  color: white;
+  color: var(--cor3);
   font-family: var(--fonte-titulo);
-  font-size: 1.0em;
-  padding: 8px;
+  font-size: 0.7em;
   text-decoration: none;
+  letter-spacing: 1.8px;
 }
 
 header ul {
@@ -35,10 +36,12 @@ header ul {
 #menu-icone {
   cursor: pointer;
   display: inline-block;
+  padding: 2px;
 }
 
 #menu-icone > div {
-  background-color: black;
+  background-color: var(--cor3);
+  font-weight: 800;
   height: 3px;
   margin: 3px 0;
   width: 20px;

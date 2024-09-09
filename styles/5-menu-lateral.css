@@ -2,20 +2,16 @@
 
 .menu-responsivo {
   position: fixed;
-  left: -16px;
-  top: 70px;
-  background-color: white;
-  border-right: 1px solid lightgray;
+  left: -18px;
+  top: 98px; /* ou 90px sem o box-shadow */
+  background-color: var(--cor1);
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.05);
   height: 100vh;
   overflow-x: hidden;
-  padding: 16px 0;
+  padding: 8px;
   transition: 0.3s ease-out;
   width: 0;
   z-index: 1;
-}
-
-.menu-responsivo {
-  padding: 8px;
 }
 
 .menu-responsivo ol {
@@ -23,15 +19,19 @@
 }
 
 .menu-responsivo .modulo {
-  margin: 16px 0;
+  background-color: var(--white);
+  border-radius: 8px;
+  margin: 1.55em auto;
 }
 
 .menu-responsivo details {
-  margin: 8px 0;
-  padding: 4px 4px 4px 16px;
+  margin: 8px auto;
+  padding: 4px;
 }
 
 .menu-responsivo summary {
+  color: var(--cor3);
+  font-weight: 600;
   padding: 4px 0;
 }
 
@@ -40,52 +40,58 @@
 }
 
 .menu-responsivo ::marker {
-  color: red;
+  color: var(--cor3);
 }
 
 .menu-responsivo ul > li {
-  /* margin-left: 23px; */
   margin-bottom: 4px;
   padding: 4px 0;
 }
 
-.menu-responsivo .details-atividades details {
-  margin-left: 23px;
+.menu-responsivo ul li a {
+  display: inline-block;
+  color: var(--cor2);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 0;
+  width: 99%;
 }
 
 .menu-responsivo ul > li a:hover {
   text-decoration: underline;
 }
 
-.menu-responsivo a {
-  display: inline-block;
-  font-size: 14px;
-  padding: 4px 0;
-  width: 99%;
-}
-
-.menu-responsivo .details-atividades ul a {
-  /* background-color: yellow; */
-  margin: 4px 0;
-  padding: 4px 0;
-}
-
 .menu-responsivo .link-ativo a {
-  background-color: rgba(128, 0, 128, 0.4);
-  border-left: 4px solid rgba(128, 0, 128, 0.8);
-  padding: 4px;
+  background-color: var(--cor4);
+  border-left: 4px solid var(--cor3);
+  font-weight: 500;
+  padding: 8px;
 }
 
-.responsivo {
-  width: 340px;
-}
-
-.menu-responsivo details .details-atividades {
+.menu-responsivo .details-atividades {
   font-size: 0.9em;
   margin: 0 0 0 8px;
   padding: 4px 4px 4px 0;
 }
 
-.menu-responsivo details .details-atividades summary {
+.menu-responsivo .details-atividades summary {
   padding: 0px;
+}
+
+.menu-responsivo .details-atividades ul a {
+  margin-left: 4px;
+}
+
+.link::before {
+  content: "\21AA";
+  padding-right: 0.5em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.responsivo {
+  left: 0;
+  width: 80vw; /* ou 340 px*/
 }

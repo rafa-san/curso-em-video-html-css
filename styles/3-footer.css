@@ -1,17 +1,20 @@
 @charset "utf-8";
 
 footer {
-  background-image: linear-gradient(to top, var(--cor5), var(--cor4));
-  background-color: var(--cor4);
-  color: white;
-  padding: 24px 8px;
+  background-color: var(--cor2);
+  color: var(--cor1);
+  padding: 40px 8px;
   text-align: center;
   width: 100%;
 }
 
 footer p {
+  color: var(--cor1);
   font-size: 1.1em;
+  font-weight: 800;
+  margin-top: 16px;
   text-align: center;
+  letter-spacing: 1.5px;
 }
 
 .contato {
@@ -23,9 +26,8 @@ footer p {
 
 .fa-github,
 .fa-linkedin {
-  color: white;
+  color: var(--cor1);
   font-size: 1.2em;
-  /* text-shadow: 1px 1px 1px #1f1f1f; */
   transition: 0.3s ease-out;
 }
 
@@ -35,6 +37,7 @@ footer p {
 }
 
 .texto-icone {
+  color: var(--cor1);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1em;
   word-spacing: 2px;
