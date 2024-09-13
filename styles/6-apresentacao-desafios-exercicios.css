@@ -206,7 +206,8 @@ dd {
   text-align: center;
 }
 
-.conteudo-exercicio p {
+.conteudo-exercicio p,
+.conteudo-desafio p {
   color: var(--black);
   text-align: left;
 }
