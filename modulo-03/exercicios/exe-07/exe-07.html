@@ -1,200 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Projeto Próprio no qual organizei em forma de site os exemplos e exercícios do curso de HTML5 e CSS3, do professor Gustavo Guanabara." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 3 - Exercício 7</title>
+    <link rel="stylesheet" href="../../../styles/1-global-styles.css" />
+    <link rel="stylesheet" href="../../../styles/2-header.css" />
+    <link rel="stylesheet" href="../../../styles/3-footer.css" />
+    <link rel="stylesheet" href="../../../styles/5-menu-lateral.css" />
+    <link rel="stylesheet" href="../../../styles/6-apresentacao-desafios-exercicios.css" />
+    <link rel="stylesheet" href="../../../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../../../scripts/menu-lateral.js" defer></script>
+    <style>
+      .exercicio-07-m3 .container-atividade table {
+        border: 1px solid rgba(115, 74, 79, 0.4);
+        border-collapse: collapse;
+        margin: 8px auto;
+        width: 100%;
+      }
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Módulo 3 - Exercício 07</title>
-  <link rel="stylesheet" href="../../../styles/principal.css" />
-  <link rel="stylesheet" href="../../../styles/responsivo.css" />
-  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-</head>
+      .exercicio-07-m3 .container-atividade caption {
+        color: var(--cor1);
+        font-weight: bold;
+        margin: auto;
+        padding: 8px 0;
+      }
 
-<body>
-  <header>
-    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
+      thead {
+        /* background-color: gray; */
+        color: white;
+        position: sticky;
+        top: 90px;
+      }
 
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="../../../modulo-01/modulo-01.html">Módulo 1</a></li>
-      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="../../modulo-03.html">Módulo 3</a></li>
-      <li><a href="#">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
+      .exercicio-07-m3 .container-atividade thead,
+      .exercicio-07-m3 .container-atividade tfoot {
+        background-color: #73484D;
+        color: #fff;
+      }
 
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <div class="conteudo-exercicio exercicio-07-m3">
-        <h2>Exercício 07: Uso de Tabelas Grandes</h2>
-        <div class="container-atividade">
-          <table>
-            <caption>População das Unidades Federativas</caption>
-            <thead>
-              <tr>
-                <th scope="col" style="width:70%">Estado</th>
-                <th scope="col" style="width:30%;">População</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>São Paulo</td>
-                <td>46.024,937</td>
-              </tr>
-              <tr>
-                <td>Minas Gerais</td>
-                <td>20.732,660</td>
-              </tr>
-              <tr>
-                <td>Rio de Janeiro</td>
-                <td>16.615,526</td>
-              </tr>
-              <tr>
-                <td>Bahia</td>
-                <td>14.659,023</td>
-              </tr>
-              <tr>
-                <td>Paraná</td>
-                <td>11.835,379</td>
-              </tr>
-              <tr>
-                <td>Rio Grande do Sul</td>
-                <td>11.088,065</td>
-              </tr>
-              <tr>
-                <td>Pernambuco</td>
-                <td>9.051,113</td>
-              </tr>
-              <tr>
-                <td>Ceará</td>
-                <td>8.936,431</td>
-              </tr>
-              <tr>
-                <td>Pará</td>
-                <td>8.442,962</td>
-              </tr>
-              <tr>
-                <td>Santa Catarina</td>
-                <td>7.762,154</td>
-              </tr>
-              <tr>
-                <td>Goiás</td>
-                <td>6.950,976</td>
-              </tr>
-              <tr>
-                <td>Maranhão</td>
-                <td>6.800,605</td>
-              </tr>
-              <tr>
-                <td>Espírito Santo</td>
-                <td>4.108,508</td>
-              </tr>
-              <tr>
-                <td>Paraíba</td>
-                <td>4.030,961</td>
-              </tr>
-              <tr>
-                <td>Amazonas</td>
-                <td>3.952,262</td>
-              </tr>
-              <tr>
-                <td>Mato Grosso</td>
-                <td>3.784,239</td>
-              </tr>
-              <tr>
-                <td>Rio Grande do Norte</td>
-                <td>3.303,953</td>
-              </tr>
-              <tr>
-                <td>Piauí</td>
-                <td>3.270,174</td>
-              </tr>
-              <tr>
-                <td>Alagoas</td>
-                <td>3.125,254</td>
-              </tr>
-              <tr>
-                <td>Distrito Federal</td>
-                <td>2.923,369</td>
-              </tr>
-              <tr>
-                <td>Mato Grosso do Sul</td>
-                <td>2.833,742</td>
-              </tr>
-              <tr>
-                <td>Sergipe</td>
-                <td>2.211,868</td>
-              </tr>
-              <tr>
-                <td>Rondônia</td>
-                <td>1.616,379</td>
-              </tr>
-              <tr>
-                <td>Tocantins</td>
-                <td>1.584,306</td>
-              </tr>
-              <tr>
-                <td>Acre</td>
-                <td>829,780</td>
-              </tr>
-              <tr>
-                <td>Amapá</td>
-                <td>774,268</td>
-              </tr>
-              <tr>
-                <td>Roraima</td>
-                <td>634,805</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row">Total de Habitantes</th>
-                <td><strong>215.880,137</strong></td>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
+      .exercicio-07-m3 .container-atividade th:nth-child(1) {
+        border-right: 1px solid #fff;
+      }
+
+      .exercicio-07-m3 .container-atividade th,
+      .exercicio-07-m3 .container-atividade td {
+        padding: 8px;
+      }
+
+      .exercicio-07-m3 .container-atividade td:nth-child(1) {
+        border-right: 1px solid rgba(115, 74, 79, 0.4);
+        text-align: left;
+      }
+
+      .exercicio-07-m3 .container-atividade tbody tr:nth-child(even) {
+        background-color: rgba(191, 140, 145, 0.336);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+
+      <div id="menu-icone" title="Abrir Menu Lateral">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
       </div>
-    </section>
+    </header>
 
-    <section class="material-extra">
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
-          <i class="fa solid fa-file-pdf"></i>
-          <p>Material em PDF do curso</p>
+    <main class="container-principal">
+      <h2>Exercício 7: Uso de Tabelas Grandes</h2>
+      <section class="exercicio">
+        <div class="conteudo-exercicio exercicio-07-m3">
+          <div class="container-atividade">
+            <table>
+              <caption>População das Unidades Federativas</caption>
+              <thead>
+                <tr>
+                  <th scope="col" style="width:70%">Estado</th>
+                  <th scope="col" style="width:30%;">População</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>São Paulo</td>
+                  <td>46.024,937</td>
+                </tr>
+                <tr>
+                  <td>Minas Gerais</td>
+                  <td>20.732,660</td>
+                </tr>
+                <tr>
+                  <td>Rio de Janeiro</td>
+                  <td>16.615,526</td>
+                </tr>
+                <tr>
+                  <td>Bahia</td>
+                  <td>14.659,023</td>
+                </tr>
+                <tr>
+                  <td>Paraná</td>
+                  <td>11.835,379</td>
+                </tr>
+                <tr>
+                  <td>Rio Grande do Sul</td>
+                  <td>11.088,065</td>
+                </tr>
+                <tr>
+                  <td>Pernambuco</td>
+                  <td>9.051,113</td>
+                </tr>
+                <tr>
+                  <td>Ceará</td>
+                  <td>8.936,431</td>
+                </tr>
+                <tr>
+                  <td>Pará</td>
+                  <td>8.442,962</td>
+                </tr>
+                <tr>
+                  <td>Santa Catarina</td>
+                  <td>7.762,154</td>
+                </tr>
+                <tr>
+                  <td>Goiás</td>
+                  <td>6.950,976</td>
+                </tr>
+                <tr>
+                  <td>Maranhão</td>
+                  <td>6.800,605</td>
+                </tr>
+                <tr>
+                  <td>Espírito Santo</td>
+                  <td>4.108,508</td>
+                </tr>
+                <tr>
+                  <td>Paraíba</td>
+                  <td>4.030,961</td>
+                </tr>
+                <tr>
+                  <td>Amazonas</td>
+                  <td>3.952,262</td>
+                </tr>
+                <tr>
+                  <td>Mato Grosso</td>
+                  <td>3.784,239</td>
+                </tr>
+                <tr>
+                  <td>Rio Grande do Norte</td>
+                  <td>3.303,953</td>
+                </tr>
+                <tr>
+                  <td>Piauí</td>
+                  <td>3.270,174</td>
+                </tr>
+                <tr>
+                  <td>Alagoas</td>
+                  <td>3.125,254</td>
+                </tr>
+                <tr>
+                  <td>Distrito Federal</td>
+                  <td>2.923,369</td>
+                </tr>
+                <tr>
+                  <td>Mato Grosso do Sul</td>
+                  <td>2.833,742</td>
+                </tr>
+                <tr>
+                  <td>Sergipe</td>
+                  <td>2.211,868</td>
+                </tr>
+                <tr>
+                  <td>Rondônia</td>
+                  <td>1.616,379</td>
+                </tr>
+                <tr>
+                  <td>Tocantins</td>
+                  <td>1.584,306</td>
+                </tr>
+                <tr>
+                  <td>Acre</td>
+                  <td>829,780</td>
+                </tr>
+                <tr>
+                  <td>Amapá</td>
+                  <td>774,268</td>
+                </tr>
+                <tr>
+                  <td>Roraima</td>
+                  <td>634,805</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th scope="row">Total de Habitantes</th>
+                  <td><strong>215.880,137</strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </article>
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-03" target="_blank">
-          <i class="fa solid fa-file-code"></i>
-          <p>Exercícios do módulo 3</p>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </article>
-    </section>
-  </main>
-
-  <section class="botao-voltar">
-    <a href="../../modulo-03-exercicios.html">
-      <i class="fas fa-arrow-left" title="Voltar"></i>
-    </a>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-    
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../../../scripts/menu-responsivo.js"></script>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>

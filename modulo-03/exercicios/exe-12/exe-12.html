@@ -1,135 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Projeto Próprio no qual organizei em forma de site os exemplos e exercícios do curso de HTML5 e CSS3, do professor Gustavo Guanabara." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 3 - Exercício 12</title>
+    <link rel="stylesheet" href="../../../styles/1-global-styles.css" />
+    <link rel="stylesheet" href="../../../styles/2-header.css" />
+    <link rel="stylesheet" href="../../../styles/3-footer.css" />
+    <link rel="stylesheet" href="../../../styles/5-menu-lateral.css" />
+    <link rel="stylesheet" href="../../../styles/6-apresentacao-desafios-exercicios.css" />
+    <link rel="stylesheet" href="../../../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../../../scripts/menu-lateral.js" defer></script>
+    <style>
+      .exercicio-12-m3 .container-atividade {
+        overflow-x: auto;
+      }
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Módulo 3 - Exercício 12</title>
-  <link rel="stylesheet" href="../../../styles/principal.css" />
-  <link rel="stylesheet" href="../../../styles/responsivo.css" />
-  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-</head>
+      .exercicio-12-m3 table {
+        border: 2px solid var(--cor1);
+        border-collapse: collapse;
+        margin: 16px 8px;
+        min-width: 900px;
+      }
 
-<body>
-  <header>
-    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
+      .exercicio-12-m3 th,
+      .exercicio-12-m3 td {
+        border-top: 1px solid var(--cor1);
+        border-bottom: 1px solid var(--cor1);
+        padding: 16px 2px;
+      }
 
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="../../../modulo-01/modulo-01.html">Módulo 1</a></li>
-      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="../../modulo-03.html">Módulo 3</a></li>
-      <li><a href="#">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
+      .exercicio-12-m3 thead td:nth-child(1) {
+        background-color: var(--cor1);
+        min-width: 280px;
+      }
 
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <div class="conteudo-exercicio exercicio-12-m3">
-        <h2>Exercício 12: Tabelas Responsivas</h2>
-        <div class="container-atividade">
-          <table>
-            <thead>
-              <tr>
-                <td>Diretor</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-                <td>Filme</td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>Alejandro González Iñarritu</th>
-                <td>Amores Brutos (2000)</td>
-                <td>21 Gramas (2003)</td>
-                <td>Babel (2006)</td>
-                <td>Biutiful (2010)</td>
-                <td>Birdman Ou (A Inesperada Virtude da Ignorância) (2014)</td>
-                <td>O Regresso (2015)</td>
-              </tr>
-              <tr>
-                <th>Christopher Nolan</th>
-                <td>Amnésia (2000)</td>
-                <td>Insônia (2002)</td>
-                <td>Batman Begins (2005)</td>
-                <td>O Grande Truque (2006)</td>
-                <td>Batman: O Cavaleiro das Trevas (2008)</td>
-                <td>A Origem (2010)</td>
-              </tr>
-              <tr>
-                <th>Zack Snyder</th>
-                <td>Madrugada dos Mortos (2004)</td>
-                <td>300 (2006)</td>
-                <td>Watchmen: O Filme (2009)</td>
-                <td>A Lenda dos Guardiões (2010)</td>
-                <td>Sucker Punch: Mundo Surreal (2011)</td>
-                <td>O Homem de Aço (2013)</td>
-              </tr>
-              <tr>
-                <th>Tim Burton</th>
-                <td>Os Fantasmas se Divertem (1988)</td>
-                <td>Batman (1989)</td>
-                <td>Edward Mãos de Tesoura (1990)</td>
-                <td>Batman: O Retorno (1992)</td>
-                <td>Ed Wood (1994)</td>
-                <td>A Lenda do Cavaleiro Sem Cabeça (1999)</td>
-              </tr>
-              <tr>
-                <th>Michael Mann</th>
-                <td>Profissão, Ladrão (1981)</td>
-                <td>O Último dos Moicanos (1992)</td>
-                <td>Fogo Contra Fogo (1995)</td>
-                <td>O Informante (1999)</td>
-                <td>Ali (2001)</td>
-                <td>Colateral (2004)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      .exercicio-12-m3 thead td {
+        background-color: var(--cor1);
+      }
+
+      .exercicio-12-m3 tbody th {
+        letter-spacing: 2px;
+        padding-left: 8px;
+        text-align: left;
+      }
+
+      .exercicio-12-m3 tbody td {
+        min-width: 360px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
+
+      <div id="menu-icone" title="Abrir Menu Lateral">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
       </div>
-    </section>
+    </header>
 
-    <section class="material-extra">
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
-          <i class="fa solid fa-file-pdf"></i>
-          <p>Material em PDF do curso</p>
+    <main class="container-principal">
+      <h2>Exercício 12: Tabelas Responsivas</h2>
+      <section class="exercicio">
+        <div class="conteudo-exercicio exercicio-12-m3">
+          <div class="container-atividade">
+            <table>
+              <thead>
+                <tr>
+                  <td>Diretor</td>
+                  <td>Filme</td>
+                  <td>Filme</td>
+                  <td>Filme</td>
+                  <td>Filme</td>
+                  <td>Filme</td>
+                  <td>Filme</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Alejandro González Iñarritu</th>
+                  <td>Amores Brutos (2000)</td>
+                  <td>21 Gramas (2003)</td>
+                  <td>Babel (2006)</td>
+                  <td>Biutiful (2010)</td>
+                  <td>Birdman Ou (A Inesperada Virtude da Ignorância) (2014)</td>
+                  <td>O Regresso (2015)</td>
+                </tr>
+                <tr>
+                  <th>Christopher Nolan</th>
+                  <td>Amnésia (2000)</td>
+                  <td>Insônia (2002)</td>
+                  <td>Batman Begins (2005)</td>
+                  <td>O Grande Truque (2006)</td>
+                  <td>Batman: O Cavaleiro das Trevas (2008)</td>
+                  <td>A Origem (2010)</td>
+                </tr>
+                <tr>
+                  <th>Zack Snyder</th>
+                  <td>Madrugada dos Mortos (2004)</td>
+                  <td>300 (2006)</td>
+                  <td>Watchmen: O Filme (2009)</td>
+                  <td>A Lenda dos Guardiões (2010)</td>
+                  <td>Sucker Punch: Mundo Surreal (2011)</td>
+                  <td>O Homem de Aço (2013)</td>
+                </tr>
+                <tr>
+                  <th>Tim Burton</th>
+                  <td>Os Fantasmas se Divertem (1988)</td>
+                  <td>Batman (1989)</td>
+                  <td>Edward Mãos de Tesoura (1990)</td>
+                  <td>Batman: O Retorno (1992)</td>
+                  <td>Ed Wood (1994)</td>
+                  <td>A Lenda do Cavaleiro Sem Cabeça (1999)</td>
+                </tr>
+                <tr>
+                  <th>Michael Mann</th>
+                  <td>Profissão, Ladrão (1981)</td>
+                  <td>O Último dos Moicanos (1992)</td>
+                  <td>Fogo Contra Fogo (1995)</td>
+                  <td>O Informante (1999)</td>
+                  <td>Ali (2001)</td>
+                  <td>Colateral (2004)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </article>
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-03" target="_blank">
-          <i class="fa solid fa-file-code"></i>
-          <p>Exercícios do módulo 3</p>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </article>
-    </section>
-  </main>
-
-  <section class="botao-voltar">
-    <a href="../../modulo-03-exercicios.html">
-      <i class="fas fa-arrow-left" title="Voltar"></i>
-    </a>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-    
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../../../scripts/menu-responsivo.js"></script>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
