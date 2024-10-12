@@ -1,153 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Projeto Próprio no qual organizei em forma de site os exemplos e exercícios do curso de HTML5 e CSS3, do professor Gustavo Guanabara." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 4 - Exercício 8</title>
+    <link rel="stylesheet" href="../../../styles/1-global-styles.css" />
+    <link rel="stylesheet" href="../../../styles/2-header.css" />
+    <link rel="stylesheet" href="../../../styles/3-footer.css" />
+    <link rel="stylesheet" href="../../../styles/5-menu-lateral.css" />
+    <link rel="stylesheet" href="../../../styles/6-apresentacao-desafios-exercicios.css" />
+    <link rel="stylesheet" href="../../../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../../../scripts/menu-lateral.js" defer></script>
+    <script src="exe-08.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Módulo 4 - Exercício 08</title>
-  <link rel="stylesheet" href="../../../styles/principal.css" />
-  <link rel="stylesheet" href="../../../styles/responsivo.css" />
-  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-</head>
+  <body>
+    <header>
+      <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
 
-<body>
-  <header>
-    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
+      <div id="menu-icone" title="Abrir Menu Lateral">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
+      </div>
+    </header>
 
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="../../../modulo-01/modulo-01.html">Módulo 1</a></li>
-      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="../../../modulo-03/modulo-03.html">Módulo 3</a></li>
-      <li><a href="../../modulo-04.html" class="link-ativo">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
+    <main class="container-principal">
+      <h2>Exercício 8: Formulários | Elementos do elemento &lt;form&gt;</h2>
+      <section class="exercicio">
+        <div class="conteudo-exercicio exercicio-08-m4">
+          <div class="atividade">
+            <p>No exercício abaixo, foram usados os seguintes elementos dentro do elemento <code>&lt;form&gt;</code><code>&lt;/form&gt;</code>:</p>
+            <ul>
+              <li><code>&lt;button&gt;</code></li>
+              <li><code>&lt;datalist&gt;</code></li>
+              <li><code>&lt;fieldset&gt;</code></li>
+              <li><code>&lt;input&gt;</code></li>
+              <li><code>&lt;label&gt;</code></li>
+              <li><code>&lt;legend&gt;</code></li>
+              <li><code>&lt;optgroup&gt;</code></li>
+              <li><code>&lt;option&gt;</code></li>
+              <li><code>&lt;select&gt;</code></li>
+              <li><code>&lt;textarea&gt;</code></li>
+            </ul>
 
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <div class="conteudo-exercicio exercicio-08-m4">
-        <h2>Exercício 08: Formulários | Elementos do elemento &lt;form&gt;</h2>
-        <div class="atividade">
-          <p>No exercício abaixo, foram usados os seguintes elementos dentro do elemento <code>&lt;form&gt;</code><code>&lt;/form&gt;</code>:</p>
-          <ul>
-            <li><code>&lt;button&gt;</code></li>
-            <li><code>&lt;datalist&gt;</code></li>
-            <li><code>&lt;fieldset&gt;</code></li>
-            <li><code>&lt;input&gt;</code></li>
-            <li><code>&lt;label&gt;</code></li>
-            <li><code>&lt;legend&gt;</code></li>
-            <li><code>&lt;optgroup&gt;</code></li>
-            <li><code>&lt;option&gt;</code></li>
-            <li><code>&lt;select&gt;</code></li>
-            <li><code>&lt;textarea&gt;</code></li>
-          </ul>
+            <p>***</p>
 
-          <p>***</p>
+            <div class="container-exe-08-m4">
+              <p>Não encontrou o produto que procurava?</p>
+              <p>Preencha o formulário abaixo e cadastre-se em nossa Lista de Desejo!</p>
+              <p>Entraremos em contato com informações sobre o produto o mais breve possível.</p>
+              <form action="../mensagem-formulario.html" target="_blank" method="get">
+                <fieldset>
+                  <legend>Lista de Desejo</legend>
+              
+                  <label for="nome">Informe o seu nome</label>
+                  <input type="text" id="nome" name="nome" required />
+              
+                  <label for="contato">Clique no campo abaixo para escolher a melhor forma de contato</label>
+                  <input list="formas-contato" id="contato" name="contato" />
+                  <datalist id="formas-contato">
+                    <option value="E-mail"></option>
+                    <option value="Celular - Ligação"></option>
+                    <option value="Celular - WhatsApp"></option>
+                  </datalist>
 
-          <div class="container-exe-08-m4">
-            <p>Não encontrou o produto que procurava?</p>
-            <p>Preencha o formulário abaixo e cadastre-se em nossa Lista de Desejo!</p>
-            <p>Entraremos em contato com informações sobre o produto o mais breve possível.</p>
-            <form action="../mensagem-formulario.html" target="_blank" method="get">
-              <fieldset>
-                <legend>Lista de Desejo</legend>
-            
-                <label for="nome">Informe o seu nome</label>
-                <input type="text" id="nome" name="nome" required />
-            
-                <label for="contato">Clique no campo abaixo para escolher a melhor forma de contato</label>
-                <input list="formas-contato" id="contato" name="contato" />
-                <datalist id="formas-contato">
-                  <option value="E-mail"></option>
-                  <option value="Celular - Ligação"></option>
-                  <option value="Celular - WhatsApp"></option>
-                </datalist>
+                  <div class="email-opcional">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" />
+                  </div>
 
-                <div class="email-opcional">
-                  <label for="email">E-mail</label>
-                  <input type="email" id="email" name="email" />
-                </div>
+                  <div class="celular-opcional">
+                    <label for="telefone">Celular</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" />
+                  </div>
 
-                <div class="celular-opcional">
-                  <label for="telefone">Celular</label>
-                  <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" />
-                </div>
-
-            
-                <label for="categoria">Selecione a categoria do produto que gostaria de encomendar</label>
-                <select id="categoria" name="categoria" size="1">
-                  <option>Escolha uma opção</option>
-                  <optgroup label="Filmes & Documentários">
-                    <option>Blu-ray</option>
-                    <option>CD</option>
-                  </optgroup>
-                  <optgroup label="Livro">
-                    <option>Livro Importado</option>
-                    <option>Livro Nacional</option>
-                  </optgroup>
-                  <optgroup label="Música">
-                    <option>CD</option>
-                    <option>Disco de Vinil</option>
-                  </optgroup>
-                  <optgroup label="Outros">
-                    <option>Papelaria</option>
-                  </optgroup>
-                </select>
-            
-                <label for="descricao">Descrição do produto</label>
-                <textarea id="descricao" name="descricao"></textarea>
-            
-                <div class="botoes">
-                  <input type="submit" value="Enviar" class="botao" />
-                  <input type="reset" value="Limpar" class="botao" />
-                </div>
-              </fieldset>
-            </form>
+              
+                  <label for="categoria">Selecione a categoria do produto que gostaria de encomendar</label>
+                  <select id="categoria" name="categoria" size="1">
+                    <option>Escolha uma opção</option>
+                    <optgroup label="Filmes & Documentários">
+                      <option>Blu-ray</option>
+                      <option>CD</option>
+                    </optgroup>
+                    <optgroup label="Livro">
+                      <option>Livro Importado</option>
+                      <option>Livro Nacional</option>
+                    </optgroup>
+                    <optgroup label="Música">
+                      <option>CD</option>
+                      <option>Disco de Vinil</option>
+                    </optgroup>
+                    <optgroup label="Outros">
+                      <option>Papelaria</option>
+                    </optgroup>
+                  </select>
+              
+                  <label for="descricao">Descrição do produto</label>
+                  <textarea id="descricao" name="descricao"></textarea>
+              
+                  <div class="botoes">
+                    <input type="submit" value="Enviar" class="botao" />
+                    <input type="reset" value="Limpar" class="botao" />
+                  </div>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <section class="material-extra">
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
-          <i class="fa solid fa-file-pdf"></i>
-          <p>Material em PDF do curso</p>
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </article>
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04" target="_blank">
-          <i class="fa solid fa-file-code"></i>
-          <p>Exercícios do módulo 4</p>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </article>
-    </section>
-  </main>
-
-  <section class="botao-voltar">
-    <a href="../../modulo-04-exercicios.html">
-      <i class="fas fa-arrow-left" title="Voltar"></i>
-    </a>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-    
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../../../scripts/menu-responsivo.js"></script>
-  <script src="../../../scripts/modulo-04-exe-02.js"></script>
-  <script src="exe-08.js"></script>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
