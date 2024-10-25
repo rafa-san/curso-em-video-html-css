@@ -1,0 +1,17 @@
+Flexbox:
+
+. align-items está ligado ao cross-axis (eixo transversal - align items)
+. justify-content serve para alinhar no eixo principal
+
+***
+
+align-content: alinha os elementos no eixo transversal quando eles estão empacotados
+tem como valor padrão o valor stretch
+
+***
+
+align-items, justify-content e align-content são aplicáveis aos conteineres.
+
+
+Última aula assistida: Alinhamento de elementos empacotados no Flexbox
+
