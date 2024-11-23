@@ -3,9 +3,11 @@
 # Atividades do Curso de HTML5 e CSS3
 
 ## 1️⃣ Apresentação
-Este projeto começou de forma simples, com páginas feitas exclusivamente em HTML e um pouco de CSS, refletindo meu foco inicial no conteúdo e não na aparência do projeto. Essa abordagem foi mantida até o final do **módulo 1** do curso.
+Este projeto nasceu da minha vontade de aplicar, na prática, os conhecimentos adquiridos durante o curso de **HTML5 e CSS3** da plataforma **Curso em Vídeo**, ministrado pelo professor **Gustavo Guanabara**.
 
-Antes de iniciar o **módulo 2**, senti a necessidade de aprimorar o projeto. Decidi recomeçá-lo, adotando uma abordagem mais estruturada e detalhada.
+Tudo começou de forma simples, com páginas feitas exclusivamente em HTML e um pouco de CSS, refletindo meu foco inicial no conteúdo e não na aparência do projeto. Essa abordagem foi mantida até o final do **módulo 1** do curso.
+
+Antes de iniciar o **módulo 2**, senti a necessidade de aprimorá-lo. Decidi recomeçá-lo, adotando uma abordagem mais estruturada e detalhada.
 
 Trabalhei, resumidamente, nos seguintes pontos:
 
@@ -15,10 +17,8 @@ Trabalhei, resumidamente, nos seguintes pontos:
 
 O resultado é a versão atual, que combina funcionalidade com uma apresentação mais elaborada e profissional.
 
-## 2️⃣ Meu Objetivo
+## 2️⃣ Objetivo
 Meu objetivo foi organizar, em formato de site, todos os desafios e exercícios realizados durante o curso, adaptando algumas atividades para integrá-las melhor ao formato deste projeto.
-
-Além disso, incluí o **material de apoio** fornecido pelo curso, tornando este repositório uma ferramenta útil para outros estudantes que desejam estudar e praticar essas tecnologias.
 
 ## 3️⃣ Tecnologias Utilizadas
 
