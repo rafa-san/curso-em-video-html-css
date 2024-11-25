@@ -2,7 +2,10 @@
 
 # Atividades do Curso de HTML5 e CSS3
 
-## 1️⃣ Apresentação
+## 1️⃣ Objetivo
+Organizar, em formato de site, todos os desafios e exercícios realizados durante o curso de **HTML5 e CSS3**, adaptando e personalizando algumas atividades para integrá-las melhor ao formato deste projeto.
+
+## 2️⃣ Descrição
 Este projeto nasceu da minha vontade de aplicar, na prática, os conhecimentos adquiridos durante o curso de **HTML5 e CSS3** da plataforma **Curso em Vídeo**, ministrado pelo professor **Gustavo Guanabara**.
 
 Tudo começou de forma simples, com páginas feitas exclusivamente em HTML e um pouco de CSS, refletindo meu foco inicial no conteúdo e não na aparência do projeto. Essa abordagem foi mantida até o final do **módulo 1** do curso.
@@ -11,14 +14,11 @@ Antes de iniciar o **módulo 2**, senti a necessidade de aprimorá-lo. Decidi re
 
 Trabalhei, resumidamente, nos seguintes pontos:
 
-- Criação de rascunhos do layout no papel;
-- Escolha de fontes e definição de uma paleta de cores;
-- Implementação de um design responsivo.
+- Desenvolvi o layout utilizando duas ferramentas simples: papel e caneta;
+- Escolhi uma paleta de cores e as fontes externas;
+- Implementei um design responsivo adotando o conceito de mobile first, ajustando primeiramente para telas menores e adaptando para telas maiores;
 
 O resultado é a versão atual, que combina funcionalidade com uma apresentação mais elaborada e profissional.
-
-## 2️⃣ Objetivo
-Meu objetivo foi organizar, em formato de site, todos os desafios e exercícios realizados durante o curso, adaptando algumas atividades para integrá-las melhor ao formato deste projeto.
 
 ## 3️⃣ Tecnologias Utilizadas
 
@@ -36,6 +36,10 @@ Meu objetivo foi organizar, em formato de site, todos os desafios e exercícios 
 Meu agradecimento ao professor **Gustavo Guanabara** e à equipe do **Curso em Vídeo** por proporcionar um curso tão completo e acessível. O conhecimento adquirido foi essencial para o desenvolvimento deste projeto.
 - <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo - Site Oficial 🔗</a>
 - <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank">Curso em Vídeo no YouTube 🔗</a>
+
+Não poderia deixar de mencionar outras duas plataformas repletas de ensinamentos valiosos:
+- <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs 🔗</a>
+- <a href="https://www.w3schools.com/" target="_blank">W3Schools 🔗</a>
 
 ## 5️⃣ Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
