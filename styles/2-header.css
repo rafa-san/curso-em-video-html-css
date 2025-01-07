@@ -7,7 +7,8 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-color: var(--cor1);
+  /* background-color: var(--cor1); */
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.05);
   height: 90px;
   padding: 8px;
