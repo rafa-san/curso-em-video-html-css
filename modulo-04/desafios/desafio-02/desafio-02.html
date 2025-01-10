@@ -1,76 +1,418 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Projeto Próprio no qual organizei em forma de site os exemplos e exercícios do curso de HTML5 e CSS3, do professor Gustavo Guanabara." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 3 - Desafio 1</title>
+    <link rel="stylesheet" href="../../../styles/1-global-styles.css" />
+    <link rel="stylesheet" href="../../../styles/2-header.css" />
+    <link rel="stylesheet" href="../../../styles/3-footer.css" />
+    <link rel="stylesheet" href="../../../styles/5-menu-lateral.css" />
+    <link rel="stylesheet" href="../../../styles/6-apresentacao-desafios-exercicios.css" />
+    <link rel="stylesheet" href="../../../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../../../scripts/menu-lateral.js" defer></script>
+    <style>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Módulo 4 - Desafio 02</title>
-  <link rel="stylesheet" href="../../../styles/principal.css" />
-  <link rel="stylesheet" href="../../../styles/responsivo.css" />
-  <link rel="stylesheet" href="../../../styles/exercicios-e-desafios.css" />
-</head>
+    </style>
+  </head>
 
-<body>
-  <header>
-    <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
-  </header>
+  <body>
+    <header>
+      <h1><a href="../../../index.html">Curso de HTML5 + CSS3</a></h1>
 
-  <nav>
-    <ul id="topnavResponsivo" class="topnav">
-      <li><i class="fa fa-bars icon" id="icone-menu"></i></li>
-      <li><a href="../../../modulo-01/modulo-01.html">Módulo 1</a></li>
-      <li><a href="../../../modulo-02/modulo-02.html">Módulo 2</a></li>
-      <li><a href="../../../modulo-03/modulo-03.html">Módulo 3</a></li>
-      <li><a href="../../modulo-04.html" class="link-ativo">Módulo 4</a></li>
-      <li><a href="#">Módulo 5</a></li>
-    </ul>
-  </nav>
-
-  <main class="container-exercicio">
-    <section class="exercicio">
-      <div class="conteudo-exercicio exercicio-14-m4">
-        <h2>Desafio 02</h2>
-        <div class="atividade">
-          
-        </div>
+      <div id="menu-icone" title="Abrir Menu Lateral">
+        <div class="linha-1"></div>
+        <div class="linha-2"></div>
+        <div class="linha-3"></div>
       </div>
-    </section>
+    </header>
 
-    <section class="material-extra">
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">
-          <i class="fa solid fa-file-pdf"></i>
-          <p>Material em PDF do curso</p>
+    <nav id="menu-lateral" class="menu-responsivo">
+      <ol>
+        <!-- Módulo 1 -->
+        <li class="modulo">
+          <details>
+            <summary>Módulo 1</summary>
+            <ul>
+              <li><a href="../../../modulo-01/home.html">Apresentação</a></li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-01/exe-01.html" class="link">Meu Primeiro Exercício</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-02/exe-02.html" class="link">Parágrafos, Símbolos e Emojis</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-03/exe-03.html" class="link">Inserindo Imagens</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-04/exe-04.html" class="link">Ícone de Favoritos (favicons)</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-05/exe-05.html" class="link">Hierarquia de Títulos</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-06/exe-06.html" class="link">Formatação de Textos</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-07/exe-07.html" class="link">Outras Formatações</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-08/exe-08.html" class="link">Listas</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-09/pagina-1.html" class="link">Trabalhando com Links</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-10/exe-10.html" class="link">Imagem Dinâmica</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-11/exe-11.html" class="link">Áudio</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-12/exe-12.html" class="link">Vídeos</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-13/exe-13.html" class="link">Trabalhando com CSS Inline</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-14/exe-14.html" class="link">Trabalhando com CSS Interno</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/exercicios/exe-15/pagina-1.html" class="link">Trabalhando com CSS Externo</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-01/desafio-01.html" class="link">Desafio da Contagem</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-02/desafio-02.html" class="link">Desafio das Imagens</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-03/desafio-03.html" class="link">Desafio do Mapa Mundi</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-04/desafio-04.html" class="link">Desafio da Lista de Emojis</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-05/desafio-05.html" class="link">Desafio do Perfil Social</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-06/desafio-06.html" class="link">Desafio das <em>tags</em></a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-07/desafio-07.html" class="link">Desafio da Imagem Flexível</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-08/desafio-08.html" class="link">Desafio da Navegação</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-01/desafios/desafio-09/desafio-09.html" class="link">Desafio dos Vídeos</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 2 -->
+        <li class="modulo">
+          <details>
+            <summary>Módulo 2</summary>
+            <ul>
+              <li>
+                <a href="../../../modulo-02/home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-01/exe-01.html" class="link">Representando Cores em CSS3</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-02/exe-02.html" class="link">Trabalhando com Transparência</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-03/exe-03.html" class="link">Trabalhando com Gradientes</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-04/exe-04.html" class="link">Fontes</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-05/exe-05.html" class="link">Usando o Google Fonts e Fontes Externas Baixadas</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-06/exe-06.html" class="link">Tipos de Alinhamento de Textos</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-07/exe-07.html" class="link">Seletores Simples em CSS: <em>id</em> & <em>class</em></a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-08/exe-08.html" class="link"><em>pseudo-class</em> & <em>pseudo-element</em></a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/exercicios/exe-09/exe-09.html" class="link">Trabalhando com Sombras</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-02/desafios/desafio-01/desafio-01.html" class="link">Desafio Site do Android</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-02/desafios/desafio-02/desafio-02.html" class="link">Desafio do Astronauta</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 3 -->
+        <li class="modulo">
+          <details>
+            <summary>Módulo 3</summary>
+            <ul>
+              <li>
+                <a href="../../../modulo-03/home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-01/exe-01.html" class="link">Inserindo Imagens de Fundo</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-02/exe-02.html" class="link">Background-Repeat & Background-Size</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-03/exe-03.html" class="link">Background-Position</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-04/exe-04.html" class="link">Fundo Fixo de Tela</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-05/exe-05.html" class="link">Alinhamento Horizontal e Vertical</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-06/exe-06.html" class="link">Minha Primeira Tabela</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-07/exe-07.html" class="link">Uso de Tabelas Grandes</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-08/exe-08.html" class="link">Mesclagem de Células em Tabelas | Parte 1</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-09/exe-09.html" class="link">Mesclagem de Células em Tabelas | Parte 2</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-10/exe-10.html" class="link">Mesclagem de Células em Tabelas | Parte 3</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-11/exe-11.html" class="link">Usando o elemento <em>colgroup</em> em Tabelas</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/exercicios/exe-12/exe-12.html" class="link">Tabelas Responsivas</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                  <ul>
+                    <li>
+                      <a href="../../../modulo-03/desafios/desafio-01/desafio-01.html" class="link">Desafio da Tabela Complexa</a>
+                    </li>
+                    <li>
+                      <a href="../../../modulo-03/desafios/desafio-02/desafio-02.html" class="link">Desafio do Efeito Parallax | Página Cordel</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 4 -->
+        <li class="modulo">
+          <details open>
+            <summary>Módulo 4</summary>
+            <ul>
+              <li>
+                <a href="../modulo-04/home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-01/exe-01.html" class="link">&lt;iframe&gt;: Como Criar um &lt;iframe&gt;</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-02/exe-02.html" class="link">&lt;iframe&gt;: Exibindo Diferentes Conteúdos</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-03/exe-03.html" class="link">&lt;iframe&gt;: Tornando um iFrame mais Seguro</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-04/exe-04.html" class="link">&lt;iframe&gt;: Adicionando Mapas do Google Maps</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-05/exe-05.html" class="link">&lt;iframe&gt;: Adicionando Mapas do Waze</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-06/exe-06.html" class="link">&lt;iframe&gt;: Adicionando Documentos do Google Docs</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-07/exe-07.html" class="link">Formulários: Atributos do elemento &lt;form&gt;</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-08/exe-08.html" class="link">Formulários: Elementos do elemento &lt;form&gt;</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-09/exe-09.html" class="link">Formulários: <em>input type</em> | Parte 1</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-10/exe-10.html" class="link">Formulários: <em>input type</em> | Parte 2</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-11/exe-11.html" class="link">Formulários: Gerando saídas rápidas utilizando <em>output</em></a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-12/exe-12.html" class="link">Formulários: Utilizando JavaScript no formulário</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-13/exe-13.html" class="link">Media Queries: Primeiros Passos</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-14/exe-14.html" class="link">Media Queries: <em>media types</em></a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-15/exe-15.html" class="link">Media Queries: media types e media features</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-16/exe-16.html" class="link">Media Queries: Device Breakpoints</a>
+                    </li>
+                    <li>
+                      <a href="../modulo-04/exercicios/exe-17/exe-17.html" class="link">Media Queries: Menu Responsivo</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades" open>
+                  <summary>Desafios</summary>
+                  <ul>
+                    <li>
+                      <a href="../modulo-04/desafios/desafio-01/desafio-01.html" class="link">Desafio das Redes Sociais</a>
+                    </li>
+                    <li class="link-ativo">
+                      <a href="../modulo-04/desafios/desafio-02/desafio-02.html" class="link">Desafio da Página de Login</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Módulo 5 
+        <li class="modulo">
+          <details>
+            <summary>Módulo 5</summary>
+            <ul>
+              <li>
+                <a href="../modulo-05/home.html">Apresentação</a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Exercícios</summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary>Desafios</summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+        -->
+
+        <!-- Hidden -->
+        <li class="modulo hidden">
+          <details class="details-ultimo" open>
+            <summary></summary>
+            <ul class="ul-menu">
+              <li>
+                <a href="#"></a>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary></summary>
+                </details>
+              </li>
+              <li>
+                <details class="details-atividades">
+                  <summary></summary>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+      </ol>
+    </nav>
+
+    <main class="container-principal">
+      <h2>Desafio 2. Página de Login</h2>
+      <section class="exercicio">
+        <div class="conteudo-exercicio desafio-01-m3">
+          <div class="atividade">
+            <p class="paragrafo-alinhamento">Para visualizar esse desafio completo numa outra página do navegador, <a href="projeto-login.html" target="_blank">é só clicar aqui</a>.</p>
+            <p class="paragrafo-alinhamento">***</p>
+            <iframe src="projeto-login.html" title="Iframe do Desafio Android"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
+
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
         </a>
-      </article>
-      <article>
-        <a href="https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04" target="_blank">
-          <i class="fa solid fa-file-code"></i>
-          <p>Exercícios do módulo 4</p>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
         </a>
-      </article>
-    </section>
-  </main>
-
-  <section class="botao-voltar">
-    <a href="../../modulo-04-exercicios.html">
-      <i class="fas fa-arrow-left" title="Voltar"></i>
-    </a>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-    
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../../../scripts/menu-responsivo.js"></script>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
