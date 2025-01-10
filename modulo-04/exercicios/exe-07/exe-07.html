@@ -15,6 +15,88 @@
     <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
     <script src="../../../scripts/menu-lateral.js" defer></script>
     <script src="exe-07.js" defer></script>
+    <style>
+      .exercicio-07-m4 code {
+        background-color: var(--cor3);
+        border-radius: 16px;
+        color: #fff;
+        font-size: 1.0em;
+        margin: 0 2px;
+        padding: 2px 8px;
+      }
+
+      .exercicio-07-m4 ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* background-color: var(--cor4); */
+        list-style-type: none;
+        margin: auto;
+        max-width: 700px;
+        padding: 8px 2px;
+      }
+
+      .exercicio-07-m4 li {
+        background-color: var(--cor2);
+        border-radius: 16px;
+        color: #fff;
+        font-size: 1.0em;
+        margin: 8px;
+        padding: 4px 8px;
+        text-align: center;
+        width: 130px;
+      }
+
+      .exercicio-07-m4 form {
+        margin-top: 16px;
+        padding: 16px 0;
+        text-align: center;
+      }
+
+      .exercicio-07-m4 legend {
+        margin-left: 16px;
+        padding: 0 8px;
+        text-align: left;
+      }
+
+      .exercicio-07-m4 label {
+        margin: auto;
+        width: 80%;
+        display: block;
+      }
+
+      .exercicio-07-m4 input {
+        height: 2em;
+        margin: 8px auto;
+        padding-left: 8px;
+        width: 200px;
+        display: block;
+      }
+
+      .exercicio-07-m4 .botao,
+      .exercicio-08-m4 .botao,
+      .exercicio-09-m4 .botao {
+        background-color: var(--cor4);
+        border: 1px solid transparent;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.1em;
+        height: unset;
+        margin-top: 16px;
+        padding: 8px;
+        width: 150px;
+      }
+
+      .exercicio-07-m4 #botao:hover,
+      .exercicio-08-m4 .botao:hover,
+      .exercicio-09-m4 .botao:hover {
+        background-color: #fff;
+        border: 1px solid var(--cor4);
+        color: var(--cor4);
+      }
+    </style>
   </head>
 
   <body>
@@ -40,13 +122,16 @@
               <li>method</li>
               <li>target</li>
             </ul>
-            <p>***</p>
+
             <form action="../mensagem-formulario.html" target="_blank" method="get" autocomplete="off">
-              <label for="nome">Nome:</label>
-              <input type="text" id="nome" />
-              <label for="sobrenome">Sobrenome:</label>
-              <input type="text" id="sobrenome" />
-              <input type="submit" value="Enviar" class="botao"/>
+              <fieldset>
+                <legend>Formulário</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" />
+                <input type="submit" value="Enviar" class="botao"/>
+              </fieldset>
             </form>
           </div>
         </div>
