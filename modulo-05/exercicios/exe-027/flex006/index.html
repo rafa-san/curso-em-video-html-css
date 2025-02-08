@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexible box</title>
+  <title>Flexible box | 006</title>
   <style>
     div.container {
       display: flex;
-      align-content: space-evenly;
+      /* align-content: space-evenly; */
       flex-flow: row wrap;
       background-color: lightsalmon;
       height: 400px;
+      overflow: auto;
     }
 
     div.item {
+      /* flex: auto; */
       background-color: lightblue;
       border: 1px solid black;
       padding: 40px;
