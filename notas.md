@@ -2,6 +2,8 @@ favicon no desafio 02 do modulo 1
 
 efeito do parágrafo do exe 6 do modulo 2
 
+criar sites: hostinger
+
 
 CORREÇÕES:
 MÓDULO 1
