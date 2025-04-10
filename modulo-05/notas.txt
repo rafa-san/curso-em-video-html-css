@@ -1,17 +1,61 @@
 Flexbox:
 
-. align-items está ligado ao cross-axis (eixo transversal - align items)
-. justify-content serve para alinhar no eixo principal
-
-***
-
-align-content: alinha os elementos no eixo transversal quando eles estão empacotados
-tem como valor padrão o valor stretch
-
-***
-
-align-items, justify-content e align-content são aplicáveis aos conteineres.
+> Aula 01: Primeiros passos com Flexbox CSS
+. flex-container é o pai e flex-item é o filho
 
 
-Última aula assistida: Alinhamento de elementos empacotados no Flexbox
+> Aula 02: Direções e Eixos Flexbox CSS
+. main-start e main-end: início e fim do eixo principal
 
+
+> Aula 03: Empacotamento e fluxo no Flexbox CSS
+. flex-flow = flex-direction + flex-wrap
+
+
+> Aula 04: Alinhamento nos eixos Flexbox
+. justify-content serve para alinhar no eixo principal (main axis)
+. align-items está ligado ao eixo transversal (cross-axis)
+. ambas são aplicadas ao flex container
+
+
+> Aula 05: Centralização absoluta com Flexbox
+
+
+> Aula 06: Alinhamento de elementos empacotados no Flexbox | última aula sobre containers flexíveis
+. conteúdo empacotado é aquele que se quebra (wrap = "quebra" o conteúdo).
+. align-content: alinha os elementos no eixo transversal QUANDO eles estão empacotados e tem como valor padrão o valor stretch
+. align-content funciona com o wrap. SEMPRE.
+. align-items, justify-content e align-content são aplicáveis aos conteineres.
+
+
+> Aula 07: Anatomia dos itens Flexbox
+. todo item dentro do container tem como padrão order = 0
+. align-self: aplica-se a cada um dos itens | funciona diretamente no cross-axis
+
+
+> Aula 08: Propriedade flex-basis em Flexbox
+. flex-basis: valor padrão é auto | a largura dos itens pra cada elemento é dada através do tamanho do seu conteúdo!!
+
+
+> Aula 09: Controle do tamanho de itens flexíveis
+. flex-shrink: 1 - valor padrão
+. flex-grow: 0 - valor padrão
+
+. 1 é igual a sim, pode encolher ou crescer
+. 0 é igual a não, não pode encolher ou crescer
+
+
+> Aula 10: A propriedade flex
+. propriedade flex se aplica aos itens
+. ordem: grow, shrink e basis
+
+valor padrão: flex: 0 1 auto; |ou| flex: initial
+
+outro valor, caixa não flexível -> flex: 0 0 auto ou flex: none
+
+outro valor, caixa "mega flexível" -> flex: 1 1 auto |ou| flex: auto
+
+se colocar só um valor, por exemplo, flex: 3, isso vai modificar somente o valor do flex-grow.
+
+
+> Aula 11: Criando um menu com Flexbox (parte 1)
